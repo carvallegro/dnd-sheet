@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint:fix": "prettier --config .prettierrc --write src/**/*.js",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -28,5 +29,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
 }

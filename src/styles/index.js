@@ -130,6 +130,7 @@ export const fonts = {
 }
 
 export const DottedBorderStyle = css`
-  background: linear-gradient(to right, black 33%, rgba(255,255,255,20) 0%) repeat-x bottom;
+  background: linear-gradient(to right, black 33%, rgba(255, 255, 255, 20) 0%)
+    repeat-x bottom;
   background-size: 6px 2px;
 `

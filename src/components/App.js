@@ -21,10 +21,10 @@ const Book = styled.div`
 const App = () => (
   <AppWrapper>
     <Book>
-      <DescriptionPage/>
-      <Page/>
-      <Page/>
-      <Page/>
+      <DescriptionPage />
+      <Page />
+      <Page />
+      <Page />
     </Book>
   </AppWrapper>
 )
