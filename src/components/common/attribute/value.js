@@ -21,7 +21,7 @@ const Value = styled.p`
   margin: 0;
   text-align: center;
   font-family: ${fonts.input};
-  font-size: 8pt;
+  font-size: 0.8rem;
   line-height: 1.25;
 `
 

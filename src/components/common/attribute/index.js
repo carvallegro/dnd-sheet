@@ -8,17 +8,17 @@ import { fonts } from '../../../styles'
 
 const AttributeWrapper = styled.div`
   position: relative;
-  width: 40pt;
-  height: 54pt;
+  width: 4rem;
+  height: 5.4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 `
 
 const AttributeName = styled.p`
-  margin: 0 0 2pt;
+  margin: 0 0 0.2rem;
   font-family: ${fonts.display};
-  font-size: 8pt;
+  font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
 `

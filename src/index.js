@@ -10,9 +10,14 @@ import { colors } from './styles'
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Work+Sans');
   
+  html{
+    font-size: 10pt;
+  }
+  
   body{
     background-color: ${colors.black};
     color: ${colors.black};
+    
   }
 `
 

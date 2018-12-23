@@ -118,15 +118,18 @@ export const sizes = {
 }
 
 export const fontSizes = {
-  point: {
-    large: '12pt',
-    medium: '10pt',
-    small: '8pt',
-    xsmall: '6pt'
-  }
+  large: '12pt',
+  medium: '10pt',
+  small: '8pt',
+  xsmall: '6pt'
 }
 
 export const fonts = {
   display: 'Lora, Times, serif',
   input: '"Work Sans", arial, sans serif'
 }
+
+export const DottedBorderStyle = css`
+  background: linear-gradient(to right, black 33%, rgba(255,255,255,20) 0%) repeat-x bottom;
+  background-size: 6px 2px;
+`

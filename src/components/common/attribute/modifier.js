@@ -23,7 +23,7 @@ const Value = styled.p`
   margin: 0;
   text-align: center;
   font-family: ${fonts.input};
-  font-size: 20pt;
+  font-size: 2rem;
 `
 
 export default () => <Wrapper>

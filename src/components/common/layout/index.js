@@ -6,5 +6,5 @@ export const Page = styled.div`
   background-color: white;
   padding: 20px;
   display: grid;
-  grid-gap: 10pt;
+  grid-gap: 1rem;
 `
