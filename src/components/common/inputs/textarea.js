@@ -1,25 +1,47 @@
 import React from 'react'
-import { InputField, InputWrapper } from './styles'
-import Label from '../typography/label'
 import PropTypes from 'prop-types'
-import { sizes } from '../../../styles'
+import styled from 'styled-components'
 
-const TextArea = ({align, gridArea, label}) =>
+import Label from '../typography/label'
+import { fonts, sizes } from '../../../styles'
+
+import { InputWrapper } from './styles'
+
+const TextArea = styled.textarea`
+  width: 100%;
+  height: 100%;
+  
+  border: 1px solid rgba(0,0,0,0.4);
+  border-radius: 1px;
+  
+  font-family: ${fonts.input};
+  font-size: 1rem;
+  line-height: 1.25;
+  
+  resize: none;
+  
+  &:focus {
+    outline: none;
+    border-color: rgba(0,0,0,1);
+  }
+`
+
+const TextAreaField = ({align, gridArea, label}) =>
   <InputWrapper gridArea={gridArea}>
     <Label align={align}><b>{label}</b></Label>
-    <textarea/>
+    <TextArea/>
   </InputWrapper>
 
-TextArea.propStyle = {
+TextAreaField.propStyle = {
   align: PropTypes.oneOf(['left', 'right']),
   gridArea: PropTypes.string,
   label: PropTypes.string.isRequired,
   size: PropTypes.oneOf(Object.values(sizes))
 }
 
-TextArea.defaultStyle = {
+TextAreaField.defaultStyle = {
   align: 'left',
   size: sizes.medium
 }
 
-export default TextArea
+export default TextAreaField

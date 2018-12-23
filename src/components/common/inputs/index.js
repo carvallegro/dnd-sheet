@@ -1,5 +1,5 @@
 import Input from './input'
-import TextArea from './textarea'
+import TextAreaField from './textarea'
 
 export default {
   Input: Input,
