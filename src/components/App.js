@@ -1,27 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react'
+import styled from 'styled-components'
+import { Page } from './common/layout'
+import DescriptionPage from './descriptionPage'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const AppWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 
-export default App;
+const Book = styled.div`
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto;
+`
+
+const App = () => (
+  <AppWrapper>
+    <Book>
+      <DescriptionPage/>
+      <Page/>
+      <Page/>
+      <Page/>
+    </Book>
+  </AppWrapper>
+)
+
+export default App
