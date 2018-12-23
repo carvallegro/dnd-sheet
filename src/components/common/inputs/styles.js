@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { DottedBorderStyle, fonts, fontSizes, sizes } from '../../../styles'
+import { GridArea } from '../layout'
 
 export const InputField = styled.input`
+  width: auto;
   border: none;
   margin: 0;
   padding: 0.4em 0.2em;
@@ -23,15 +25,8 @@ InputField.defaultProps = {
   size: sizes.medium
 }
 
-export const InputWrapper = styled.div`
-  ${
-  ({gridArea}) => gridArea &&
-    `grid-area: ${gridArea};`
-  }
+export const InputWrapper = styled(GridArea)`
   display: flex;
   flex-direction: column; 
+  width: 100%;
 `
-
-InputWrapper.propStyle = {
-  gridArea: PropTypes.string
-}

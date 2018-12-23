@@ -6,17 +6,21 @@ import styled from 'styled-components'
 
 import Attribute from '../common/attribute'
 import TextArea from '../common/inputs/textarea'
-import { SkillLine } from '../common/skills'
+import Skills from '../skills'
+import SavingThrows from '../saving-throws'
+import InlineField from '../common/inputs/inline'
 
 const PageWrapper = styled(Page)`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: 
-    "pageHeading pageHeading pageHeading pageHeading pageHeading pageHeading"
-    
     "characterName characterName classLevel classLevel expPoints  expPoints"
     "characterName characterName race       race       playerName playerName"
     
     "attributes attributes attributes attributes attributes attributes"
+    
+    "calculatedValues calculatedValues calculatedValues calculatedValues calculatedValues calculatedValues"
+    
+    "savingThrows skills skills skills skills skills"
     
     "featuresTraits featuresTraits featuresTraits featuresTraits profLanguages profLanguages"
     
@@ -34,9 +38,12 @@ const AttributesWrapper = styled.div`
   align-items: center;
 `
 
-export const DescriptionPage = () => <PageWrapper>
-  <PageHeading gridArea='pageHeading'>Description</PageHeading>
+const CalculatedValuesWrapper = styled(AttributesWrapper)`
+  grid-area: calculatedValues;
+  justify-content: space-between;
+`
 
+export const DescriptionPage = () => <PageWrapper>
   <Input gridArea='characterName' label='Character Name'/>
   <Input gridArea='classLevel' label='Class & Level'/>
   <Input gridArea='expPoints' label='Experience Points'/>
@@ -52,6 +59,15 @@ export const DescriptionPage = () => <PageWrapper>
     <Attribute/>
   </AttributesWrapper>
 
+  <CalculatedValuesWrapper>
+    <InlineField label='Inspiration'/>
+    <InlineField label='Proficiency Bonus'/>
+    <InlineField label='Speed'/>
+  </CalculatedValuesWrapper>
+
+  <SavingThrows gridArea='savingThrows'/>
+  <Skills gridArea='skills' />
+
   <TextArea gridArea='featuresTraits' label='Features & Traits'/>
   <TextArea gridArea='profLanguages' label='Other Prof. & Languages' align='right'/>
 
@@ -60,8 +76,6 @@ export const DescriptionPage = () => <PageWrapper>
 
   <TextArea gridArea='bonds' label='Bonds'/>
   <TextArea gridArea='flaws' label='Flaws' align='right'/>
-
-  <SkillLine/>
 </PageWrapper>
 
 export default DescriptionPage

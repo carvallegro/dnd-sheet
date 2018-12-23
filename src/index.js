@@ -12,12 +12,12 @@ const GlobalStyle = createGlobalStyle`
   
   html{
     font-size: 10pt;
+    box-sizing: border-box;
   }
   
   body{
     background-color: ${colors.black};
     color: ${colors.black};
-    
   }
 `
 
