@@ -62,7 +62,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "lint:fix": "prettier --config .prettierrc --write src/**/*.js",
+    "lint:fix": "prettier --config .prettierrc --write \"src/**/*.js\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

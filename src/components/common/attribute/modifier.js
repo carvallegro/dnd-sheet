@@ -6,7 +6,7 @@ import ShieldSvg from './shield.svg'
 import { fonts } from '../../../styles'
 
 const Wrapper = styled.div`
-  position:relative;
+  position: relative;
   width: 100%;
   height: 100%;
 `
@@ -26,7 +26,9 @@ const Value = styled.p`
   font-size: 2rem;
 `
 
-export default () => <Wrapper>
-  <Value>+2</Value>
-  <Outline src={ShieldSvg}/>
-</Wrapper>
+export default () => (
+  <Wrapper>
+    <Value>+2</Value>
+    <Outline src={ShieldSvg} />
+  </Wrapper>
+)

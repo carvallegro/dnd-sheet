@@ -6,7 +6,7 @@ import SubShield from './sub_shield.svg'
 import { fonts } from '../../../styles'
 
 const Wrapper = styled.div`
-  position:relative;
+  position: relative;
 `
 
 const Outline = styled.img`
@@ -25,7 +25,9 @@ const Value = styled.p`
   line-height: 1.25;
 `
 
-export default () => <Wrapper>
-  <Value>10</Value>
-  <Outline src={SubShield}/>
-</Wrapper>
+export default () => (
+  <Wrapper>
+    <Value>10</Value>
+    <Outline src={SubShield} />
+  </Wrapper>
+)

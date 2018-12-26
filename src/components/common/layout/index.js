@@ -1,4 +1,4 @@
-import styled from'styled-components'
+import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
 export const Page = styled.div`
@@ -11,12 +11,9 @@ export const Page = styled.div`
 `
 
 export const GridArea = styled.div`
-  ${
-  ({gridArea}) => gridArea &&
-    `grid-area: ${gridArea};`
-  }
+  ${({ gridArea }) => gridArea && `grid-area: ${gridArea};`}
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 `
 
 GridArea.propStyle = {

@@ -31,10 +31,12 @@ const ValueWrapper = styled.div`
   margin-bottom: 7%;
 `
 
-export default () => <AttributeWrapper>
-  <AttributeName>CONSTITUTION</AttributeName>
-  <Modifier />
-  <ValueWrapper>
-    <Value/>
-  </ValueWrapper>
-</AttributeWrapper>
+export default () => (
+  <AttributeWrapper>
+    <AttributeName>CONSTITUTION</AttributeName>
+    <Modifier />
+    <ValueWrapper>
+      <Value />
+    </ValueWrapper>
+  </AttributeWrapper>
+)

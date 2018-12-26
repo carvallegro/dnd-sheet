@@ -16,10 +16,14 @@ const Field = styled(InputField)`
   padding: 0.2em 0.1em;
 `
 
-const InlineField = ({gridArea, type, label}) => <Wrapper gridArea={gridArea}>
-  <Field type={type}/>
-  <Label><b>{label}</b></Label>
-</Wrapper>
+const InlineField = ({ gridArea, type, label }) => (
+  <Wrapper gridArea={gridArea}>
+    <Field type={type} />
+    <Label>
+      <b>{label}</b>
+    </Label>
+  </Wrapper>
+)
 
 InlineField.propStyle = {
   gridArea: PropTypes.string,

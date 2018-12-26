@@ -13,9 +13,13 @@ const MOCK_ATTR = [
   'Charisma'
 ]
 
-const SavingThrows = ({gridArea}) => <GridArea gridArea={gridArea}>
-  <Label>Saving Throws</Label>
-  {MOCK_ATTR.map(attr => <SkillLine name={attr}/>)}
-</GridArea>
+const SavingThrows = ({ gridArea }) => (
+  <GridArea gridArea={gridArea}>
+    <Label>Saving Throws</Label>
+    {MOCK_ATTR.map(attr => (
+      <SkillLine name={attr} />
+    ))}
+  </GridArea>
+)
 
 export default SavingThrows

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   position: relative;
-  
+
   label {
     position: absolute;
     left: 0;
@@ -15,10 +15,10 @@ const Wrapper = styled.div`
     border-radius: 50%;
     cursor: pointer;
   }
-  
-  input[type="checkbox"] {
+
+  input[type='checkbox'] {
     visibility: hidden;
-    
+
     &:checked + label {
       background-color: black;
       border-color: black;
@@ -26,9 +26,12 @@ const Wrapper = styled.div`
   }
 `
 
-const Checkbox = ({name}) => <div><Wrapper>
-    <input type='checkbox' id={name} name={name}/>
-    <label for={name}/>
-</Wrapper>
-</div>
+const Checkbox = ({ name }) => (
+  <div>
+    <Wrapper>
+      <input type="checkbox" id={name} name={name} />
+      <label for={name} />
+    </Wrapper>
+  </div>
+)
 export default Checkbox

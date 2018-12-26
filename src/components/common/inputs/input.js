@@ -4,11 +4,12 @@ import PropTypes from 'prop-types'
 import { sizes } from '../../../styles'
 import React from 'react'
 
-const Input = ({gridArea, label, type}) =>
+const Input = ({ gridArea, label, type }) => (
   <InputWrapper gridArea={gridArea}>
-    <InputField type={type}/>
+    <InputField type={type} />
     <Label>{label}</Label>
   </InputWrapper>
+)
 
 Input.propStyle = {
   gridArea: PropTypes.string,

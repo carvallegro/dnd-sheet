@@ -5,8 +5,8 @@ import { sizes, fontSizes } from '../../../styles'
 
 export const Label = styled.label`
   font-family: Lora;
-  font-size: ${({size}) => fontSizes[size]};
-  text-align: ${({align}) => align};
+  font-size: ${({ size }) => fontSizes[size]};
+  text-align: ${({ align }) => align};
 `
 
 Label.propTypes = {

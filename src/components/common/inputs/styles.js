@@ -11,7 +11,7 @@ export const InputField = styled.input`
   ${DottedBorderStyle}
   
   font-family: ${fonts.input};
-  font-size: calc(1pt + ${({size}) => fontSizes[size]});
+  font-size: calc(1pt + ${({ size }) => fontSizes[size]});
   
   &:active, &:focus{
     outline: none;
@@ -27,6 +27,6 @@ InputField.defaultProps = {
 
 export const InputWrapper = styled(GridArea)`
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   width: 100%;
 `

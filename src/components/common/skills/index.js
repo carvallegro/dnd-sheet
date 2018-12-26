@@ -25,10 +25,11 @@ const Attribute = styled(SkillName)`
   opacity: 0.8;
 `
 
-export const SkillLine = ({name, attribute}) => <SkillLineWrapper>
-  <Checkbox />
-  <SkillValue>7</SkillValue>
-  <SkillName>{name}</SkillName>
-  <Attribute>{attribute}</Attribute>
-</SkillLineWrapper>
-
+export const SkillLine = ({ name, attribute }) => (
+  <SkillLineWrapper>
+    <Checkbox />
+    <SkillValue>7</SkillValue>
+    <SkillName>{name}</SkillName>
+    <Attribute>{attribute}</Attribute>
+  </SkillLineWrapper>
+)

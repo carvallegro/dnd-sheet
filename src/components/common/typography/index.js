@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
-import styled from'styled-components'
+import styled from 'styled-components'
 
-import {typography} from '../../../styles'
+import { typography } from '../../../styles'
 
 export const PageHeading = styled.h1`
   ${typography.Heading};
-  grid-area: ${({gridArea}) => gridArea || 'pageHeading'}
+  grid-area: ${({ gridArea }) => gridArea || 'pageHeading'}
   margin: 0;
 `
 
