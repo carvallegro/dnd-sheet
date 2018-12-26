@@ -67,12 +67,12 @@ export const DescriptionPage = () => (
     <Input gridArea="playerName" label="Player Name" />
 
     <AttributesWrapper>
-      <Attribute />
-      <Attribute />
-      <Attribute />
-      <Attribute />
-      <Attribute />
-      <Attribute />
+      <Attribute name='STRENGTH'/>
+      <Attribute name='DEXTERITY'/>
+      <Attribute name='CONSTITUTION'/>
+      <Attribute name='INTELLIGENCE'/>
+      <Attribute name='WISDOM'/>
+      <Attribute name='CHARISMA'/>
     </AttributesWrapper>
 
     <CalculatedValuesWrapper>
