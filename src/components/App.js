@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Page } from './common/layout'
-import DescriptionPage from './descriptionPage'
+import GeneralPage from './general-page'
+import { InventoryA, InventoryB } from './inventory-page'
+import DescriptionPage from './description-page'
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -21,10 +23,10 @@ const Book = styled.div`
 const App = () => (
   <AppWrapper>
     <Book>
+      <GeneralPage />
       <DescriptionPage />
-      <Page />
-      <Page />
-      <Page />
+      <InventoryA />
+      <InventoryB />
     </Book>
   </AppWrapper>
 )

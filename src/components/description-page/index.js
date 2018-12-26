@@ -6,22 +6,33 @@ import PageHeading from '../common/typography'
 import Input from '../common/inputs/input'
 import TextAreaField from '../common/inputs/textarea'
 
-const PageAWrapper = styled(Page)`
+const Description = styled(Page)`
   grid-template:
-    "heading heading heading heading heading heading" 4rem
+    "heading heading money money money money" 3.2rem
+    "heading heading money money money money" 3.2rem
     
-    "misc misc misc misc misc misc" auto
+    "alliesOrganisations alliesOrganisations alliesOrganisations alliesOrganisations alliesOrganisations alliesOrganisations" 25%
     
-    "generalGear generalGear generalGear generalGear generalGear generalGear" 30%
+    "backgroundDescription backgroundDescription backgroundDescription backgroundDescription backgroundDescription backgroundDescription" auto
     / 1fr 1fr 1fr 1fr 1fr 1fr;
 `
 
+const HeaderWrapping = styled.div`
+  grid-area: heading;
+`
 
-const PageB = () => <PageAWrapper>
-  <PageHeading gridArea='heading'>Inventory</PageHeading>
+const TempMoney = styled.div`
+  grid-area: money;
+`
 
-  <TextAreaField gridArea="misc" label="Miscellaneous"/>
-  <TextAreaField gridArea="generalGear" label="General Gear"/>
-</PageAWrapper>
+const DescriptionPage = () => <Description>
+  <HeaderWrapping>
+    <PageHeading>Description</PageHeading>
+    <Input label="Character Name" size='small'/>
+  </HeaderWrapping>
 
-export default PageB
+  <TextAreaField gridArea="alliesOrganisations" label="Allies & Organizations"/>
+  <TextAreaField gridArea="backgroundDescription" label="Backgrounds & Description"/>
+</Description>
+
+export default DescriptionPage

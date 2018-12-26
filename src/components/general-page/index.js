@@ -45,7 +45,7 @@ const CalculatedValuesWrapper = styled(AttributesWrapper)`
   justify-content: space-between;
 `
 
-export const DescriptionPage = () => (
+export const GeneralPage = () => (
   <PageWrapper>
     <Input gridArea="characterName" label="Character Name"/>
     <Input gridArea="classLevel" label="Class & Level"/>
@@ -86,4 +86,4 @@ export const DescriptionPage = () => (
   </PageWrapper>
 )
 
-export default DescriptionPage
+export default GeneralPage
