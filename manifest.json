@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "D&D Sheet",
+  "name": "D&D 5e - Character Sheet",
   "icons": [
     {
       "src": "favicon.ico",
