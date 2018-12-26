@@ -8,19 +8,23 @@ self.__precacheManifest = [
     "url": "/dnd-sheet/static/media/shield.43616468.svg"
   },
   {
+    "revision": "f46f8aeff9e88121d8e0c76a30e6a765",
+    "url": "/dnd-sheet/static/media/money_outline.f46f8aef.svg"
+  },
+  {
     "revision": "caa909719039262559d9",
     "url": "/dnd-sheet/static/js/runtime~main.caa90971.js"
   },
   {
-    "revision": "2d70f795cd3e73a11467",
-    "url": "/dnd-sheet/static/js/main.2d70f795.chunk.js"
+    "revision": "8ef8866308d0070841e1",
+    "url": "/dnd-sheet/static/js/main.8ef88663.chunk.js"
   },
   {
-    "revision": "9a84f3e699ad9bf6f864",
-    "url": "/dnd-sheet/static/js/1.9a84f3e6.chunk.js"
+    "revision": "69de210d7dae98a8ecfd",
+    "url": "/dnd-sheet/static/js/1.69de210d.chunk.js"
   },
   {
-    "revision": "389850539d37101033dac20802abdaf6",
+    "revision": "fb7edb6d1509bf6b2546e0ea256f966b",
     "url": "/dnd-sheet/index.html"
   }
 ];
