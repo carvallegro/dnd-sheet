@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom'
 import { createGlobalStyle } from 'styled-components'
+import { styledNormalize } from 'styled-normalize'
 import App from './components/App'
 import * as serviceWorker from './serviceWorker'
-import { styledNormalize } from 'styled-normalize'
 import { colors } from './styles'
 
 // ${styledNormalize}
