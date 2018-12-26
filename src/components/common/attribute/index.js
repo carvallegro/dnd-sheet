@@ -31,9 +31,9 @@ const ValueWrapper = styled.div`
   margin-bottom: 7%;
 `
 
-export default () => (
+export default ({name}) => (
   <AttributeWrapper>
-    <AttributeName>CONSTITUTION</AttributeName>
+    <AttributeName>{name}</AttributeName>
     <Modifier />
     <ValueWrapper>
       <Value />
