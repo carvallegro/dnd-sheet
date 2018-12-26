@@ -12,3 +12,12 @@ export const PageAWrapper = styled(Page)`
 export const HeaderWrapping = styled.div`
   grid-area: heading;
 `
+
+export const MoneyWrapping = styled.div`
+  grid-area: money;
+`
+
+export const MoneyTopLine = styled.div`
+  display: grid;
+  grid-template-columns: auto 20% auto;
+`

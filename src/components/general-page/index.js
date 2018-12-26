@@ -6,7 +6,11 @@ import SavingThrows from '../saving-throws'
 import InlineField from '../common/inputs/inline'
 
 import Skills from '../skills'
-import { AttributesWrapper, CalculatedValuesWrapper, PageWrapper } from './styles'
+import {
+  AttributesWrapper,
+  CalculatedValuesWrapper,
+  PageWrapper
+} from './styles'
 
 export const GeneralPage = () => (
   <PageWrapper>

@@ -2,7 +2,13 @@ import React from 'react'
 import PageHeading from '../common/typography'
 import Input from '../common/inputs/input'
 import TextAreaField from '../common/inputs/textarea'
-import { Description, DescriptionHeader, HalfWidth, HeaderWrapping, Heading } from './styles'
+import {
+  Description,
+  DescriptionHeader,
+  HalfWidth,
+  HeaderWrapping,
+  Heading
+} from './styles'
 
 const DescriptionPage = () => (
   <Description>
