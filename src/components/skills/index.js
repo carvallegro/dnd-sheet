@@ -1,8 +1,8 @@
 import React from 'react'
-import styled from 'styled-components'
 import Label from '../common/typography/label'
 import { SkillLine } from '../common/skills'
 import { GridArea } from '../common/layout'
+import { SkillGrid } from './styles'
 
 const MOCK_SKILLS = [
   { name: 'Acrobatics', attribute: 'Dex' },
@@ -24,11 +24,6 @@ const MOCK_SKILLS = [
   { name: 'Stealth', attribute: 'Dex' },
   { name: 'Survival', attribute: 'Wis' }
 ]
-
-const SkillGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-`
 
 const Skills = ({ gridArea }) => (
   <GridArea gridArea={gridArea}>

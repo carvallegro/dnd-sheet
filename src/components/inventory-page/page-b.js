@@ -6,7 +6,7 @@ import PageHeading from '../common/typography'
 import Input from '../common/inputs/input'
 import TextAreaField from '../common/inputs/textarea'
 
-const PageAWrapper = styled(Page)`
+const PageBWrapper = styled(Page)`
   grid-template:
     'heading heading heading heading heading heading' 4rem
     'misc misc misc misc misc misc' auto
@@ -15,12 +15,12 @@ const PageAWrapper = styled(Page)`
 `
 
 const PageB = () => (
-  <PageAWrapper>
+  <PageBWrapper>
     <PageHeading gridArea="heading">Inventory</PageHeading>
 
     <TextAreaField gridArea="misc" label="Miscellaneous" />
     <TextAreaField gridArea="generalGear" label="General Gear" />
-  </PageAWrapper>
+  </PageBWrapper>
 )
 
 export default PageB

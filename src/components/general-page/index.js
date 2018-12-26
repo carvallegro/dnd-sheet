@@ -1,7 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
-
-import { Page } from '../common/layout'
 import Input from '../common/inputs/input'
 import Attribute from '../common/attribute'
 import TextAreaField from '../common/inputs/textarea'
@@ -9,35 +6,7 @@ import SavingThrows from '../saving-throws'
 import InlineField from '../common/inputs/inline'
 
 import Skills from '../skills'
-
-const PageWrapper = styled(Page)`
-  grid-template:
-    'characterName characterName classLevel classLevel expPoints  expPoints' 3.2rem
-    'characterName characterName race       race       playerName playerName' 3.2rem
-    'attributes attributes attributes attributes attributes attributes' 6rem
-    'calculatedValues calculatedValues calculatedValues calculatedValues calculatedValues calculatedValues' 2.4rem
-    'savingThrows skills skills skills skills skills' 140px
-    'featuresTraits featuresTraits featuresTraits featuresTraits profLanguages profLanguages' auto
-    'personnalityTrait personnalityTrait personnalityTrait ideals ideals ideals' minmax(
-      40px,
-      auto
-    )
-    'bonds bonds bonds flaws flaws flaws' minmax(40px, auto)
-    / 1fr 1fr 1fr 1fr 1fr 1fr;
-`
-
-const AttributesWrapper = styled.div`
-  grid-area: attributes;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-`
-
-const CalculatedValuesWrapper = styled(AttributesWrapper)`
-  grid-area: calculatedValues;
-  justify-content: space-between;
-`
+import { AttributesWrapper, CalculatedValuesWrapper, PageWrapper } from './styles'
 
 export const GeneralPage = () => (
   <PageWrapper>
