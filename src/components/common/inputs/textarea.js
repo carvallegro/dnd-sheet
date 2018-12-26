@@ -8,7 +8,7 @@ import { fonts, sizes } from '../../../styles'
 import { InputWrapper } from './styles'
 
 const TextArea = styled.textarea`
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 
   border: 1px solid rgba(0, 0, 0, 0.4);

@@ -1,13 +1,15 @@
-import { InputField, InputWrapper } from './styles'
-import Label from '../typography/label'
-import PropTypes from 'prop-types'
-import { sizes } from '../../../styles'
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Input = ({ gridArea, label, type }) => (
+import Label from '../typography/label'
+import { sizes } from '../../../styles'
+
+import { InputField, InputWrapper } from './styles'
+
+const Input = ({ gridArea, label, size, type }) => (
   <InputWrapper gridArea={gridArea}>
-    <InputField type={type} />
-    <Label>{label}</Label>
+    <InputField type={type} size={size} />
+    <Label size={size}>{label}</Label>
   </InputWrapper>
 )
 
