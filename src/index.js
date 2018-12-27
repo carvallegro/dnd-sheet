@@ -6,6 +6,7 @@ import App from './components/App'
 import * as serviceWorker from './serviceWorker'
 import { colors } from './styles'
 
+// Todo: use React Alpha release for prod. Dammit TravisCI
 console.log('React.version')
 console.log(React.version)
 
