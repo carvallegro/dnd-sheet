@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Label from '../common/typography/label'
-import { SkillLine } from '../common/skills'
+import { SkillGrid, SkillLine } from '../common/skill-line'
 import { GridArea } from '../common/layout'
 
 const MOCK_ATTR = [
@@ -16,9 +16,11 @@ const MOCK_ATTR = [
 const SavingThrows = ({ gridArea }) => (
   <GridArea gridArea={gridArea}>
     <Label>Saving Throws</Label>
-    {MOCK_ATTR.map(attr => (
-      <SkillLine name={attr} />
-    ))}
+    <SkillGrid>
+      {MOCK_ATTR.map(attr => (
+        <SkillLine name={attr} key={attr}/>
+      ))}
+    </SkillGrid>
   </GridArea>
 )
 

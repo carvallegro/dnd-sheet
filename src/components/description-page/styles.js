@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { GridArea, Page } from '../common/layout'
+import { Page } from '../common/layout'
 
 export const Description = styled(Page)`
   grid-template:
@@ -8,12 +8,12 @@ export const Description = styled(Page)`
     'backgroundDescription backgroundDescription backgroundDescription backgroundDescription backgroundDescription backgroundDescription' auto
     / 1fr 1fr 1fr 1fr 1fr 1fr;
 `
-export const HeaderWrapping = styled.div`
+export const HeadingWrapper = styled.div`
   position: relative;
   grid-area: heading;
 
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 40% auto;
 `
 export const Heading = styled.div``
 export const DescriptionHeader = styled.div`
@@ -25,7 +25,4 @@ export const DescriptionHeader = styled.div`
     'skin skin eyes eyes hair hair' 2.3rem
     'age age height height weight weight' 2.3rem
     / 1fr 1fr 1fr 1fr 1fr 1fr;
-`
-export const HalfWidth = styled(GridArea)`
-  width: 50%;
 `

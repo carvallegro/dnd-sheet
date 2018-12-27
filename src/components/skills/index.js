@@ -1,8 +1,8 @@
 import React from 'react'
 import Label from '../common/typography/label'
-import { SkillLine } from '../common/skills'
+import { SkillLine } from '../common/skill-line'
 import { GridArea } from '../common/layout'
-import { SkillGrid } from './styles'
+import { SkillGrid } from '../common/skill-line/index'
 
 const MOCK_SKILLS = [
   { name: 'Acrobatics', attribute: 'Dex' },
@@ -30,7 +30,7 @@ const Skills = ({ gridArea }) => (
     <Label>Skills</Label>
     <SkillGrid>
       {MOCK_SKILLS.map(skill => (
-        <SkillLine name={skill.name} attribute={skill.attribute} />
+        <SkillLine attribute={skill.attribute} key={skill.name} name={skill.name}/>
       ))}
     </SkillGrid>
   </GridArea>

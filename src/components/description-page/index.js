@@ -5,14 +5,14 @@ import TextAreaField from '../common/inputs/textarea'
 import {
   Description,
   DescriptionHeader,
-  HalfWidth,
-  HeaderWrapping,
+  HeadingWrapper,
   Heading
 } from './styles'
+import { HalfWidth } from '../common/layout'
 
 const DescriptionPage = () => (
   <Description>
-    <HeaderWrapping>
+    <HeadingWrapper>
       <Heading>
         <PageHeading>Description</PageHeading>
         <HalfWidth>
@@ -38,7 +38,7 @@ const DescriptionPage = () => (
           <Input label="Weight" />
         </HalfWidth>
       </DescriptionHeader>
-    </HeaderWrapping>
+    </HeadingWrapper>
     <TextAreaField
       gridArea="alliesOrganisations"
       label="Allies & Organizations"
