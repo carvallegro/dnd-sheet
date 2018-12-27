@@ -110,7 +110,7 @@ export const typography = {
   `
 }
 
-export const sizes = {
+export const SIZES = {
   large: 'large',
   medium: 'medium',
   small: 'small',
@@ -118,10 +118,10 @@ export const sizes = {
 }
 
 export const fontSizes = {
-  large: '12pt',
-  medium: '10pt',
-  small: '8pt',
-  xsmall: '6pt'
+  large: '1.2rem',
+  medium: '1rem',
+  small: '0.8rem',
+  xsmall: '0.6rem'
 }
 
 export const fonts = {

@@ -30,7 +30,11 @@ const Skills = ({ gridArea }) => (
     <Label>Skills</Label>
     <SkillGrid>
       {MOCK_SKILLS.map(skill => (
-        <SkillLine attribute={skill.attribute} key={skill.name} name={skill.name}/>
+        <SkillLine
+          attribute={skill.attribute}
+          key={skill.name}
+          name={skill.name}
+        />
       ))}
     </SkillGrid>
   </GridArea>

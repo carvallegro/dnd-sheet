@@ -18,7 +18,7 @@ const SavingThrows = ({ gridArea }) => (
     <Label>Saving Throws</Label>
     <SkillGrid>
       {MOCK_ATTR.map(attr => (
-        <SkillLine name={attr} key={attr}/>
+        <SkillLine name={attr} key={attr} />
       ))}
     </SkillGrid>
   </GridArea>

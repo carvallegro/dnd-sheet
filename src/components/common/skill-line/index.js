@@ -30,7 +30,7 @@ const Attribute = styled(SkillName)`
 
 export const SkillLine = ({ name, attribute }) => (
   <SkillLineWrapper>
-    <Checkbox name={_.snakeCase(`skill-${name}`)}/>
+    <Checkbox name={_.snakeCase(`skill-${name}`)} />
     <SkillValue>7</SkillValue>
     <SkillName>{name}</SkillName>
     <Attribute>{attribute}</Attribute>
@@ -43,5 +43,4 @@ export const SkillGrid = styled.div`
   grid-auto-flow: column;
   grid-template-rows: repeat(6, 1fr);
   grid-auto-columns: auto;
-  
 `

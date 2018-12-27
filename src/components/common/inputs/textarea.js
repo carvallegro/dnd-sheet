@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import Label from '../typography/label'
-import { fonts, sizes } from '../../../styles'
+import { fonts, SIZES } from '../../../styles'
 
 import { InputWrapper } from './styles'
 
@@ -39,12 +39,12 @@ TextAreaField.propStyle = {
   align: PropTypes.oneOf(['left', 'right']),
   gridArea: PropTypes.string,
   label: PropTypes.string.isRequired,
-  size: PropTypes.oneOf(Object.values(sizes))
+  size: PropTypes.oneOf(Object.values(SIZES))
 }
 
 TextAreaField.defaultStyle = {
   align: 'left',
-  size: sizes.medium
+  size: SIZES.medium
 }
 
 export default TextAreaField

@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { fontSizes, SIZES } from '../../../styles'
 
 const Wrapper = styled.div`
   position: relative;
-  height: 0.6rem;
-  width: 0.6rem;
+  height: ${({ size }) => fontSizes[size]};
+  width: ${({ size }) => fontSizes[size]};
 
   label {
     position: absolute;
@@ -33,14 +35,29 @@ const Wrapper = styled.div`
   }
 `
 
-const Checkbox = ({ name }) => {
+const Checkbox = ({ name, size }) => {
   const [checked, setChecked] = useState(false)
   return (
-      <Wrapper >
-        <input id={name} name={name} checked={checked} type="checkbox" onChange={() => setChecked(!checked)}/>
-        <label htmlFor={name}/>
-      </Wrapper>
+    <Wrapper size={size}>
+      <input
+        id={name}
+        name={name}
+        checked={checked}
+        type="checkbox"
+        onChange={() => setChecked(!checked)}
+      />
+      <label htmlFor={name} />
+    </Wrapper>
   )
+}
+
+Checkbox.propTypes = {
+  name: PropTypes.string.isRequired,
+  size: PropTypes.oneOf(Object.values(SIZES))
+}
+
+Checkbox.defaultProps = {
+  size: SIZES.xsmall
 }
 
 export default Checkbox

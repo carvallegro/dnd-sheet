@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { sizes, fontSizes } from '../../../styles'
+import { SIZES, fontSizes } from '../../../styles'
 
 export const Label = styled.label`
   font-family: Lora;
@@ -11,12 +11,12 @@ export const Label = styled.label`
 
 Label.propTypes = {
   align: PropTypes.oneOf(['left', 'right']),
-  size: PropTypes.oneOf(Object.values(sizes))
+  size: PropTypes.oneOf(Object.values(SIZES))
 }
 
 Label.defaultProps = {
   align: 'left',
-  size: sizes.medium
+  size: SIZES.medium
 }
 
 export default Label

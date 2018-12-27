@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import Label from '../typography/label'
-import { sizes } from '../../../styles'
+import { SIZES } from '../../../styles'
 
 import { InputField, InputWrapper } from './styles'
 
@@ -17,12 +17,12 @@ Input.propStyle = {
   gridArea: PropTypes.string,
   label: PropTypes.string.isRequired,
   type: PropTypes.string,
-  size: PropTypes.oneOf(Object.values(sizes))
+  size: PropTypes.oneOf(Object.values(SIZES))
 }
 
 Input.defaultStyle = {
   type: 'string',
-  size: sizes.medium
+  size: SIZES.medium
 }
 
 export default Input

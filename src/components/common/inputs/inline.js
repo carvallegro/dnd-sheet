@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { sizes } from '../../../styles'
+import { SIZES } from '../../../styles'
 import Label from '../typography/label'
 
 import { InputField, InputWrapper } from './styles'
@@ -29,12 +29,12 @@ InlineField.propStyle = {
   gridArea: PropTypes.string,
   label: PropTypes.string.isRequired,
   type: PropTypes.string,
-  size: PropTypes.oneOf(Object.values(sizes))
+  size: PropTypes.oneOf(Object.values(SIZES))
 }
 
 InlineField.defaultStyle = {
   type: 'string',
-  size: sizes.medium
+  size: SIZES.medium
 }
 
 export default InlineField
