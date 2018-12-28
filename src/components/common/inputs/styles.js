@@ -4,7 +4,7 @@ import { DottedBorderStyle, fonts, fontSizes, SIZES } from '../../../styles'
 import { GridArea } from '../layout'
 
 export const InputField = styled.input`
-  width: auto;
+  width: 100%;
   border: none;
   margin: 0;
   padding: 0.4em 0.2em;

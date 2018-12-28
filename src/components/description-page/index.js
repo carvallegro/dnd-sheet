@@ -1,5 +1,5 @@
 import React from 'react'
-import PageHeading from '../common/typography'
+import PageTitle from '../common/typography'
 import Input from '../common/inputs/input'
 import TextAreaField from '../common/inputs/textarea'
 import {
@@ -14,7 +14,7 @@ const DescriptionPage = () => (
   <Description>
     <HeadingWrapper>
       <Heading>
-        <PageHeading>Description</PageHeading>
+        <PageTitle>Description</PageTitle>
         <HalfWidth>
           <Input label="Character Name" size="small" />
         </HalfWidth>

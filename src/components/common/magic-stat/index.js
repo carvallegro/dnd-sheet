@@ -1,17 +1,17 @@
 import React from 'react'
 import { Name, Value, ValueWrapper, Wrapper } from './styles'
 
-const Money = ({ justifySelf, name, value }) => (
-  <Wrapper justifySelf={justifySelf}>
-    <Name>{name}</Name>
+const MagicStat = ({ gridArea, justifySelf, name, value }) => (
+  <Wrapper gridArea={gridArea} justifySelf={justifySelf}>
     <ValueWrapper>
       <Value>{value}</Value>
     </ValueWrapper>
+    <Name>{name}</Name>
   </Wrapper>
 )
 
-Money.defaultProps = {
+MagicStat.defaultProps = {
   justifySelf: 'inherit'
 }
 
-export default Money
+export default MagicStat

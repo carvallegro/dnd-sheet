@@ -1,5 +1,5 @@
 import React from 'react'
-import PageHeading from '../common/typography'
+import PageTitle from '../common/typography'
 import Input from '../common/inputs/input'
 import TextAreaField from '../common/inputs/textarea'
 import {
@@ -13,7 +13,7 @@ import Money from '../common/money'
 const PageA = () => (
   <PageAWrapper>
     <HeaderWrapping>
-      <PageHeading>Inventory</PageHeading>
+      <PageTitle>Inventory</PageTitle>
       <Input label="Character Name" size="small" />
     </HeaderWrapping>
     <MoneyWrapping>

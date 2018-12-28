@@ -1,8 +1,12 @@
 import React from 'react'
+
 import { HalfWidth } from '../common/layout'
-import PageHeading from '../common/typography'
+import PageTitle from '../common/typography'
 import Input from '../common/inputs/input'
 import TextAreaField from '../common/inputs/textarea'
+
+import { CurrentHP, DeathSaves, HitDice, TempHP } from '../combat-stats'
+
 import {
   Combat,
   Heading,
@@ -10,13 +14,12 @@ import {
   HeadingWrapper,
   StatGroupWrapper
 } from './styles'
-import { CurrentHP, DeathSaves, HitDice, TempHP } from '../combat-stats'
 
 const CombatPage = () => (
   <Combat>
     <HeadingWrapper>
       <Heading>
-        <PageHeading>Combat</PageHeading>
+        <PageTitle>Combat</PageTitle>
         <HalfWidth>
           <Input label="Character Name" size="small" />
         </HalfWidth>

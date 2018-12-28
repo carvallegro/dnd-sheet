@@ -5,6 +5,7 @@ import GeneralPage from './general-page'
 import { InventoryA, InventoryB } from './inventory-page'
 import DescriptionPage from './description-page'
 import CombatPage from './combat-page'
+import MagicPageA from './magic-page'
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -30,6 +31,7 @@ const App = () => (
       <Page />
       <InventoryA />
       <InventoryB />
+      <MagicPageA/>
     </Book>
   </AppWrapper>
 )

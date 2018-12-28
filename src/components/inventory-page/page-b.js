@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { Page } from '../common/layout'
-import PageHeading from '../common/typography'
+import PageTitle from '../common/typography'
 import Input from '../common/inputs/input'
 import TextAreaField from '../common/inputs/textarea'
 
@@ -16,7 +16,7 @@ const PageBWrapper = styled(Page)`
 
 const PageB = () => (
   <PageBWrapper>
-    <PageHeading gridArea="heading">Inventory</PageHeading>
+    <PageTitle gridArea="heading">Inventory</PageTitle>
 
     <TextAreaField gridArea="misc" label="Miscellaneous" />
     <TextAreaField gridArea="generalGear" label="General Gear" />

@@ -3,14 +3,14 @@ import styled from 'styled-components'
 
 import { typography } from '../../../styles'
 
-export const PageHeading = styled.h1`
+export const PageTitle = styled.h1`
   ${typography.Heading};
-  grid-area: ${({ gridArea }) => gridArea || 'pageHeading'}
+  grid-area: ${({ gridArea }) => gridArea || 'pageTitle'}
   margin: 0;
 `
 
-PageHeading.propStyle = {
+PageTitle.propStyle = {
   gridArea: PropTypes.string
 }
 
-export default PageHeading
+export default PageTitle
