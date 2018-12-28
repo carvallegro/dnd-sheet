@@ -8,9 +8,11 @@ const Wrapper = styled.div`
   align-items: center;
 `
 
-const Spell = () => <Wrapper>
-  <Checkbox name='spell-a'/>
-  <InputField/>
-</Wrapper>
+const Spell = () => (
+  <Wrapper>
+    <Checkbox name="spell-a" />
+    <InputField />
+  </Wrapper>
+)
 
 export default Spell

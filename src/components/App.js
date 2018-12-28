@@ -31,7 +31,7 @@ const App = () => (
       <Page />
       <InventoryA />
       <InventoryB />
-      <MagicPageA/>
+      <MagicPageA />
     </Book>
   </AppWrapper>
 )

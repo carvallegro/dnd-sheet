@@ -26,15 +26,19 @@ const SpellLevelLabel = styled.p`
   font-size: ${fontSizes.small};
 `
 
-
-const SpellListHeading = ({ spellLevel, slotTotal, slotExtended }) =>
+const SpellListHeading = ({ spellLevel, slotTotal, slotExtended }) => (
   <Wrapper>
     <SpellLevel>
-    <SpellLevelValue>{spellLevel}</SpellLevelValue>
-    <SpellLevelLabel>Spell<br/>Level</SpellLevelLabel>
+      <SpellLevelValue>{spellLevel}</SpellLevelValue>
+      <SpellLevelLabel>
+        Spell
+        <br />
+        Level
+      </SpellLevelLabel>
     </SpellLevel>
     <p>{slotTotal}</p>
     <p>{slotExtended}</p>
   </Wrapper>
+)
 
 export default SpellListHeading

@@ -17,7 +17,7 @@ const Magic = styled(Page)`
 
 const Heading = styled.div`
   grid-area: heading;
-  
+
   display: grid;
   grid-column-gap: 2rem;
   grid-template:
@@ -26,22 +26,36 @@ const Heading = styled.div`
     / 1fr 1fr 2fr 1fr 1fr 1fr;
 `
 
-const MagicPageA = () => <Magic>
-  <Heading>
-    <PageTitle>Magic</PageTitle>
-    <Input gridArea='characterName' label="Character Name" size="small" />
+const MagicPageA = () => (
+  <Magic>
+    <Heading>
+      <PageTitle>Magic</PageTitle>
+      <Input gridArea="characterName" label="Character Name" size="small" />
 
-    <Input gridArea='spellcastingClass' label="Spellcasting Class" size="large" />
-    <Input gridArea='spellcastingAbility' label="Spellcasting Ability" size="small"/>
+      <Input
+        gridArea="spellcastingClass"
+        label="Spellcasting Class"
+        size="large"
+      />
+      <Input
+        gridArea="spellcastingAbility"
+        label="Spellcasting Ability"
+        size="small"
+      />
 
-    <MagicStat gridArea='spellSaveAC' name='Spell Save AC' value='13'/>
-    <MagicStat gridArea='spellAttackBonus' name='Spell Attack Bonus' value='+3'/>
-  </Heading>
+      <MagicStat gridArea="spellSaveAC" name="Spell Save AC" value="13" />
+      <MagicStat
+        gridArea="spellAttackBonus"
+        name="Spell Attack Bonus"
+        value="+3"
+      />
+    </Heading>
 
-  <TextAreaField gridArea='cantrips' label='Cantrips'/>
+    <TextAreaField gridArea="cantrips" label="Cantrips" />
 
-  <MagicSpells gridArea='spellLevel1'/>
-  <MagicSpells gridArea='spellLevel2'/>
-</Magic>
+    <MagicSpells gridArea="spellLevel1" />
+    <MagicSpells gridArea="spellLevel2" />
+  </Magic>
+)
 
 export default MagicPageA
