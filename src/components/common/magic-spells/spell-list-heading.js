@@ -14,9 +14,9 @@ const SpellLevel = styled.div`
 `
 
 const SpellLevelValue = styled.h3`
-  margin: 0;
+  margin: 0 0.4rem 0 0;
   font-family: ${fonts.display};
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: bold;
 `
 
@@ -24,6 +24,19 @@ const SpellLevelLabel = styled.p`
   margin: 0;
   font-family: ${fonts.display};
   font-size: ${fontSizes.small};
+`
+
+const SlotWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+
+const SlotValue = styled.p`
+  margin: 0;
+  flex-grow: 1;
+  font-family: ${fonts.input};
+  font-size: 1.8rem;
+  text-align: center;
 `
 
 const SpellListHeading = ({ spellLevel, slotTotal, slotExtended }) => (
@@ -36,8 +49,14 @@ const SpellListHeading = ({ spellLevel, slotTotal, slotExtended }) => (
         Level
       </SpellLevelLabel>
     </SpellLevel>
-    <p>{slotTotal}</p>
-    <p>{slotExtended}</p>
+    <SlotWrapper>
+      <SlotValue>{slotTotal}</SlotValue>
+      <SpellLevelLabel>Slots Total</SpellLevelLabel>
+    </SlotWrapper>
+    <SlotWrapper>
+      <SlotValue>{slotExtended}</SlotValue>
+      <SpellLevelLabel>Slots Extended</SpellLevelLabel>
+    </SlotWrapper>
   </Wrapper>
 )
 

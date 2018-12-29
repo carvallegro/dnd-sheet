@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { fontSizes, SIZES } from '../../../styles'
+import { colors, fontSizes, SIZES } from '../../../styles'
 
 const Wrapper = styled.div`
   position: relative;
@@ -15,7 +15,7 @@ const Wrapper = styled.div`
     height: 100%;
     width: 100%;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid ${colors.black};
     border-radius: 50%;
     cursor: pointer;
   }
@@ -29,8 +29,8 @@ const Wrapper = styled.div`
     width: 100%;
 
     &:checked + label {
-      background-color: black;
-      border-color: black;
+      background-color: ${colors.black};
+      border-color: ${colors.black};
     }
   }
 `
