@@ -42,9 +42,9 @@ const MagicPageA = () => (
       />
     </Heading>
 
-    <MagicSpells gridArea="spellLevel3" />
-    <MagicSpells gridArea="spellLevel4" />
-    <MagicSpells gridArea="spellLevel5" />
+    <MagicSpells gridArea="spellLevel3" columns={2}/>
+    <MagicSpells gridArea="spellLevel4" columns={2}/>
+    <MagicSpells gridArea="spellLevel5" columns={2}/>
   </Magic>
 )
 

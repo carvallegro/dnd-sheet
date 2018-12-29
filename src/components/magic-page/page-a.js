@@ -11,7 +11,7 @@ import { Page } from '../common/layout'
 export const Magic = styled(Page)`
   grid-template:
     'heading heading heading heading heading heading' 8rem
-    'cantrips cantrips cantrips cantrips cantrips cantrips ' 10rem
+    'cantrips cantrips cantrips cantrips cantrips cantrips ' 15rem
     'spellLevel1 spellLevel1 spellLevel1 spellLevel2 spellLevel2 spellLevel2' auto
     / 1fr 1fr 1fr 1fr 1fr 1fr;
 `
