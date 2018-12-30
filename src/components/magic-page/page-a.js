@@ -7,6 +7,7 @@ import MagicSpells from '../common/magic-spells'
 import { Heading } from './styles'
 import styled from 'styled-components'
 import { Page } from '../common/layout'
+import Spell from '../common/magic-spells/spell'
 
 export const Magic = styled(Page)`
   grid-template:
@@ -15,6 +16,8 @@ export const Magic = styled(Page)`
     'spellLevel1 spellLevel1 spellLevel1 spellLevel2 spellLevel2 spellLevel2' auto
     / 1fr 1fr 1fr 1fr 1fr 1fr;
 `
+
+const TEST = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 const MagicPageA = () => (
   <Magic>
@@ -43,8 +46,16 @@ const MagicPageA = () => (
 
     <TextAreaField gridArea="cantrips" label="Cantrips" />
 
-    <MagicSpells gridArea="spellLevel1" />
-    <MagicSpells gridArea="spellLevel2" />
+    <MagicSpells gridArea="spellLevel1">
+      {TEST.map(v => (
+        <Spell key={v} />
+      ))}
+    </MagicSpells>
+    <MagicSpells gridArea="spellLevel2">
+      {TEST.map(v => (
+        <Spell key={v} />
+      ))}
+    </MagicSpells>
   </Magic>
 )
 

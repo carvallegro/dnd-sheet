@@ -8,10 +8,14 @@ const Wrapper = styled.div`
   align-items: center;
 `
 
+const SpellNameField = styled(InputField)`
+  margin-left: 0.6rem;
+`
+
 const Spell = () => (
   <Wrapper>
     <Checkbox name="spell-a" />
-    <InputField />
+    <SpellNameField size="small" />
   </Wrapper>
 )
 
