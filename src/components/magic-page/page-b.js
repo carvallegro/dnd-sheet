@@ -45,17 +45,17 @@ const MagicPageA = ({ gridArea }) => (
       />
     </Heading>
 
-    <MagicSpells gridArea="spellLevel3" columns={2}>
+    <MagicSpells gridArea="spellLevel3" columns={2} spellLevel={3} slotTotal={2} slotExtended={0}>
       {TEST.map(v => (
         <Spell key={v} />
       ))}
     </MagicSpells>
-    <MagicSpells gridArea="spellLevel4" columns={2}>
+    <MagicSpells gridArea="spellLevel4" columns={2} spellLevel={4} slotTotal={2} slotExtended={0}>
       {TEST.map(v => (
         <Spell key={v} />
       ))}
     </MagicSpells>
-    <MagicSpells gridArea="spellLevel5" columns={2}>
+    <MagicSpells gridArea="spellLevel5" columns={2} spellLevel={5} slotTotal={2} slotExtended={0}>
       {TEST.map(v => (
         <Spell key={v} />
       ))}

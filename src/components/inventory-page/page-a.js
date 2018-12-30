@@ -18,14 +18,14 @@ const PageA = ({ gridArea }) => (
     </HeaderWrapping>
     <MoneyWrapping>
       <MoneyTopLine>
-        <Money name="Platinum" value={100320} justifySelf="center" />
-        <Money name="Gold" value={100320} justifySelf="center" />
-        <Money name="Electrum" value={100320} justifySelf="center" />
+        <Money name="Platinum" value={320} justifySelf="center" />
+        <Money name="Gold" value={1734} justifySelf="center" />
+        <Money name="Electrum" value={0} justifySelf="center" />
       </MoneyTopLine>
       <MoneyTopLine>
-        <Money name="Silver" value={100320} justifySelf="flex-end" />
+        <Money name="Silver" value={83} justifySelf="flex-end" />
         <div />
-        <Money name="Copper" value={109320} justifySelf="flex-start" />
+        <Money name="Copper" value={57} justifySelf="flex-start" />
       </MoneyTopLine>
     </MoneyWrapping>
 

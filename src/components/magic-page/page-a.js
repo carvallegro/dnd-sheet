@@ -46,12 +46,12 @@ const MagicPageA = ({ gridArea }) => (
 
     <TextAreaField gridArea="cantrips" label="Cantrips" />
 
-    <MagicSpells gridArea="spellLevel1">
+    <MagicSpells gridArea="spellLevel1" spellLevel={1} slotTotal={4} slotExtended={2}>
       {TEST.map(v => (
         <Spell key={v} />
       ))}
     </MagicSpells>
-    <MagicSpells gridArea="spellLevel2">
+    <MagicSpells gridArea="spellLevel2" spellLevel={2} slotTotal={2} slotExtended={0}>
       {TEST.map(v => (
         <Spell key={v} />
       ))}

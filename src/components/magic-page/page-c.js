@@ -46,22 +46,22 @@ const MagicPageA = ({ gridArea }) => (
       />
     </Heading>
 
-    <MagicSpells gridArea="spellLevel6" columns={2}>
+    <MagicSpells gridArea="spellLevel6" columns={2} spellLevel={6} slotTotal={2} slotExtended={0}>
       {TEST.map(v => (
         <Spell key={v} />
       ))}
     </MagicSpells>
-    <MagicSpells gridArea="spellLevel7" columns={2}>
+    <MagicSpells gridArea="spellLevel7" columns={2} spellLevel={7} slotTotal={2} slotExtended={0}>
       {TEST.map(v => (
         <Spell key={v} />
       ))}
     </MagicSpells>
-    <MagicSpells gridArea="spellLevel8">
+    <MagicSpells gridArea="spellLevel8" spellLevel={8} slotTotal={2} slotExtended={0}>
       {TEST_SHORT.map(v => (
         <Spell key={v} />
       ))}
     </MagicSpells>
-    <MagicSpells gridArea="spellLevel9">
+    <MagicSpells gridArea="spellLevel9" spellLevel={9} slotTotal={2} slotExtended={0}>
       {TEST_SHORT.map(v => (
         <Spell key={v} />
       ))}
