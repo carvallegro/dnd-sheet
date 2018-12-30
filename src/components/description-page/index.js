@@ -10,8 +10,8 @@ import {
 } from './styles'
 import { HalfWidth } from '../common/layout'
 
-const DescriptionPage = () => (
-  <Description>
+const DescriptionPage = ({ gridArea }) => (
+  <Description gridArea={gridArea}>
     <HeadingWrapper>
       <Heading>
         <PageTitle>Description</PageTitle>

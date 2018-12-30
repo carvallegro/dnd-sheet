@@ -10,7 +10,7 @@ GridArea.propStyle = {
   gridArea: PropTypes.string
 }
 
-export const Page = styled.div`
+export const Page = styled(GridArea)`
   height: 210mm;
   width: 148mm;
   background-color: white;

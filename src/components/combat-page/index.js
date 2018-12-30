@@ -15,8 +15,8 @@ import {
   StatGroupWrapper
 } from './styles'
 
-const CombatPage = () => (
-  <Combat>
+const CombatPage = ({ gridArea }) => (
+  <Combat gridArea={gridArea}>
     <HeadingWrapper>
       <Heading>
         <PageTitle>Combat</PageTitle>
