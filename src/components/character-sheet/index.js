@@ -16,20 +16,21 @@ const Wrapper = styled.div`
   grid-template-columns: 1fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(auto, 1fr);
-  
+
   ${NotPrintableStyle}
 `
 
-const CharacterSheet = () =>
+const CharacterSheet = () => (
   <Wrapper>
-    <GeneralPage id="general"/>
-    <DescriptionPage id="description"/>
-    <CombatPage id="combat"/>
-    <InventoryA id="inventorya"/>
-    <InventoryB id="inventoryb"/>
-    <MagicA id="magica"/>
-    <MagicB id="magicb"/>
-    <MagicC id="magicc"/>
+    <GeneralPage id="general" />
+    <DescriptionPage id="description" />
+    <CombatPage id="combat" />
+    <InventoryA id="inventorya" />
+    <InventoryB id="inventoryb" />
+    <MagicA id="magica" />
+    <MagicB id="magicb" />
+    <MagicC id="magicc" />
   </Wrapper>
+)
 
 export default CharacterSheet

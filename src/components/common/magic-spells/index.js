@@ -18,9 +18,20 @@ Wrapper.defaultProps = {
   columns: 1
 }
 
-const MagicSpells = ({ gridArea, columns, children, spellLevel, slotTotal, slotExtended }) => (
+const MagicSpells = ({
+  gridArea,
+  columns,
+  children,
+  spellLevel,
+  slotTotal,
+  slotExtended
+}) => (
   <Wrapper gridArea={gridArea} columns={columns}>
-    <SpellListHeading spellLevel={spellLevel} slotTotal={slotTotal} slotExtended={slotExtended} />
+    <SpellListHeading
+      spellLevel={spellLevel}
+      slotTotal={slotTotal}
+      slotExtended={slotExtended}
+    />
     {children}
   </Wrapper>
 )

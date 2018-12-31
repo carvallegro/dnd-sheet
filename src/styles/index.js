@@ -134,7 +134,7 @@ export const media = {
     @media only print {
       ${css(...args)};
     }
-  `,
+  `
 }
 
 export const NotPrintableStyle = media.print`

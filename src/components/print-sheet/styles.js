@@ -7,15 +7,15 @@ export const BookWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  
+
   background-color: ${colors.black};
 
-   ${media.print`
+  ${media.print`
     width: initial;
     height: initial;
     padding: 0;
     background: none;
-  `}  
+  `}
 `
 export const Book = styled.div`
   padding: 2rem 4rem;
@@ -28,18 +28,18 @@ export const Book = styled.div`
     'general description .' 1fr
     'combat . .' 1fr
     'magica magicb magicc' 1fr
-    'inventorya inventoryb .' 1fr 
+    'inventorya inventoryb .' 1fr
     / 1fr 1fr 1fr;
-    
+
   //grid-auto-columns: 148mm;
   //  grid-template-rows: repeat(8, 210mm);
-  //  grid-template-areas: 
-  //    'general' 
+  //  grid-template-areas:
+  //    'general'
   //    'description'
-  //    'combat' 
-  //    'magica' 'magicb' 'magicc' 
-  //    'inventorya' 'inventoryb';  
-  
+  //    'combat'
+  //    'magica' 'magicb' 'magicc'
+  //    'inventorya' 'inventoryb';
+
   ${media.print`
     left: 0px;
     top: 0px;
