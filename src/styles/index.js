@@ -129,6 +129,14 @@ export const fonts = {
   input: '"Work Sans", arial, sans serif'
 }
 
+export const media = {
+  print: (...args) => css`
+    @media only print {
+      ${css(...args)};
+    }
+  `,
+}
+
 export const DottedBorderStyle = css`
   background: linear-gradient(to right, black 33%, rgba(255, 255, 255, 20) 0%)
     repeat-x bottom;

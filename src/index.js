@@ -4,7 +4,7 @@ import { createGlobalStyle } from 'styled-components'
 import { styledNormalize } from 'styled-normalize'
 import App from './components/App'
 import * as serviceWorker from './serviceWorker'
-import { colors } from './styles'
+import { colors, media } from './styles'
 
 // Todo: use React Alpha release for prod. Dammit TravisCI
 console.log('React.version')
@@ -23,6 +23,17 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${colors.black};
     color: ${colors.black};
   }
+  
+  ${media.print`
+    html {
+      width: 159mm;
+    }
+    body * {
+      margin: 0;
+      background: none;
+      visibility: hidden;
+    }
+  `}
 `
 
 ReactDOM.render(
