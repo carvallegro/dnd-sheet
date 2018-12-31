@@ -43,7 +43,7 @@ const Book = styled.div`
     }
   `}
 `
-export const PrintBook = () => <BookWrapper>
+const PrintSheet = () => <BookWrapper>
   <Book>
     <GeneralPage gridArea="general"/>
     <DescriptionPage gridArea="description"/>
@@ -55,3 +55,5 @@ export const PrintBook = () => <BookWrapper>
     <MagicC gridArea="magicc"/>
   </Book>
 </BookWrapper>
+
+export default PrintSheet

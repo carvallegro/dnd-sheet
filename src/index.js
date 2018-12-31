@@ -6,10 +6,6 @@ import App from './components/App'
 import * as serviceWorker from './serviceWorker'
 import { colors, media } from './styles'
 
-// Todo: use React Alpha release for prod. Dammit TravisCI
-console.log('React.version')
-console.log(React.version)
-
 // ${styledNormalize}
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Work+Sans');
