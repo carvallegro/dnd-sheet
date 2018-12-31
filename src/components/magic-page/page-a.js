@@ -19,8 +19,8 @@ export const Magic = styled(Page)`
 
 const TEST = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
-const MagicPageA = ({ gridArea }) => (
-  <Magic gridArea={gridArea}>
+const MagicPageA = ({ id, gridArea }) => (
+  <Magic id={id} gridArea={gridArea}>
     <Heading>
       <PageTitle>Magic</PageTitle>
       <Input gridArea="characterName" label="Character Name" size="small" />

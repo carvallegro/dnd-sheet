@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom'
 import { createGlobalStyle } from 'styled-components'
 import { styledNormalize } from 'styled-normalize'
-import App from './components/App'
+import App from './components/app'
 import * as serviceWorker from './serviceWorker'
 import { colors, media } from './styles'
 
@@ -15,8 +15,8 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   
-  body{
-    background-color: ${colors.black};
+  body {
+    margin: 0;
     color: ${colors.black};
   }
   
@@ -25,7 +25,6 @@ const GlobalStyle = createGlobalStyle`
       width: 159mm;
     }
     body * {
-      margin: 0;
       background: none;
       visibility: hidden;
     }

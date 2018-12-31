@@ -14,8 +14,8 @@ const PageBWrapper = styled(Page)`
     / 1fr 1fr 1fr 1fr 1fr 1fr;
 `
 
-const PageB = ({ gridArea }) => (
-  <PageBWrapper gridArea={gridArea}>
+const PageB = ({ id, gridArea }) => (
+  <PageBWrapper id={id} gridArea={gridArea}>
     <PageTitle gridArea="heading">Inventory</PageTitle>
 
     <TextAreaField gridArea="misc" label="Miscellaneous" />

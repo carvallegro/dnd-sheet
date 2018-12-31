@@ -10,8 +10,8 @@ import {
 } from './styles'
 import Money from '../common/money'
 
-const PageA = ({ gridArea }) => (
-  <PageAWrapper gridArea={gridArea}>
+const PageA = ({ id, gridArea }) => (
+  <PageAWrapper id={id} gridArea={gridArea}>
     <HeaderWrapping>
       <PageTitle>Inventory</PageTitle>
       <Input label="Character Name" size="small" />

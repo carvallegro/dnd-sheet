@@ -12,8 +12,8 @@ import {
   PageWrapper
 } from './styles'
 
-export const GeneralPage = ({ gridArea }) => (
-  <PageWrapper gridArea={gridArea}>
+export const GeneralPage = ({ id, gridArea }) => (
+  <PageWrapper id={id} gridArea={gridArea}>
     <Input gridArea="characterName" label="Character Name" />
     <Input gridArea="classLevel" label="Class & Level" />
     <Input gridArea="expPoints" label="Experience Points" />
