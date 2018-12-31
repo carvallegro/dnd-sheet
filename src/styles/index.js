@@ -137,6 +137,15 @@ export const media = {
   `,
 }
 
+export const NotPrintableStyle = media.print`
+    visible: hidden;
+    display: none;
+    * {
+      visible: hidden;
+      display: none;
+    }
+  `
+
 export const DottedBorderStyle = css`
   background: linear-gradient(to right, black 33%, rgba(255, 255, 255, 20) 0%)
     repeat-x bottom;

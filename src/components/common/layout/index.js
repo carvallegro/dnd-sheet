@@ -18,12 +18,15 @@ GridArea.propStyle = {
 }
 
 export const Page = styled(GridArea)`
-  height: ${({displayMode}) => DISPLAY_MODE.print === displayMode ? '210mm' : 'initial'};
-  width: ${({displayMode}) => DISPLAY_MODE.print === displayMode ? '148mm' : 'initial'};
+  // height: ${({displayMode}) => DISPLAY_MODE.print === displayMode ? '210mm' : 'initial'};
+  // width: ${({displayMode}) => DISPLAY_MODE.print === displayMode ? '148mm' : 'initial'};
   background-color: white;
   padding: 1rem;
   display: grid;
   grid-gap: 1rem;
+  
+  height: 210mm;
+  width: 148mm;
   
   ${media.print`
     height: 210mm;

@@ -1,10 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+
 import GeneralPage from '../general-page'
 import DescriptionPage from '../description-page'
 import CombatPage from '../combat-page'
 import { InventoryA, InventoryB } from '../inventory-page'
 import { MagicA, MagicB, MagicC } from '../magic-page'
+
+import { NotPrintableStyle } from '../../styles'
 
 const Wrapper = styled.div`
   width: 900px;
@@ -13,6 +16,8 @@ const Wrapper = styled.div`
   grid-template-columns: 1fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(auto, 1fr);
+  
+  ${NotPrintableStyle}
 `
 
 const CharacterSheet = () =>
