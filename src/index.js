@@ -24,10 +24,6 @@ const GlobalStyle = createGlobalStyle`
     html {
       width: 159mm;
     }
-    // body * {
-    //   background: none;
-    //   visibility: hidden;
-    // }
   `}
 `
 

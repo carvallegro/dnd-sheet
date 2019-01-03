@@ -17,6 +17,8 @@ export const BookWrapper = styled.div`
     background: none;
   `}
 `
+
+// Todo: Cleanup. Try with previous version again.
 export const Book = styled.div`
   padding: 2rem 4rem;
   display: grid;

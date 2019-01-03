@@ -17,6 +17,7 @@ GridArea.propStyle = {
   gridArea: PropTypes.string
 }
 
+// Todo: Cleanup
 export const Page = styled(GridArea)`
   // height: ${({ displayMode }) =>
     DISPLAY_MODE.print === displayMode ? '210mm' : 'initial'};
