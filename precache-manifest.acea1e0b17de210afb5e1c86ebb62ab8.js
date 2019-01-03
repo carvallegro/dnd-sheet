@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/dnd-sheet/static/js/runtime~main.caa90971.js"
   },
   {
-    "revision": "aee3a754def4a9a8a38e",
-    "url": "/dnd-sheet/static/js/main.aee3a754.chunk.js"
+    "revision": "d90eee0d5d6cd26efb30",
+    "url": "/dnd-sheet/static/js/main.d90eee0d.chunk.js"
   },
   {
     "revision": "0228e902304f10075d9d",
     "url": "/dnd-sheet/static/js/1.0228e902.chunk.js"
   },
   {
-    "revision": "6c7cf9adc406cad8e5a3872ed032e3b7",
+    "revision": "639ad6ebdbc39cd2ff08643d50508e24",
     "url": "/dnd-sheet/index.html"
   }
 ];
