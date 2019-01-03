@@ -34,6 +34,7 @@ export const Page = styled(GridArea)`
     height: 210mm;
     width: 148mm;
     page-break-after: always;
+    page-break-inside: avoid;
   `}
   
 `
