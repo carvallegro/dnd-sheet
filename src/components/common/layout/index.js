@@ -28,7 +28,7 @@ export const Page = styled(GridArea)`
   grid-gap: 1rem;
 
   ${media.print`
-    height: 210mm;
+    height: 240mm;
     width: 148mm;
     page-break-after: always;
     page-break-inside: avoid;
