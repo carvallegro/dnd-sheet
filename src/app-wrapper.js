@@ -31,41 +31,26 @@ const GlobalStyle = createGlobalStyle`
   `}
 `
 
-export const AppWrapper = ({ children }) => (
+export default (AppWrapper = ({ children }) => (
   <Provider store={store}>
-    <ConnectedRouter history={globalHistory}>
-      <WithRouterWrapper>{children}</WithRouterWrapper>
-    </ConnectedRouter>
+    <WithRouterWrapper>{children}</WithRouterWrapper>
   </Provider>
-)
+))
 
 const mapStateToProps = state => ({
-  pathname: state.router.location.pathname,
-  search: state.router.location.search,
-  hash: state.router.location.hash
+  pathname: state.router.location.pathname
 })
 
-const WithRouterWrapper = connect(mapStateToProps)(
-  ({ children, pathname, search, hash }) => {
-    console.log('----------')
-    console.log(pathname)
-    console.log(search)
-    console.log(hash)
-    console.log('----------')
-
-    return (
-      <ThemeProvider
-        theme={{
-          displayMode:
-            pathname === routes.print ? DISPLAY_MODE.print : DISPLAY_MODE.web
-        }}
-      >
-        <Fragment>
-          <h1>{pathname}</h1>
-          {children}
-          <GlobalStyle />
-        </Fragment>
-      </ThemeProvider>
-    )
-  }
-)
+const WithRouterWrapper = connect(mapStateToProps)(({ children, pathname }) => (
+  <ThemeProvider
+    theme={{
+      displayMode:
+        pathname === routes.print ? DISPLAY_MODE.print : DISPLAY_MODE.web
+    }}
+  >
+    <Fragment>
+      {children}
+      <GlobalStyle />
+    </Fragment>
+  </ThemeProvider>
+))

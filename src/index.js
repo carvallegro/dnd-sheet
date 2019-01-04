@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import { Route } from 'react-router-dom'
 
 import * as serviceWorker from './serviceWorker'
-import { AppWrapper } from './app-wrapper'
+import AppWrapper from './app-wrapper'
 
 import App from './components/app'
 
