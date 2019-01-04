@@ -6,9 +6,9 @@ import CharacterSheet from './character-sheet'
 import HomePage from './common/home-page'
 
 const App = () => (
-  <Router>
+  <Router basename='/dnd-sheet'>
     <Fragment>
-      <Route path="/" component={HomePage} />
+      <Route path="/" exact component={HomePage} />
       <Route path="/sheet" component={CharacterSheet} />
       <Route path="/print" component={PrintSheet} />
     </Fragment>
