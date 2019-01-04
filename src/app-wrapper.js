@@ -13,7 +13,8 @@ export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Work+Sans');
 
   html{
-    font-size: ${({ theme }) => DISPLAY_MODE.print == theme.displayMode ? '10pt' : '16px'};
+    font-size: ${({ theme }) =>
+      DISPLAY_MODE.print == theme.displayMode ? '10pt' : '16px'};
     box-sizing: border-box;
   }
 
@@ -30,46 +31,54 @@ export const GlobalStyle = createGlobalStyle`
   `}
 `
 
-export const AppWrapper = ({ children }) =>
+export const AppWrapper = ({ children }) => (
   <Provider store={store}>
-    <ConnectedRouter basename='/dnd-sheet' history={globalHistory}>
-      <WithRouterWrapper>
-        {children}
-      </WithRouterWrapper>
+    <ConnectedRouter basename="/dnd-sheet" history={globalHistory}>
+      <WithRouterWrapper>{children}</WithRouterWrapper>
     </ConnectedRouter>
   </Provider>
+)
 
 const mapStateToProps = state => ({
   pathname: state.router.location.pathname,
   search: state.router.location.search,
-  hash: state.router.location.hash,
+  hash: state.router.location.hash
 })
 
+const WithRouterWrapper = connect(mapStateToProps)(
+  ({ children, pathname, search, hash }) => {
+    const [currentLocation, setCurrentLocation] = useState({})
 
-const WithRouterWrapper = connect(mapStateToProps)(({ children, pathname, search, hash}) => {
-  const [currentLocation, setCurrentLocation] = useState({})
-
-  useEffect(() =>
-    globalHistory.listen((location, action) => {
+    useEffect(() =>
+      globalHistory.listen((location, action) => {
         console.log(
-          `The current URL is ${location.pathname}${location.search}${location.hash}`
+          `The current URL is ${location.pathname}${location.search}${
+            location.hash
+          }`
         )
         console.log(`The last navigation action was ${action}`)
         setCurrentLocation(location)
-      }
-    ))
+      })
+    )
 
-  console.log('----------')
-  console.log(pathname)
-  console.log(search)
-  console.log(hash)
-  console.log('----------')
+    console.log('----------')
+    console.log(pathname)
+    console.log(search)
+    console.log(hash)
+    console.log('----------')
 
-  return <ThemeProvider
-    theme={{ displayMode: pathname === routes.print ? DISPLAY_MODE.print : DISPLAY_MODE.web }}>
-    <Fragment>
-      <h1>{pathname}</h1>
-      {children}
-    </Fragment>
-  </ThemeProvider>
-})
+    return (
+      <ThemeProvider
+        theme={{
+          displayMode:
+            pathname === routes.print ? DISPLAY_MODE.print : DISPLAY_MODE.web
+        }}
+      >
+        <Fragment>
+          <h1>{pathname}</h1>
+          {children}
+        </Fragment>
+      </ThemeProvider>
+    )
+  }
+)

@@ -9,9 +9,9 @@ import HomePage from './common/home-page'
 
 const App = () => (
   <Fragment>
-    <Route path={routes.character} component={CharacterSheet}/>
-    <Route path={routes.print} component={PrintSheet}/>
-    <Route component={HomePage}/>
+    <Route path={routes.character} component={CharacterSheet} />
+    <Route path={routes.print} component={PrintSheet} />
+    <Route component={HomePage} />
   </Fragment>
 )
 

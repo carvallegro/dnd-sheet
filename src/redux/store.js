@@ -12,10 +12,10 @@ const store = createStore(
   {},
   compose(
     applyMiddleware(
-      routerMiddleware(globalHistory), // for dispatching history actions
+      routerMiddleware(globalHistory) // for dispatching history actions
       // ... other middlewares ...
-    ),
-  ),
+    )
+  )
 )
 
 export default store
