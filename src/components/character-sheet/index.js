@@ -8,6 +8,7 @@ import { InventoryA, InventoryB } from '../inventory-page'
 import { MagicA, MagicB, MagicC } from '../magic-page'
 
 import { NotPrintableStyle } from '../../styles'
+import { Test } from '../app'
 
 const Wrapper = styled.div`
   width: 900px;

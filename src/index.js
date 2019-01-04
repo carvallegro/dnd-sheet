@@ -1,37 +1,16 @@
 import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom'
-import { createGlobalStyle } from 'styled-components'
-import { styledNormalize } from 'styled-normalize'
-import App from './components/app'
-import * as serviceWorker from './serviceWorker'
-import { colors, media } from './styles'
+import {Route}from 'react-router-dom'
 
-// ${styledNormalize}
-const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Work+Sans');
-  
-  html{
-    font-size: 10pt;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    color: ${colors.black};
-  }
-  
-  ${media.print`
-    html {
-      width: 159mm;
-    }
-  `}
-`
+import * as serviceWorker from './serviceWorker'
+import { AppWrapper } from './app-wrapper'
+
+import App from './components/app'
 
 ReactDOM.render(
-  <Fragment>
+  <AppWrapper>
     <App />
-    <GlobalStyle />
-  </Fragment>,
+  </AppWrapper>,
   document.getElementById('root')
 )
 

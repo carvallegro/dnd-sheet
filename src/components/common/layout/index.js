@@ -17,27 +17,22 @@ GridArea.propStyle = {
   gridArea: PropTypes.string
 }
 
-// Todo: Cleanup
 export const Page = styled(GridArea)`
-  // height: ${({ displayMode }) =>
-    DISPLAY_MODE.print === displayMode ? '210mm' : 'initial'};
-  // width: ${({ displayMode }) =>
-    DISPLAY_MODE.print === displayMode ? '148mm' : 'initial'};
+  height: ${({ theme }) =>
+    DISPLAY_MODE.print === theme.displayMode ? '210mm' : 'initial'};
+  width: ${({ theme }) =>
+    DISPLAY_MODE.print === theme.displayMode ? '148mm' : 'initial'};
   background-color: white;
   padding: 1rem;
   display: grid;
   grid-gap: 1rem;
-  
-  height: 210mm;
-  width: 148mm;
-  
+
   ${media.print`
     height: 210mm;
     width: 148mm;
     page-break-after: always;
     page-break-inside: avoid;
   `}
-  
 `
 
 Page.propTypes = {

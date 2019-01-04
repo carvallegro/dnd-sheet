@@ -7,7 +7,7 @@ import { SkillGrid } from '../common/skill-line/index'
 const MOCK_SKILLS = [
   { name: 'Acrobatics', attribute: 'Dex' },
   { name: 'Athletics', attribute: 'Str' },
-  { name: 'Animal Handling', attribute: 'Wis' },
+  { name: 'Animal Handl.', attribute: 'Wis' },
   { name: 'Arcana', attribute: 'Int' },
   { name: 'Deception', attribute: 'Cha' },
   { name: 'History', attribute: 'Int' },

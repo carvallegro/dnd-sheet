@@ -7,6 +7,7 @@ import { InventoryA, InventoryB } from '../inventory-page'
 import { MagicA, MagicB, MagicC } from '../magic-page'
 
 import { Book, BookWrapper } from './styles'
+import { Test } from '../app'
 
 const PrintSheet = () => (
   <BookWrapper>

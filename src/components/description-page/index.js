@@ -14,7 +14,7 @@ const DescriptionPage = ({ id, gridArea }) => (
   <Description id={id} gridArea={gridArea}>
     <HeadingWrapper>
       <Heading>
-        <PageTitle>Description</PageTitle>
+        <PageTitle>History</PageTitle>
         <HalfWidth>
           <Input label="Character Name" size="small" />
         </HalfWidth>

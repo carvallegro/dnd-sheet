@@ -15,7 +15,7 @@ export const SkillLine = ({ name, attribute }) => (
 
 export const SkillGrid = styled.div`
   display: grid;
-  grid-row-gap: 0.2rem;
+  grid-gap: 0.2rem;
   grid-auto-flow: column;
   grid-template-rows: repeat(6, 1fr);
   grid-auto-columns: auto;
