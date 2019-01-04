@@ -1,5 +1,5 @@
 // TODO: fix the router not firing on route change.
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { Fragment } from 'react'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import { connect, Provider } from 'react-redux'
 import { ConnectedRouter } from 'connected-react-router'
@@ -9,7 +9,7 @@ import { colors, media } from './styles'
 import routes from './routes'
 import store, { globalHistory } from './redux/store'
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Work+Sans');
 
   html{
@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const AppWrapper = ({ children }) => (
   <Provider store={store}>
-    <ConnectedRouter basename="/dnd-sheet" history={globalHistory}>
+    <ConnectedRouter history={globalHistory}>
       <WithRouterWrapper>{children}</WithRouterWrapper>
     </ConnectedRouter>
   </Provider>
@@ -47,20 +47,6 @@ const mapStateToProps = state => ({
 
 const WithRouterWrapper = connect(mapStateToProps)(
   ({ children, pathname, search, hash }) => {
-    const [currentLocation, setCurrentLocation] = useState({})
-
-    useEffect(() =>
-      globalHistory.listen((location, action) => {
-        console.log(
-          `The current URL is ${location.pathname}${location.search}${
-            location.hash
-          }`
-        )
-        console.log(`The last navigation action was ${action}`)
-        setCurrentLocation(location)
-      })
-    )
-
     console.log('----------')
     console.log(pathname)
     console.log(search)
@@ -77,6 +63,7 @@ const WithRouterWrapper = connect(mapStateToProps)(
         <Fragment>
           <h1>{pathname}</h1>
           {children}
+          <GlobalStyle />
         </Fragment>
       </ThemeProvider>
     )

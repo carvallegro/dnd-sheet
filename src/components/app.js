@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import routes from '../routes'
 
@@ -9,9 +9,11 @@ import HomePage from './common/home-page'
 
 const App = () => (
   <Fragment>
-    <Route path={routes.character} component={CharacterSheet} />
-    <Route path={routes.print} component={PrintSheet} />
-    <Route component={HomePage} />
+    <Switch>
+      <Route exact path={routes.homepage} component={HomePage}/>
+      <Route path={routes.character} component={CharacterSheet}/>
+      <Route path={routes.print}  component={PrintSheet}/>
+    </ Switch>
   </Fragment>
 )
 

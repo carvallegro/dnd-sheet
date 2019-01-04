@@ -4,7 +4,7 @@ import { routerMiddleware } from 'connected-react-router'
 import createRootReducer from './reducers'
 
 export const globalHistory = createBrowserHistory({
-  basename: '/dnd-sheet'
+  basename: '/dnd-sheet/'
 })
 
 const store = createStore(
