@@ -1,8 +1,8 @@
 {
-  "main.js": "/dnd-sheet/static/js/main.3571107d.chunk.js",
-  "main.js.map": "/dnd-sheet/static/js/main.3571107d.chunk.js.map",
-  "static/js/1.83dbb4d0.chunk.js": "/dnd-sheet/static/js/1.83dbb4d0.chunk.js",
-  "static/js/1.83dbb4d0.chunk.js.map": "/dnd-sheet/static/js/1.83dbb4d0.chunk.js.map",
+  "main.js": "/dnd-sheet/static/js/main.be539487.chunk.js",
+  "main.js.map": "/dnd-sheet/static/js/main.be539487.chunk.js.map",
+  "static/js/1.d6b2b43e.chunk.js": "/dnd-sheet/static/js/1.d6b2b43e.chunk.js",
+  "static/js/1.d6b2b43e.chunk.js.map": "/dnd-sheet/static/js/1.d6b2b43e.chunk.js.map",
   "runtime~main.js": "/dnd-sheet/static/js/runtime~main.caa90971.js",
   "runtime~main.js.map": "/dnd-sheet/static/js/runtime~main.caa90971.js.map",
   "static/media/shield.svg": "/dnd-sheet/static/media/shield.43616468.svg",
@@ -10,6 +10,6 @@
   "static/media/magic-outline.svg": "/dnd-sheet/static/media/magic-outline.86ff023b.svg",
   "static/media/sub_shield.svg": "/dnd-sheet/static/media/sub_shield.75d04330.svg",
   "index.html": "/dnd-sheet/index.html",
-  "precache-manifest.35d4ef30084c20afac6ad543de2c0ee1.js": "/dnd-sheet/precache-manifest.35d4ef30084c20afac6ad543de2c0ee1.js",
+  "precache-manifest.afed6afac1d0cc9919b4f6f3da4464e0.js": "/dnd-sheet/precache-manifest.afed6afac1d0cc9919b4f6f3da4464e0.js",
   "service-worker.js": "/dnd-sheet/service-worker.js"
 }
