@@ -1,6 +1,6 @@
 {
-  "main.js": "/dnd-sheet/static/js/main.f56b6cc6.chunk.js",
-  "main.js.map": "/dnd-sheet/static/js/main.f56b6cc6.chunk.js.map",
+  "main.js": "/dnd-sheet/static/js/main.519223fb.chunk.js",
+  "main.js.map": "/dnd-sheet/static/js/main.519223fb.chunk.js.map",
   "static/js/1.0228e902.chunk.js": "/dnd-sheet/static/js/1.0228e902.chunk.js",
   "static/js/1.0228e902.chunk.js.map": "/dnd-sheet/static/js/1.0228e902.chunk.js.map",
   "runtime~main.js": "/dnd-sheet/static/js/runtime~main.caa90971.js",
@@ -10,6 +10,6 @@
   "static/media/magic-outline.svg": "/dnd-sheet/static/media/magic-outline.86ff023b.svg",
   "static/media/sub_shield.svg": "/dnd-sheet/static/media/sub_shield.75d04330.svg",
   "index.html": "/dnd-sheet/index.html",
-  "precache-manifest.60749634fc7eac9a3b211d74623aeabc.js": "/dnd-sheet/precache-manifest.60749634fc7eac9a3b211d74623aeabc.js",
+  "precache-manifest.f656c70651d82889aad7fb828226c4b8.js": "/dnd-sheet/precache-manifest.f656c70651d82889aad7fb828226c4b8.js",
   "service-worker.js": "/dnd-sheet/service-worker.js"
 }
