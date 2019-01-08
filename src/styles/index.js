@@ -1,5 +1,8 @@
 import { css } from 'styled-components'
 
+// import {ReactComponent as DottedLine} from '../components/common/inputs/dotted-line.svg'
+import DottedLine from '../components/common/inputs/dotted-line.svg'
+
 export const colors = {
   'brownish-grey': '#616161',
   black: '#2d2d2d'
@@ -147,7 +150,14 @@ export const NotPrintableStyle = media.print`
   `
 
 export const DottedBorderStyle = css`
-  background: linear-gradient(to right, black 33%, rgba(255, 255, 255, 20) 0%)
-    repeat-x bottom;
-  background-size: 6px 2px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-image: repeating-linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0.8) 2px,
+      rgba(0, 0, 0, 0.8) 3px
+    )
+    1 repeat;
 `

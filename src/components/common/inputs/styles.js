@@ -8,12 +8,12 @@ export const InputField = styled.input`
   border: none;
   margin: 0;
   padding: 0.4em 0.2em;
-  ${DottedBorderStyle}
-  
+
   font-family: ${fonts.input};
   font-size: calc(1pt + ${({ size }) => fontSizes[size]});
-  
-  &:active, &:focus{
+  ${DottedBorderStyle}
+
+  &:active, &:focus {
     outline: none;
   }
 `

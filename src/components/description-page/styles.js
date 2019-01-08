@@ -19,10 +19,10 @@ export const Heading = styled.div``
 export const DescriptionHeader = styled.div`
   position: relative;
   display: grid;
-  grid-gap: 1rem;
+  //grid-gap: 1rem;
   grid-template:
-    'background background background alignment alignment alignment' 2.3rem
-    'skin skin eyes eyes hair hair' 2.3rem
-    'age age height height weight weight' 2.3rem
+    'background background background alignment alignment alignment' 3.6rem
+    'skin skin eyes eyes hair hair' 3.6rem
+    'age age height height weight weight' 3.6rem
     / 1fr 1fr 1fr 1fr 1fr 1fr;
 `
