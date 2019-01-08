@@ -129,7 +129,7 @@ export const fontSizes = {
 
 export const fonts = {
   display: 'Lora, Times, serif',
-  input: '"Work Sans", arial, sans serif'
+  input: '"Open Sans", arial, sans serif'
 }
 
 export const media = {
