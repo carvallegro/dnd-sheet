@@ -12,27 +12,27 @@ self.__precacheManifest = [
     "url": "/dnd-sheet/static/media/money_outline.f46f8aef.svg"
   },
   {
-    "revision": "86ff023b0f0d3bacc3b4469ec6962245",
-    "url": "/dnd-sheet/static/media/magic-outline.86ff023b.svg"
+    "revision": "ae8b8b643610f903119766ccdde0dd28",
+    "url": "/dnd-sheet/static/media/menu-icon.ae8b8b64.svg"
   },
   {
-    "revision": "9bb4c9c1bfc39c7b113453c223eedbdd",
-    "url": "/dnd-sheet/static/media/dotted-line.9bb4c9c1.svg"
+    "revision": "86ff023b0f0d3bacc3b4469ec6962245",
+    "url": "/dnd-sheet/static/media/magic-outline.86ff023b.svg"
   },
   {
     "revision": "caa909719039262559d9",
     "url": "/dnd-sheet/static/js/runtime~main.caa90971.js"
   },
   {
-    "revision": "76bb8931a10981612b78",
-    "url": "/dnd-sheet/static/js/main.76bb8931.chunk.js"
+    "revision": "3726bb924f6f093ab0ee",
+    "url": "/dnd-sheet/static/js/main.3726bb92.chunk.js"
   },
   {
-    "revision": "b92ea0b432061c523d5f",
-    "url": "/dnd-sheet/static/js/1.b92ea0b4.chunk.js"
+    "revision": "491e07200f26f356e8a2",
+    "url": "/dnd-sheet/static/js/1.491e0720.chunk.js"
   },
   {
-    "revision": "2c23c66ca0990f49d3081c80ee1a0781",
+    "revision": "93e482f710eb5310689a74f09b661c5a",
     "url": "/dnd-sheet/index.html"
   }
 ];
