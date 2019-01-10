@@ -1,11 +1,10 @@
 import { css } from 'styled-components'
 
-// import {ReactComponent as DottedLine} from '../components/common/inputs/dotted-line.svg'
-import DottedLine from '../components/common/inputs/dotted-line.svg'
-
 export const colors = {
   'brownish-grey': '#616161',
-  black: '#2d2d2d'
+  lightGrey: '#F3F3F3',
+  black: '#2d2d2d',
+  white: 'white'
 }
 
 export const typography = {

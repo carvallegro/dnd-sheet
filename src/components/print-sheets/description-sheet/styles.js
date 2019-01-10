@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Page } from '../common/layout'
+import { Page } from '../../common/layout'
 
 export const Description = styled(Page)`
   grid-template:

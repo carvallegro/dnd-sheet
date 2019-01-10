@@ -1,20 +1,19 @@
 import React from 'react'
-import PageTitle from '../common/typography'
-import TextAreaField from '../common/inputs/textarea'
-import Input from '../common/inputs/input'
-import MagicStat from '../common/magic-stat'
-import MagicSpells from '../common/magic-spells'
+import PageTitle from '../../common/typography'
+import TextAreaField from '../../common/inputs/textarea'
+import Input from '../../common/inputs/input'
+import MagicStat from '../../common/magic-stat'
+import MagicSpells from '../../common/magic-spells'
 import { Heading } from './styles'
 import styled from 'styled-components'
-import { Page } from '../common/layout'
-import Spell from '../common/magic-spells/spell'
+import { Page } from '../../common/layout'
+import Spell from '../../common/magic-spells/spell'
 
 export const Magic = styled(Page)`
   grid-template:
     'heading heading heading heading heading heading' 8rem
-    'spellLevel3 spellLevel3 spellLevel3 spellLevel3 spellLevel3 spellLevel3' auto
-    'spellLevel4 spellLevel4 spellLevel4 spellLevel4 spellLevel4 spellLevel4' auto
-    'spellLevel5 spellLevel5 spellLevel5 spellLevel5 spellLevel5 spellLevel5' auto
+    'cantrips cantrips cantrips cantrips cantrips cantrips ' 15rem
+    'spellLevel1 spellLevel1 spellLevel1 spellLevel2 spellLevel2 spellLevel2' auto
     / 1fr 1fr 1fr 1fr 1fr 1fr;
 `
 
@@ -45,32 +44,21 @@ const MagicPageA = ({ id, gridArea }) => (
       />
     </Heading>
 
+    <TextAreaField gridArea="cantrips" label="Cantrips" />
+
     <MagicSpells
-      gridArea="spellLevel3"
-      columns={2}
-      spellLevel={3}
-      slotTotal={2}
-      slotExtended={0}
+      gridArea="spellLevel1"
+      spellLevel={1}
+      slotTotal={4}
+      slotExtended={2}
     >
       {TEST.map(v => (
         <Spell key={v} />
       ))}
     </MagicSpells>
     <MagicSpells
-      gridArea="spellLevel4"
-      columns={2}
-      spellLevel={4}
-      slotTotal={2}
-      slotExtended={0}
-    >
-      {TEST.map(v => (
-        <Spell key={v} />
-      ))}
-    </MagicSpells>
-    <MagicSpells
-      gridArea="spellLevel5"
-      columns={2}
-      spellLevel={5}
+      gridArea="spellLevel2"
+      spellLevel={2}
       slotTotal={2}
       slotExtended={0}
     >

@@ -12,6 +12,7 @@
     "gh-pages": "^2.0.1",
     "history": "^4.7.2",
     "lodash": "^4.17.11",
+    "polished": "^2.3.3",
     "prop-types": "^15.6.2",
     "react": "next",
     "react-app-polyfill": "^0.1.3",

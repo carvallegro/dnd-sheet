@@ -1,14 +1,14 @@
 import React from 'react'
-import PageTitle from '../common/typography'
-import Input from '../common/inputs/input'
-import TextAreaField from '../common/inputs/textarea'
+import PageTitle from '../../common/typography'
+import Input from '../../common/inputs/input'
+import TextAreaField from '../../common/inputs/textarea'
 import {
   HeaderWrapping,
   MoneyTopLine,
   MoneyWrapping,
   PageAWrapper
 } from './styles'
-import Money from '../common/money'
+import Money from '../../common/money'
 
 const PageA = ({ id, gridArea }) => (
   <PageAWrapper id={id} gridArea={gridArea}>

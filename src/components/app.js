@@ -3,8 +3,8 @@ import { Route, Switch } from 'react-router-dom'
 
 import routes from '../routes'
 
-import PrintSheet from './print-sheet'
-import CharacterSheet from './character-sheet'
+import PrintPage from './print-page'
+import CharacterSheet from './character-page'
 import HomePage from './common/home-page'
 import { globalHistory } from '../redux/store'
 import { ConnectedRouter } from 'connected-react-router'
@@ -14,7 +14,7 @@ const App = () => (
     <Switch>
       <Route exact path={routes.homepage} component={HomePage} />
       <Route path={routes.character} component={CharacterSheet} />
-      <Route path={routes.print} component={PrintSheet} />
+      <Route path={routes.print} component={PrintPage} />
     </Switch>
   </ConnectedRouter>
 )

@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
+    background-color: ${colors.lightGrey};
     color: ${colors.black};
   }
 

@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { HalfWidth } from '../common/layout'
-import PageTitle from '../common/typography'
-import Input from '../common/inputs/input'
-import TextAreaField from '../common/inputs/textarea'
+import { HalfWidth } from '../../common/layout'
+import PageTitle from '../../common/typography'
+import Input from '../../common/inputs/input'
+import TextAreaField from '../../common/inputs/textarea'
 
-import { CurrentHP, DeathSaves, HitDice, TempHP } from '../combat-stats'
+import { CurrentHP, DeathSaves, HitDice, TempHP } from '../../combat-stats'
 
 import {
   Combat,
@@ -15,7 +15,7 @@ import {
   StatGroupWrapper
 } from './styles'
 
-const CombatPage = ({ id, gridArea }) => (
+const CombatSheet = ({ id, gridArea }) => (
   <Combat id={id} gridArea={gridArea}>
     <HeadingWrapper>
       <Heading>
@@ -48,4 +48,4 @@ const CombatPage = ({ id, gridArea }) => (
   </Combat>
 )
 
-export default CombatPage
+export default CombatSheet

@@ -1,16 +1,16 @@
 import React from 'react'
-import PageTitle from '../common/typography'
-import Input from '../common/inputs/input'
-import TextAreaField from '../common/inputs/textarea'
+import PageTitle from '../../common/typography'
+import Input from '../../common/inputs/input'
+import TextAreaField from '../../common/inputs/textarea'
 import {
   Description,
   DescriptionHeader,
   HeadingWrapper,
   Heading
 } from './styles'
-import { HalfWidth } from '../common/layout'
+import { HalfWidth } from '../../common/layout'
 
-const DescriptionPage = ({ id, gridArea }) => (
+const DescriptionSheet = ({ id, gridArea }) => (
   <Description id={id} gridArea={gridArea}>
     <HeadingWrapper>
       <Heading>
@@ -50,4 +50,4 @@ const DescriptionPage = ({ id, gridArea }) => (
   </Description>
 )
 
-export default DescriptionPage
+export default DescriptionSheet

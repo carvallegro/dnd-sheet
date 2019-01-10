@@ -1,18 +1,18 @@
 import React from 'react'
-import Input from '../common/inputs/input'
-import Attribute from '../common/attribute'
-import TextAreaField from '../common/inputs/textarea'
-import SavingThrows from '../saving-throws'
-import InlineField from '../common/inputs/inline'
+import Input from '../../common/inputs/input'
+import Attribute from '../../common/attribute'
+import TextAreaField from '../../common/inputs/textarea'
+import SavingThrows from '../../saving-throws'
+import InlineField from '../../common/inputs/inline'
 
-import Skills from '../skills'
+import Skills from '../../skills'
 import {
   AttributesWrapper,
   CalculatedValuesWrapper,
   PageWrapper
 } from './styles'
 
-export const GeneralPage = ({ id, gridArea }) => (
+export const GeneralSheet = ({ id, gridArea }) => (
   <PageWrapper id={id} gridArea={gridArea}>
     <Input gridArea="characterName" label="Character Name" />
     <Input gridArea="classLevel" label="Class & Level" />
@@ -53,4 +53,4 @@ export const GeneralPage = ({ id, gridArea }) => (
   </PageWrapper>
 )
 
-export default GeneralPage
+export default GeneralSheet
