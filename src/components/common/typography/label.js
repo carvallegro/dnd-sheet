@@ -7,6 +7,7 @@ export const Label = styled.label`
   font-family: Lora;
   font-size: ${({ size }) => fontSizes[size]};
   text-align: ${({ align }) => align};
+  color: ${({ theme }) => theme.textColor};
 `
 
 Label.propTypes = {

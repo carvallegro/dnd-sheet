@@ -7,24 +7,30 @@ import { DISPLAY_MODE } from './components/common/layout'
 import routes from './routes'
 import store from './redux/store'
 import GlobalStyle from './styles/global'
+import { defaultTheme } from './styles/theme'
 
 const mapStateToProps = state => ({
-  pathname: state.router.location.pathname
+  displayMode:
+    state.router.location.pathname === routes.print
+      ? DISPLAY_MODE.print
+      : DISPLAY_MODE.web
 })
 
-const WithRouterWrapper = connect(mapStateToProps)(({ children, pathname }) => (
-  <ThemeProvider
-    theme={{
-      displayMode:
-        pathname === routes.print ? DISPLAY_MODE.print : DISPLAY_MODE.web
-    }}
-  >
-    <Fragment>
-      {children}
-      <GlobalStyle />
-    </Fragment>
-  </ThemeProvider>
-))
+const WithRouterWrapper = connect(mapStateToProps)(
+  ({ children, displayMode }) => (
+    <ThemeProvider
+      theme={{
+        ...defaultTheme,
+        displayMode: displayMode
+      }}
+    >
+      <Fragment>
+        {children}
+        <GlobalStyle />
+      </Fragment>
+    </ThemeProvider>
+  )
+)
 
 const AppWrapper = ({ children }) => (
   <Provider store={store}>

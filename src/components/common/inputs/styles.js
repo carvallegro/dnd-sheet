@@ -8,8 +8,11 @@ export const InputField = styled.input`
   border: none;
   margin: 0;
   padding: 0.4em 0.2em;
+  background: none;
 
   font-family: ${fonts.input};
+  color: ${({ theme }) => theme.textColor};
+
   font-size: calc(1pt + ${({ size }) => fontSizes[size]});
   ${DottedBorderStyle}
 

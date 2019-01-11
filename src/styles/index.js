@@ -1,4 +1,5 @@
 import { css } from 'styled-components'
+import { transparentize } from 'polished'
 
 export const colors = {
   'brownish-grey': '#616161',
@@ -155,8 +156,8 @@ export const DottedBorderStyle = css`
       to right,
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0) 2px,
-      rgba(0, 0, 0, 0.8) 2px,
-      rgba(0, 0, 0, 0.8) 3px
+      ${({ theme }) => transparentize(0.2, theme.textColor)} 2px,
+      ${({ theme }) => transparentize(0.2, theme.textColor)} 3px
     )
     1 repeat;
 `

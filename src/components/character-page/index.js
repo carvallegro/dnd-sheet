@@ -12,7 +12,8 @@ import Header from '../header'
 import Menu from '../menu'
 
 const Wrapper = styled.div`
-  position:relative;
+  padding-top: 65px;
+  position: relative;
   width: 900px;
   margin: 0 auto;
   display: grid;
@@ -25,17 +26,17 @@ const Wrapper = styled.div`
 
 const CharacterSheet = () => (
   <Fragment>
-    <Header/>
+    <Header />
     <Wrapper>
-      <GeneralSheet id="general"/>
-      <DescriptionSheet id="description"/>
-      <CombatSheet id="combat"/>
-      <InventoryA id="inventorya"/>
-      <InventoryB id="inventoryb"/>
-      <MagicA id="magica"/>
-      <MagicB id="magicb"/>
-      <MagicC id="magicc"/>
-      <Menu/>
+      <GeneralSheet id="general" />
+      <DescriptionSheet id="description" />
+      <CombatSheet id="combat" />
+      <InventoryA id="inventorya" />
+      <InventoryB id="inventoryb" />
+      <MagicA id="magica" />
+      <MagicB id="magicb" />
+      <MagicC id="magicc" />
+      <Menu />
     </Wrapper>
   </Fragment>
 )
