@@ -29,8 +29,8 @@ const Wrapper = styled.div`
     width: 100%;
 
     &:checked + label {
-      background-color: ${colors.black};
-      border-color: ${colors.black};
+      background-color: ${({ theme }) => theme.textColor};
+      border-color: ${({ theme }) => theme.textColor};
     }
   }
 `

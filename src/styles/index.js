@@ -12,104 +12,104 @@ export const typography = {
   SmallRegular: css`
     font-family: Lora;
     font-size: 8pt;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   MediumRegular: css`
     font-family: Lora;
     font-size: 10pt;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   SmallBold: css`
     font-family: Lora;
     font-size: 8pt;
     font-weight: bold;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   SmallItalic: css`
     font-family: Lora;
     font-size: 8pt;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   SmallBoldItalic: css`
     font-family: Lora;
     font-size: 8pt;
     font-weight: bold;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   LargeRegular: css`
     font-family: Lora;
     font-size: 12pt;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   ExtraSmallRegular: css`
     font-family: Lora;
     font-size: 6pt;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   LargeBold: css`
     font-family: Lora;
     font-size: 12pt;
     font-weight: bold;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   LargeItalic: css`
     font-family: Lora;
     font-size: 12pt;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   LargeBoldItalic: css`
     font-family: Lora;
     font-size: 12pt;
     font-weight: bold;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   MediumBold: css`
     font-family: Lora;
     font-size: 10pt;
     font-weight: bold;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   MediumItalic: css`
     font-family: Lora;
     font-size: 10pt;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   MediumBoldItalic: css`
     font-family: Lora;
     font-size: 10pt;
     font-weight: bold;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   ExtraSmallBold: css`
     font-family: Lora;
     font-size: 6pt;
     font-weight: bold;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   ExtraSmallItalic: css`
     font-family: Lora;
     font-size: 6pt;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   ExtraSmallBoldItalic: css`
     font-family: Lora;
     font-size: 6pt;
     font-weight: bold;
     font-style: italic;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `,
   Heading: css`
     font-family: Lora;
     font-size: 28pt;
     font-weight: bold;
-    color: ${colors.black};
+    color: ${({ theme }) => theme.textColor};
   `
 }
 
