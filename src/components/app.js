@@ -1,22 +1,20 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
+import { ConnectedRouter } from 'connected-react-router'
 
+import { globalHistory } from '../redux/store'
 import routes from '../routes'
 
 import PrintPage from './print-page'
-import CharacterSheet from './character-page'
-import HomePage from './common/home-page'
-import { globalHistory } from '../redux/store'
-import { ConnectedRouter } from 'connected-react-router'
+import CharacterPage from './character-page'
 
-const App = () => (
+const App = () =>
   <ConnectedRouter history={globalHistory}>
     <Switch>
-      <Route exact path={routes.homepage} component={HomePage} />
-      <Route path={routes.character} component={CharacterSheet} />
-      <Route path={routes.print} component={PrintPage} />
+      <Route exact path={routes.homepage} component={CharacterPage}/>
+      <Route path={routes.character} component={CharacterPage}/>
+      <Route path={routes.print} component={PrintPage}/>
     </Switch>
   </ConnectedRouter>
-)
 
 export default App
