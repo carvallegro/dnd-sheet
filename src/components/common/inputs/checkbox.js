@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { colors, fontSizes, SIZES } from '../../../styles'
+import { colors, fontSizes, SIZES } from '@styles'
 
 const Wrapper = styled.div`
   position: relative;

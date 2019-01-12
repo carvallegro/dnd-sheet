@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Page } from '../../common/layout'
 
 export const Heading = styled.div`
   grid-area: heading;

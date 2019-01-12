@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-import { colors } from '../../styles'
-import Label from '../common/typography/label'
+import { colors } from '@styles'
+import Label from '@common/typography/label'
 
 export const StatWrapper = styled.div`
   display: flex;

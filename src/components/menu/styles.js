@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import transparentize from 'polished/lib/color/transparentize'
-import { colors, fonts } from '../../styles'
+import { colors, fonts } from '@styles'
 import lighten from 'polished/lib/color/lighten'
 import darken from 'polished/lib/color/darken'
 

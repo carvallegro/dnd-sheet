@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { typography } from '../../../styles'
+import { typography } from '@styles'
 
 export const PageTitle = styled.h1`
   ${typography.Heading};

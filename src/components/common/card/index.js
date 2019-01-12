@@ -1,15 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { fonts } from '../../../styles'
+import { fonts } from '@styles'
 
 const Wrapper = styled.div`
+  padding: 8px;
   background-color: ${({ theme }) => theme.backgroundColor};
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
 `
 
 const CardTitle = styled.p`
-  margin: 32px 6px 6px;
+  margin: 0;
   font-family: ${fonts.display};
   font-size: 1.2rem;
   font-weight: bold;

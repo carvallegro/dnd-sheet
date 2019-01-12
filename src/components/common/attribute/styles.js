@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts } from '../../../styles'
+import { fonts } from '@styles'
 
 export const AttributeWrapper = styled.div`
   position: relative;

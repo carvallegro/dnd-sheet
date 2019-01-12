@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import Input from '../common/inputs/input'
-import Label from '../common/typography/label'
+import Checkbox from '@common/inputs/checkbox'
+import Input from '@common/inputs/input'
+import Label from '@common/typography/label'
 
+import { SIZES } from '@styles'
 import { StatLabel, StatOutline, StatWrapper } from './styles'
-import Checkbox from '../common/inputs/checkbox'
-import { SIZES } from '../../styles'
 
 export const HitDice = () => (
   <StatWrapper>

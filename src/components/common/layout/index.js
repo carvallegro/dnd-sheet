@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
-import { media } from '../../../styles'
+import { media } from '@styles'
 
 export const DISPLAY_MODE = {
   web: 'web',

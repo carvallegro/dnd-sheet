@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { SIZES } from '../../../styles'
+import { SIZES } from '@styles'
 import Label from '../typography/label'
 
 import { InputField, InputWrapper } from './styles'

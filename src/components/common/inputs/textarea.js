@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { fonts, SIZES } from '@styles'
 
 import Label from '../typography/label'
-import { fonts, SIZES } from '../../../styles'
 
 import { InputWrapper } from './styles'
 

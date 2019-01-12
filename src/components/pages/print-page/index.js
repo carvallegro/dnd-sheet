@@ -1,10 +1,10 @@
 import React from 'react'
 
-import GeneralSheet from '../print-sheets/general-sheet'
-import DescriptionSheet from '../print-sheets/description-sheet'
-import CombatSheet from '../print-sheets/combat-sheet'
-import { InventoryA, InventoryB } from '../print-sheets/inventory-sheet'
-import { MagicA, MagicB, MagicC } from '../print-sheets/magic-sheet'
+import GeneralSheet from './print-sheets/general-sheet/index'
+import DescriptionSheet from './print-sheets/description-sheet/index'
+import CombatSheet from './print-sheets/combat-sheet/index'
+import { InventoryA, InventoryB } from './print-sheets/inventory-sheet/index'
+import { MagicA, MagicB, MagicC } from './print-sheets/magic-sheet/index'
 
 import { Book, BookWrapper } from './styles'
 

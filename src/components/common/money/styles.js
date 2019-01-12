@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts, fontSizes } from '../../../styles'
+import { fonts, fontSizes } from '@styles'
 import Outline from './money_outline.svg'
 
 export const Wrapper = styled.div`

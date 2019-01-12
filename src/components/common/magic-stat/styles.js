@@ -1,6 +1,6 @@
 // TODO: Make input
 import styled from 'styled-components'
-import { fonts, fontSizes } from '../../../styles'
+import { fonts, fontSizes } from '@styles'
 import Outline from './magic-outline.svg'
 
 export const Wrapper = styled.div`

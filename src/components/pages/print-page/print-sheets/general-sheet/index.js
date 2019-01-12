@@ -1,11 +1,13 @@
 import React from 'react'
-import Input from '../../common/inputs/input'
-import Attribute from '../../common/attribute'
-import TextAreaField from '../../common/inputs/textarea'
-import SavingThrows from '../../saving-throws'
-import InlineField from '../../common/inputs/inline'
 
-import Skills from '../../skills'
+import Input from '@common/inputs/input'
+import Attribute from '@common/attribute/index'
+import TextAreaField from '@common/inputs/textarea'
+import InlineField from '@common/inputs/inline'
+
+import SavingThrows from '../../../../saving-throws/index'
+import Skills from '../../../../skills/index'
+
 import {
   AttributesWrapper,
   CalculatedValuesWrapper,

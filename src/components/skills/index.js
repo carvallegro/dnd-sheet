@@ -1,8 +1,8 @@
 import React from 'react'
-import Label from '../common/typography/label'
-import { SkillLine } from '../common/skill-line'
-import { GridArea } from '../common/layout'
-import { SkillGrid } from '../common/skill-line/index'
+import Label from '@common/typography/label'
+import { SkillLine } from '@common/skill-line'
+import { GridArea } from '@common/layout'
+import { SkillGrid } from '@common/skill-line/index'
 
 const MOCK_SKILLS = [
   { name: 'Acrobatics', attribute: 'Dex' },

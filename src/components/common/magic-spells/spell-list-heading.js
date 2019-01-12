@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { fonts, fontSizes } from '../../../styles'
+import { fonts, fontSizes } from '@styles'
 
 const Wrapper = styled.div`
   display: flex;

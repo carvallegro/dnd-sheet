@@ -5,7 +5,7 @@ import { ConnectedRouter } from 'connected-react-router'
 import { globalHistory } from '../redux/store'
 import routes from '../routes'
 
-import PrintPage from './print-page'
+import PrintPage from './pages/print-page'
 import CharacterPage from './character-page'
 
 const App = () =>

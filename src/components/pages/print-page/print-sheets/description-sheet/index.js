@@ -1,14 +1,16 @@
 import React from 'react'
-import PageTitle from '../../common/typography'
-import Input from '../../common/inputs/input'
-import TextAreaField from '../../common/inputs/textarea'
+
+import PageTitle from '@common/typography/index'
+import Input from '@common/inputs/input'
+import TextAreaField from '@common/inputs/textarea'
+import { HalfWidth } from '@common/layout/index'
+
 import {
   Description,
   DescriptionHeader,
   HeadingWrapper,
   Heading
 } from './styles'
-import { HalfWidth } from '../../common/layout'
 
 const DescriptionSheet = ({ id, gridArea }) => (
   <Description id={id} gridArea={gridArea}>

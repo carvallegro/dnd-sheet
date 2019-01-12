@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import { fonts, fontSizes } from '../../styles'
+import { fonts, fontSizes } from '@styles'
 
 export const Wrapper = styled.header`
   position: fixed;

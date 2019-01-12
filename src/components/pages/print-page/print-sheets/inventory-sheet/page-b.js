@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Page } from '../../common/layout'
-import PageTitle from '../../common/typography'
-import Input from '../../common/inputs/input'
-import TextAreaField from '../../common/inputs/textarea'
+import { Page } from '@common/layout/index'
+import PageTitle from '@common/typography/index'
+import TextAreaField from '@common/inputs/textarea'
 
 const PageBWrapper = styled(Page)`
   grid-template:

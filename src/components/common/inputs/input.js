@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { SIZES } from '@styles'
 import Label from '../typography/label'
-import { SIZES } from '../../../styles'
 
 import { InputField, InputWrapper } from './styles'
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { DottedBorderStyle, fonts, fontSizes, SIZES } from '../../../styles'
+import { DottedBorderStyle, fonts, fontSizes, SIZES } from '@styles'
 import { GridArea } from '../layout'
 
 export const InputField = styled.input`

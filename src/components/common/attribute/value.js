@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import SubShield from './sub_shield.svg'
-import { fonts } from '../../../styles'
+import { fonts } from '@styles'
 
 const Wrapper = styled.div`
   position: relative;

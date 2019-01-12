@@ -1,8 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
-import Label from '../common/typography/label'
-import { SkillGrid, SkillLine } from '../common/skill-line'
-import { GridArea } from '../common/layout'
+import Label from '@common/typography/label'
+import { SkillGrid, SkillLine } from '@common/skill-line'
+import { GridArea } from '@common/layout'
 
 const MOCK_ATTR = [
   'Strength',

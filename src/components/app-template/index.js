@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import styled from 'styled-components'
-import { NotPrintableStyle } from '../../styles'
+import { NotPrintableStyle } from '@styles'
 import Header from '../header'
 import Menu from '../menu'
 

@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Page } from '../../common/layout'
+
+import { Page } from '@common/layout/index'
 
 export const Combat = styled(Page)`
   grid-template:

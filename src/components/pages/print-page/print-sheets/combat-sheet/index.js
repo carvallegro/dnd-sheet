@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { HalfWidth } from '../../common/layout'
-import PageTitle from '../../common/typography'
-import Input from '../../common/inputs/input'
-import TextAreaField from '../../common/inputs/textarea'
+import { HalfWidth } from '@common/layout/index'
+import PageTitle from '@common/typography/index'
+import Input from '@common/inputs/input'
+import TextAreaField from '@common/inputs/textarea'
 
-import { CurrentHP, DeathSaves, HitDice, TempHP } from '../../combat-stats'
+import { CurrentHP, DeathSaves, HitDice, TempHP } from '../../../../combat-stats/index'
 
 import {
   Combat,

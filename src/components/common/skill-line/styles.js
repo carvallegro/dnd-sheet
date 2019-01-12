@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { DottedBorderStyle, fonts } from '../../../styles'
+import { DottedBorderStyle, fonts } from '@styles'
 
 export const SkillLineWrapper = styled.div`
   display: flex;

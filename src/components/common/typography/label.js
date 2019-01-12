@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { SIZES, fontSizes } from '../../../styles'
+import { SIZES, fontSizes } from '@styles'
 
 export const Label = styled.label`
   font-family: Lora;
