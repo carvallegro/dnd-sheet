@@ -1,10 +1,9 @@
-// TODO: fix the router not firing on route change.
 import React, { Fragment } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { connect, Provider } from 'react-redux'
 
 import { DISPLAY_MODE } from './components/common/layout'
-import routes from './routes'
+import routes from './base-routes'
 import store from './redux/store'
 import GlobalStyle from './styles/global'
 import { defaultTheme } from './styles/theme'

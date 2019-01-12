@@ -2,7 +2,7 @@
   "name": "dnd-sheet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://carvallegro.github.io/dnd-sheet",
+  "basepage": "https://carvallegro.github.io/dnd-sheet",
   "dependencies": {
     "bfj": "6.1.1",
     "connected-react-router": "^6.1.0",

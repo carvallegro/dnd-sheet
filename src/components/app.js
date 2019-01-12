@@ -3,15 +3,15 @@ import { Route, Switch } from 'react-router-dom'
 import { ConnectedRouter } from 'connected-react-router'
 
 import { globalHistory } from '../redux/store'
-import routes from '../routes'
+import routes from '../base-routes'
 
 import PrintPage from './pages/print-page'
-import CharacterPage from './character-page'
+import CharacterPage from './pages/character-pages'
 
 const App = () =>
   <ConnectedRouter history={globalHistory}>
     <Switch>
-      <Route exact path={routes.homepage} component={CharacterPage}/>
+      <Route exact path={routes.basepage} component={CharacterPage}/>
       <Route path={routes.character} component={CharacterPage}/>
       <Route path={routes.print} component={PrintPage}/>
     </Switch>
