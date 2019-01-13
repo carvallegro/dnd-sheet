@@ -1,5 +1,4 @@
-import React, { Fragment } from 'react'
-import Label from '@common/typography/label'
+import React from 'react'
 import { SkillLine } from '@common/skill-line'
 import { GridArea } from '@common/layout'
 import { SkillGrid } from '@common/skill-line/index'

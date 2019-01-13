@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, withRouter } from 'react-router-dom'
-import Card from '@common/card'
 
 import AppTemplate from '../../app-template/index'
 

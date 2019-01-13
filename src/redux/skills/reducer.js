@@ -1,4 +1,3 @@
-import _ from 'lodash'
 import { handleActions } from 'redux-actions'
 
 const INITIAL_STATE = [

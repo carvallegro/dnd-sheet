@@ -9,7 +9,7 @@ import Label from '@common/typography/label'
 import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 
 import SavingThrows from '../../../../saving-throws/index'
-import Skills from '../../../../skills/index'
+import Skills from '../../../../character-elements/skills/index'
 
 import { CalculatedValuesWrapper, PageWrapper } from './styles'
 
