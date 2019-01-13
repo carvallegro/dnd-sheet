@@ -14,28 +14,30 @@ const Wrapper = styled.div`
   grid-gap: 10px;
   grid-auto-rows: 1200px;
 
-  ${NotPrintableStyle} 
+  ${NotPrintableStyle}
 `
 
 const PageContent = styled.div`
-${({ isMenuOpen }) => isMenuOpen && `
+  ${({ isMenuOpen }) =>
+    isMenuOpen &&
+    `
     filter: blur(3px);
 `}
-transition: filter 500ms linear;
+  transition: filter 500ms linear;
 `
 
 const AppTemplate = ({ children }) => {
   const [isMenuOpen, setMenuOpen] = useState(false)
 
-  return <Fragment>
-    <Header isMenuOpen={isMenuOpen}/>
-    <Wrapper>
-      <PageContent isMenuOpen={isMenuOpen}>
-        {children}
-      </PageContent>
-      <Menu onMenuClick={setMenuOpen}/>
-    </Wrapper>
-  </Fragment>
+  return (
+    <Fragment>
+      <Header isMenuOpen={isMenuOpen} />
+      <Wrapper>
+        <PageContent isMenuOpen={isMenuOpen}>{children}</PageContent>
+        <Menu onMenuClick={setMenuOpen} />
+      </Wrapper>
+    </Fragment>
+  )
 }
 
 export default AppTemplate

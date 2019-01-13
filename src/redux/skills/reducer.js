@@ -1,23 +1,118 @@
 import _ from 'lodash'
 import { handleActions } from 'redux-actions'
 
-const MOCK_SKILLS = [
-  { name: 'Acrobatics', attribute: 'Dex' },
-  { name: 'Athletics', attribute: 'Str' },
-  { name: 'Animal Handl.', attribute: 'Wis' },
-  { name: 'Arcana', attribute: 'Int' },
-  { name: 'Deception', attribute: 'Cha' },
-  { name: 'History', attribute: 'Int' },
-  { name: 'Insight', attribute: 'Wis' },
-  { name: 'Intimidation', attribute: 'Cha' },
-  { name: 'Investigation', attribute: 'Int' },
-  { name: 'Medicine', attribute: 'Wis' },
-  { name: 'Nature', attribute: 'Int' },
-  { name: 'Perception', attribute: 'Wis' },
-  { name: 'Performance', attribute: 'Cha' },
-  { name: 'Persuasion', attribute: 'Cha' },
-  { name: 'Religion', attribute: 'Int' },
-  { name: 'Sleight of Hand', attribute: 'Dex' },
-  { name: 'Stealth', attribute: 'Dex' },
-  { name: 'Survival', attribute: 'Wis' }
+const INITIAL_STATE = [
+  {
+    name: 'Acrobatics',
+    attribute: 'DEX',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Athletics',
+    attribute: 'STR',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Animal Handl.',
+    attribute: 'WIS',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Arcana',
+    attribute: 'INT',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Deception',
+    attribute: 'CHA',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'History',
+    attribute: 'INT',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Insight',
+    attribute: 'WIS',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Intimidation',
+    attribute: 'CHA',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Investigation',
+    attribute: 'INT',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Medicine',
+    attribute: 'WIS',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Nature',
+    attribute: 'INT',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Perception',
+    attribute: 'WIS',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Performance',
+    attribute: 'CHA',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Persuasion',
+    attribute: 'CHA',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Religion',
+    attribute: 'INT',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Sleight of Hand',
+    attribute: 'DEX',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Stealth',
+    attribute: 'DEX',
+    bonus: 0,
+    proficiency: false
+  },
+  {
+    name: 'Survival',
+    attribute: 'WIS',
+    bonus: 0,
+    proficiency: false
+  }
 ]
+
+// TODO: Add reducers
+const skillReducer = handleActions({}, INITIAL_STATE)
+
+export default skillReducer

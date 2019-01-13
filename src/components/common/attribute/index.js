@@ -4,13 +4,14 @@ import Modifier from './modifier'
 import Value from './value'
 import { AttributeName, AttributeWrapper, ValueWrapper } from './styles'
 
-const Attribute = ({ name, value, modifier }) =>
+const Attribute = ({ name, value, modifier }) => (
   <AttributeWrapper>
     <AttributeName>{name}</AttributeName>
-    <Modifier value={modifier}/>
+    <Modifier value={modifier} />
     <ValueWrapper>
-      <Value value={value}/>
+      <Value value={value} />
     </ValueWrapper>
   </AttributeWrapper>
+)
 
 export default Attribute

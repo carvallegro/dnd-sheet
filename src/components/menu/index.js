@@ -5,9 +5,9 @@ import { ReactComponent as MenuIcon } from './menu-icon.svg'
 import { MenuButton, Overlay, ShortcutButton, Wrapper } from './styles'
 
 // TODO: add open effect. using effect
-const Menu = ({onMenuClick}) => {
+const Menu = ({ onMenuClick }) => {
   const [isOpen, setMenuOpen] = useState(false)
-  const menuClick = (openMenu) => {
+  const menuClick = openMenu => {
     onMenuClick(openMenu)
     setMenuOpen(openMenu)
   }
@@ -26,7 +26,6 @@ const Menu = ({onMenuClick}) => {
     </Fragment>
   )
 }
-
 
 Menu.propTypes = {
   onMenuClick: PropTypes.func

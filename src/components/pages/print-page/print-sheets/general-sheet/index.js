@@ -3,16 +3,15 @@ import React from 'react'
 import Input from '@common/inputs/input'
 import TextAreaField from '@common/inputs/textarea'
 import InlineField from '@common/inputs/inline'
+import { GridArea } from '@common/layout'
+import Label from '@common/typography/label'
 
-import Abilities, { AbilitiesWrapper } from '@character-elements/abilities'
+import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 
 import SavingThrows from '../../../../saving-throws/index'
 import Skills from '../../../../skills/index'
 
-import {
-  CalculatedValuesWrapper,
-  PageWrapper
-} from './styles'
+import { CalculatedValuesWrapper, PageWrapper } from './styles'
 
 export const GeneralSheet = ({ id, gridArea }) => (
   <PageWrapper id={id} gridArea={gridArea}>
@@ -22,9 +21,9 @@ export const GeneralSheet = ({ id, gridArea }) => (
     <Input gridArea="race" label="Race" />
     <Input gridArea="playerName" label="Player Name" />
 
-    <AbilitiesWrapper>
-      <Abilities />
-    </AbilitiesWrapper>
+    <AttributesWrapper>
+      <Attributes />
+    </AttributesWrapper>
 
     <CalculatedValuesWrapper>
       <InlineField label="Inspiration" />
@@ -33,7 +32,11 @@ export const GeneralSheet = ({ id, gridArea }) => (
     </CalculatedValuesWrapper>
 
     <SavingThrows gridArea="savingThrows" />
-    <Skills gridArea="skills" />
+
+    <GridArea gridArea="skills">
+      <Label>Skills</Label>
+      <Skills />
+    </GridArea>
 
     <TextAreaField gridArea="featuresTraits" label="Features & Traits" />
     <TextAreaField

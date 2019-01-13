@@ -9,16 +9,24 @@ import characterRoutes from '../pages/character-pages/character-routes'
 
 import { Content, HeaderNav, Navigation, Wrapper } from './styles'
 
-const Header = ({isMenuOpen, match}) => (
+const Header = ({ isMenuOpen, match }) => (
   <ThemeProvider theme={negativeTheme}>
     <Wrapper isMenuOpen={isMenuOpen}>
       <Content>
         <Input gridArea="characterName" label="Character Name" />
         <Navigation>
-          <HeaderNav to={`${match.url}${characterRoutes.general}`}>General</HeaderNav>
-          <HeaderNav to={`${match.url}${characterRoutes.combat}`}>Combat</HeaderNav>
-          <HeaderNav to={`${match.url}${characterRoutes.magic}`}>Magic</HeaderNav>
-          <HeaderNav to={`${match.url}${characterRoutes.inventory}`}>Inventory</HeaderNav>
+          <HeaderNav to={`${match.url}${characterRoutes.general}`}>
+            General
+          </HeaderNav>
+          <HeaderNav to={`${match.url}${characterRoutes.combat}`}>
+            Combat
+          </HeaderNav>
+          <HeaderNav to={`${match.url}${characterRoutes.magic}`}>
+            Magic
+          </HeaderNav>
+          <HeaderNav to={`${match.url}${characterRoutes.inventory}`}>
+            Inventory
+          </HeaderNav>
           <HeaderNav to="/print">Print</HeaderNav>
         </Navigation>
       </Content>

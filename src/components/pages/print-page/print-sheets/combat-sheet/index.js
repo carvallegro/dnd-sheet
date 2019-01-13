@@ -5,7 +5,12 @@ import PageTitle from '@common/typography/index'
 import Input from '@common/inputs/input'
 import TextAreaField from '@common/inputs/textarea'
 
-import { CurrentHP, DeathSaves, HitDice, TempHP } from '../../../../combat-stats/index'
+import {
+  CurrentHP,
+  DeathSaves,
+  HitDice,
+  TempHP
+} from '../../../../combat-stats/index'
 
 import {
   Combat,

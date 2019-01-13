@@ -23,6 +23,6 @@ const Value = styled.p`
 export default ({ value }) => (
   <Wrapper>
     <Value>{(value > 0 ? '+' : '') + value}</Value>
-    <Outline src={ShieldSvg}/>
+    <Outline src={ShieldSvg} />
   </Wrapper>
 )

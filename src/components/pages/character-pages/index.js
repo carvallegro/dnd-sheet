@@ -11,12 +11,25 @@ import CombatPage from './combat-page'
 import MagicPage from './magic-page'
 import InventoryPage from './inventory-page'
 
-const CharacterPage = ({match}) =>
+const CharacterPage = ({ match }) => (
   <AppTemplate>
-    <Route path={`${match.url}${characterRoutes.general}`} component={GeneralPage}/>
-    <Route path={`${match.url}${characterRoutes.combat}`} component={CombatPage}/>
-    <Route path={`${match.url}${characterRoutes.magic}`} component={MagicPage}/>
-    <Route path={`${match.url}${characterRoutes.inventory}`} component={InventoryPage}/>
+    <Route
+      path={`${match.url}${characterRoutes.general}`}
+      component={GeneralPage}
+    />
+    <Route
+      path={`${match.url}${characterRoutes.combat}`}
+      component={CombatPage}
+    />
+    <Route
+      path={`${match.url}${characterRoutes.magic}`}
+      component={MagicPage}
+    />
+    <Route
+      path={`${match.url}${characterRoutes.inventory}`}
+      component={InventoryPage}
+    />
   </AppTemplate>
+)
 
 export default withRouter(CharacterPage)

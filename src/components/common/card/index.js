@@ -18,13 +18,14 @@ const CardTitle = styled.p`
   color: ${({ theme }) => theme.textColor};
 `
 
-const Card = ({children, title}) =>
+const Card = ({ children, title }) => (
   <Wrapper>
     {children}
     <CardTitle>{title}</CardTitle>
   </Wrapper>
+)
 
-Card.propTypes ={
+Card.propTypes = {
   title: PropTypes.string
 }
 

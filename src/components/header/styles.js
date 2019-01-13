@@ -13,11 +13,13 @@ export const Wrapper = styled.header`
   box-shadow: 0 1px 9px -1px rgba(0, 0, 0, 0.5);
 
   background-color: ${({ theme }) => theme.backgroundColor};
-  
-  ${({ isMenuOpen }) => isMenuOpen && `
+
+  ${({ isMenuOpen }) =>
+    isMenuOpen &&
+    `
     filter: blur(3px);
 `}
-  
+
   transition: filter 500ms linear;
 `
 

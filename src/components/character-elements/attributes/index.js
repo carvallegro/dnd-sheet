@@ -5,10 +5,13 @@ import { connect } from 'react-redux'
 import Attribute from '@common/attribute'
 import styled from 'styled-components'
 
-const Attributes = ({ abilities }) =>
+const Attributes = ({ attributes }) => (
   <Fragment>
-    {_.flatMap(abilities, (v, k) => <Attribute key={k} name={v.name} value={v.base} modifier={v.modifier}/>)}
+    {_.flatMap(attributes, (v, k) => (
+      <Attribute key={k} name={v.name} value={v.base} modifier={v.modifier} />
+    ))}
   </Fragment>
+)
 
 const mapStateToProps = state => ({
   attributes: state.attributes
