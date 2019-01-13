@@ -13,9 +13,6 @@ import InventoryPage from './inventory-page'
 
 const CharacterPage = ({match}) =>
   <AppTemplate>
-    <Card title='Informations'>
-      <h1>Hello World</h1>
-    </Card>
     <Route path={`${match.url}${characterRoutes.general}`} component={GeneralPage}/>
     <Route path={`${match.url}${characterRoutes.combat}`} component={CombatPage}/>
     <Route path={`${match.url}${characterRoutes.magic}`} component={MagicPage}/>

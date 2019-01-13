@@ -20,9 +20,9 @@ const Value = styled.p`
   font-size: 2rem;
 `
 
-export default () => (
+export default ({ value }) => (
   <Wrapper>
-    <Value>+2</Value>
-    <Outline src={ShieldSvg} />
+    <Value>{(value > 0 ? '+' : '') + value}</Value>
+    <Outline src={ShieldSvg}/>
   </Wrapper>
 )

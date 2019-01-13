@@ -25,9 +25,7 @@ const Value = styled.p`
   line-height: 1.25;
 `
 
-export default () => (
-  <Wrapper>
-    <Value>10</Value>
-    <Outline src={SubShield} />
-  </Wrapper>
-)
+export default ({ value }) => <Wrapper>
+  <Value>{value}</Value>
+  <Outline src={SubShield}/>
+</Wrapper>

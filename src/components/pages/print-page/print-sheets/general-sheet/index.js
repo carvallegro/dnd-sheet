@@ -1,15 +1,15 @@
 import React from 'react'
 
 import Input from '@common/inputs/input'
-import Attribute from '@common/attribute/index'
 import TextAreaField from '@common/inputs/textarea'
 import InlineField from '@common/inputs/inline'
+
+import Abilities, { AbilitiesWrapper } from '@character-elements/abilities'
 
 import SavingThrows from '../../../../saving-throws/index'
 import Skills from '../../../../skills/index'
 
 import {
-  AttributesWrapper,
   CalculatedValuesWrapper,
   PageWrapper
 } from './styles'
@@ -22,14 +22,9 @@ export const GeneralSheet = ({ id, gridArea }) => (
     <Input gridArea="race" label="Race" />
     <Input gridArea="playerName" label="Player Name" />
 
-    <AttributesWrapper>
-      <Attribute name="STRENGTH" />
-      <Attribute name="DEXTERITY" />
-      <Attribute name="CONSTITUTION" />
-      <Attribute name="INTELLIGENCE" />
-      <Attribute name="WISDOM" />
-      <Attribute name="CHARISMA" />
-    </AttributesWrapper>
+    <AbilitiesWrapper>
+      <Abilities />
+    </AbilitiesWrapper>
 
     <CalculatedValuesWrapper>
       <InlineField label="Inspiration" />
