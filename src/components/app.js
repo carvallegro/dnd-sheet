@@ -12,10 +12,9 @@ const NotFound = () => <h1>Not found</h1>
 const App = () => (
   <ConnectedRouter history={globalHistory}>
     <Switch>
-      {/*<Route path={routes.basepage} component={CharacterPage}/>*/}
       <Route path={routes.character} component={CharacterPage} />
       <Route exact path={routes.print} component={PrintPage} />
-      <Redirect exact strict from="/" to="/character" />
+      <Redirect exact strict from={routes.basepage} to={routes.character} />
       <Route component={NotFound} />
     </Switch>
   </ConnectedRouter>

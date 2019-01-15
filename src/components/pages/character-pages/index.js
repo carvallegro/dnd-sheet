@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, withRouter } from 'react-router-dom'
+import { Redirect, Route, Switch, withRouter } from 'react-router-dom'
 
 import AppTemplate from '../../app-template/index'
 
@@ -9,25 +9,29 @@ import GeneralPage from './general-page'
 import CombatPage from './combat-page'
 import MagicPage from './magic-page'
 import InventoryPage from './inventory-page'
+import routes from '../../../base-routes'
 
 const CharacterPage = ({ match }) => (
   <AppTemplate>
-    <Route
-      path={`${match.url}${characterRoutes.general}`}
-      component={GeneralPage}
-    />
-    <Route
-      path={`${match.url}${characterRoutes.combat}`}
-      component={CombatPage}
-    />
-    <Route
-      path={`${match.url}${characterRoutes.magic}`}
-      component={MagicPage}
-    />
-    <Route
-      path={`${match.url}${characterRoutes.inventory}`}
-      component={InventoryPage}
-    />
+    <Switch>
+      <Route
+        path={`${match.url}${characterRoutes.general}`}
+        component={GeneralPage}
+      />
+      <Route
+        path={`${match.url}${characterRoutes.combat}`}
+        component={CombatPage}
+      />
+      <Route
+        path={`${match.url}${characterRoutes.magic}`}
+        component={MagicPage}
+      />
+      <Route
+        path={`${match.url}${characterRoutes.inventory}`}
+        component={InventoryPage}
+      />
+      <Redirect exact strict to={`${match.url}${characterRoutes.general}`}/>
+    </Switch>
   </AppTemplate>
 )
 
