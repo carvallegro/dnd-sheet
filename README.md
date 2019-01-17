@@ -7,6 +7,7 @@ https://adventurerscodex.com/player-tools.html
 
 
 ## webpack common
+https://webpack.js.org/guides/production/#cli-alternatives 
 ```
 'use strict';
 
