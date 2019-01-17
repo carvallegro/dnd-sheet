@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/dnd-sheet/static/media/magic-outline.86ff023b.svg"
   },
   {
-    "revision": "caa909719039262559d9",
-    "url": "/dnd-sheet/static/js/runtime~main.caa90971.js"
+    "revision": "297b319f2c8049f6cc48",
+    "url": "/dnd-sheet/static/js/runtime~main.297b319f.js"
   },
   {
-    "revision": "651d4d39966db02287b6",
-    "url": "/dnd-sheet/static/js/main.651d4d39.chunk.js"
+    "revision": "652beaf2b3ea22412ffc",
+    "url": "/dnd-sheet/static/js/main.652beaf2.chunk.js"
   },
   {
-    "revision": "da498344df50cab89a2e",
-    "url": "/dnd-sheet/static/js/1.da498344.chunk.js"
+    "revision": "49ec8254070f064ab950",
+    "url": "/dnd-sheet/static/js/2.49ec8254.chunk.js"
   },
   {
-    "revision": "2e2c8d72fee16017c35bd0102a27a4e6",
+    "revision": "830c4e792aba388c8c992f8784f0cd1f",
     "url": "/dnd-sheet/index.html"
   }
 ];
