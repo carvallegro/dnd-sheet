@@ -28,11 +28,11 @@ self.__precacheManifest = [
     "url": "/dnd-sheet/static/js/main.651d4d39.chunk.js"
   },
   {
-    "revision": "367e6d83b3ac04a86e67",
-    "url": "/dnd-sheet/static/js/1.367e6d83.chunk.js"
+    "revision": "da498344df50cab89a2e",
+    "url": "/dnd-sheet/static/js/1.da498344.chunk.js"
   },
   {
-    "revision": "4b72523ec440ed8d01b65b28a6b996d4",
+    "revision": "2e2c8d72fee16017c35bd0102a27a4e6",
     "url": "/dnd-sheet/index.html"
   }
 ];
