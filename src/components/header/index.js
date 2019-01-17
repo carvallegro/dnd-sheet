@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { withRouter } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { negativeTheme } from '@styles/theme'
-import Input from '@common/inputs/input'
 
 import characterRoutes from '../pages/character-pages/character-routes'
 

@@ -12,6 +12,15 @@ import {
   Heading
 } from './styles'
 
+import {
+  Age,
+  Eyes,
+  Hair,
+  Height,
+  Skin,
+  Weight
+} from '@character-elements/general'
+
 const DescriptionSheet = ({ id, gridArea }) => (
   <Description id={id} gridArea={gridArea}>
     <HeadingWrapper>
@@ -26,18 +35,18 @@ const DescriptionSheet = ({ id, gridArea }) => (
         <Input gridArea="background" label="Background" />
         <Input gridArea="alignment" label="Alignment" />
 
-        <Input gridArea="skin" label="Skin" />
-        <Input gridArea="eyes" label="Eyes" />
-        <Input gridArea="hair" label="Hair" />
+        <Skin gridArea="skin" />
+        <Eyes gridArea="eyes" />
+        <Hair gridArea="hair" />
 
         <HalfWidth gridArea="age">
-          <Input label="Age" />
+          <Age />
         </HalfWidth>
         <HalfWidth gridArea="height">
-          <Input label="Height" />
+          <Height />
         </HalfWidth>
         <HalfWidth gridArea="weight">
-          <Input label="Weight" />
+          <Weight />
         </HalfWidth>
       </DescriptionHeader>
     </HeadingWrapper>

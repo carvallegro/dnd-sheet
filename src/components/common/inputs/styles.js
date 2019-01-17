@@ -7,7 +7,7 @@ export const InputField = styled.input`
   width: 100%;
   border: none;
   margin: 0;
-  padding: 0.4em 0.2em;
+  padding: 0.2em;
   background: none;
 
   font-family: ${fonts.input};

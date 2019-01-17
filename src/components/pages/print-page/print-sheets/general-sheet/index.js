@@ -8,7 +8,7 @@ import Label from '@common/typography/label'
 
 import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 import Skills from '@character-elements/skills'
-import { CharacterName } from '@character-elements/general'
+import { CharacterName, PlayerName } from '@character-elements/general'
 
 import SavingThrows from '../../../../saving-throws/index'
 
@@ -20,7 +20,7 @@ export const GeneralSheet = ({ id, gridArea }) => (
     <Input gridArea="classLevel" label="Class & Level" />
     <Input gridArea="expPoints" label="Experience Points" />
     <Input gridArea="race" label="Race" />
-    <Input gridArea="playerName" label="Player Name" />
+    <PlayerName gridArea="playerName" />
 
     <AttributesWrapper>
       <Attributes />
