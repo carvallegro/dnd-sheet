@@ -12,6 +12,7 @@
     "gh-pages": "^2.0.1",
     "history": "^4.7.2",
     "lodash": "^4.17.11",
+    "onchange": "^5.2.0",
     "polished": "^2.3.3",
     "prop-types": "^15.6.2",
     "react": "next",
@@ -32,7 +33,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "test:own": "node scripts/test.js",
     "lint:fix": "prettier --config .prettierrc --write \"src/**/*.js\"",
+    "lint:watch": "onchange \"src/**/*.js\" -- prettier --write {{changed}}",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

@@ -8,12 +8,13 @@ import Input from '@common/inputs/input'
 import characterRoutes from '../pages/character-pages/character-routes'
 
 import { Content, HeaderNav, Navigation, Wrapper } from './styles'
+import { CharacterName } from '../character-elements/general'
 
 const Header = ({ isMenuOpen, match }) => (
   <ThemeProvider theme={negativeTheme}>
     <Wrapper isMenuOpen={isMenuOpen}>
       <Content>
-        <Input gridArea="characterName" label="Character Name" />
+        <CharacterName gridArea="characterName" label="Character Name" />
         <Navigation>
           <HeaderNav to={`${match.url}${characterRoutes.general}`}>
             General

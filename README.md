@@ -2,5 +2,8 @@
 
 The idea was originally to create a A5 format character sheet PDF but now the plan is to make it web based and printable and all.
 
+## Data
+D&D 5e SRD data: https://github.com/BTMorton/dnd-5e-srd
+
 ## Stats
-https://adventurerscodex.com/player-tools.html 
+https://adventurerscodex.com/player-tools.html

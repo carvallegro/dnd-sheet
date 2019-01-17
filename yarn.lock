@@ -866,6 +866,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@blakeembrey/deque@^1.0.3":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@blakeembrey/deque/-/deque-1.0.4.tgz#4fc65476814e6b807140f258852055e5f69e5ccb"
+  integrity sha512-gzAiePolEXlMlQxbHWcdmz+b+PEixO5so0mU8jMlCemp8sxUWko9AzWc4EK3MV6BCUYd9cjq+Gd477cZiq5Kfw==
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -6406,6 +6411,19 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
+onchange@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/onchange/-/onchange-5.2.0.tgz#85c1b502ce8538ddb64eb0557fdb1afa33396f51"
+  integrity sha512-kBNMF4KU1m0GkZCANckQZs3N41esf950T/gv7JIjNS6qWS8R34+iCKk/wmVRPEdaYCA+yi2aK2vNXS0RaB/V2A==
+  dependencies:
+    "@blakeembrey/deque" "^1.0.3"
+    arrify "^1.0.1"
+    chokidar "^2.0.0"
+    cross-spawn "^6.0.0"
+    minimist "^1.2.0"
+    supports-color "^5.5.0"
+    tree-kill "^1.2.0"
+
 onetime@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
@@ -9091,6 +9109,11 @@ tr46@^1.0.1:
   integrity sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk=
   dependencies:
     punycode "^2.1.0"
+
+tree-kill@^1.2.0:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.1.tgz#5398f374e2f292b9dcc7b2e71e30a5c3bb6c743a"
+  integrity sha512-4hjqbObwlh2dLyW4tcz0Ymw0ggoaVDMveUB9w8kFSQScdRLo0gxO9J7WFcUBo+W3C1TLdFIEwNOWebgZZ0RH9Q==
 
 trim-repeated@^1.0.0:
   version "1.0.0"

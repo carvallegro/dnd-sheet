@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { handleActions } from 'redux-actions'
 
-import attributesEnum from './enum'
+import attributesEnum from './enums'
 import actionTypes from './action-types'
 
 const INITIAL_STATE = _.mapValues(attributesEnum, attr => ({

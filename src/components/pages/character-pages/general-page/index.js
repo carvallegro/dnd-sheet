@@ -3,6 +3,7 @@ import Card from '../../../common/card'
 import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 import Skills from '../../../character-elements/skills'
 
+// Use https://codepen.io/andybarefoot/pen/QMeZda
 const GeneralPage = () => (
   <Fragment>
     <Card title="Abilities">

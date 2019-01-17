@@ -9,7 +9,6 @@ import GeneralPage from './general-page'
 import CombatPage from './combat-page'
 import MagicPage from './magic-page'
 import InventoryPage from './inventory-page'
-import routes from '../../../base-routes'
 
 const CharacterPage = ({ match }) => (
   <AppTemplate>
@@ -30,7 +29,7 @@ const CharacterPage = ({ match }) => (
         path={`${match.url}${characterRoutes.inventory}`}
         component={InventoryPage}
       />
-      <Redirect exact strict to={`${match.url}${characterRoutes.general}`}/>
+      <Redirect exact strict to={`${match.url}${characterRoutes.general}`} />
     </Switch>
   </AppTemplate>
 )
