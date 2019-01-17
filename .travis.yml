@@ -4,14 +4,19 @@ node_js:
 
 branches:
   only:
-  - master
+  # - master
   - /^greenkeeper/.*$/
+  except:
+  - gh-pages
 
 install:
-- npm i -f
+ - npm i -f
+ - npm i -g codecov
 
 script: 
  - npm run test
+ - npm run report-coverage
+ - codecov
  - npm run build
 
 deploy:
