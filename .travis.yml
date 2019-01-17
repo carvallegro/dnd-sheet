@@ -10,7 +10,9 @@ branches:
 install:
 - npm i -f
 
-script: npm run build
+script: 
+ - npm run test
+ - npm run build
 
 deploy:
   local-dir: build
