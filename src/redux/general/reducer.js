@@ -93,8 +93,8 @@ export const levelUpByXP = xp => {
     experiencePoints,
     globalLevel:
       _(XP_TABLE)
-        .filter(v => v > experiencePoints)
-        .count() - 1
+        .filter(v => v <= experiencePoints)
+        .size() - 1
   }
 }
 
