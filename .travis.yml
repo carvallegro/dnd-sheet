@@ -3,9 +3,6 @@ node_js:
 - 10.12.0
 
 branches:
-  # only:
-  # - master
-  # - /^greenkeeper/.*$/
   except:
   - gh-pages
 
@@ -15,12 +12,11 @@ install:
 
 script: 
  - npm run test
- - npm run report-coverage
  - codecov
  - npm run build
 
 deploy:
-  local-dir: build
+  local-dir: 
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
