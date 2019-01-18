@@ -9,7 +9,6 @@
     "test:script": "node scripts/test.js",
     "test": "jest --no-watchman --coverage",
     "test:watch": "jest --no-watchman --coverage --watch",
-    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov",
     "lint:fix": "prettier --config .prettierrc --write \"src/**/*.js\"",
     "lint:watch": "onchange \"src/**/*.js\" -- prettier --write {{changed}}",
     "predeploy": "npm run build",
