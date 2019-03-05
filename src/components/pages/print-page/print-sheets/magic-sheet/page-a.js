@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 import PageTitle from '@common/typography/index'
-import TextAreaField from '@common/inputs/textarea'
-import Input from '@common/inputs/input'
+import TextAreaField from '@common/fields/textarea-field'
+import InputField from '@common/fields/input-field'
 import MagicStat from '@common/magic-stat/index'
 import MagicSpells from '@common/magic-spells/index'
 import { Page } from '@common/layout/index'
@@ -25,14 +25,18 @@ const MagicPageA = ({ id, gridArea }) => (
   <Magic id={id} gridArea={gridArea}>
     <Heading>
       <PageTitle>Magic</PageTitle>
-      <Input gridArea="characterName" label="Character Name" size="small" />
+      <InputField
+        gridArea="characterName"
+        label="Character Name"
+        size="small"
+      />
 
-      <Input
+      <InputField
         gridArea="spellcastingClass"
         label="Spellcasting Class"
         size="large"
       />
-      <Input
+      <InputField
         gridArea="spellcastingAbility"
         label="Spellcasting Ability"
         size="small"

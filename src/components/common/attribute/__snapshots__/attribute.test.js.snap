@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attribute /> renders 1`] = `
+<styled.div>
+  <styled.p />
+  <_default />
+  <styled.div>
+    <_default />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`<Attribute /> renders with negative modifier 1`] = `
+<styled.div>
+  <styled.p />
+  <_default
+    value={-2}
+  />
+  <styled.div>
+    <_default />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`<Attribute /> renders with values 1`] = `
+<styled.div>
+  <styled.p>
+    Test
+  </styled.p>
+  <_default
+    value={2}
+  />
+  <styled.div>
+    <_default
+      value={10}
+    />
+  </styled.div>
+</styled.div>
+`;

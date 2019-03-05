@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MagicStat /> renders 1`] = `
+<styled.div
+  justifySelf="inherit"
+>
+  <styled.div>
+    <styled.p />
+  </styled.div>
+  <styled.h3 />
+</styled.div>
+`;
+
+exports[`<MagicStat /> renders with props 1`] = `
+<styled.div
+  justifySelf="inherit"
+>
+  <styled.div>
+    <styled.p>
+      10
+    </styled.p>
+  </styled.div>
+  <styled.h3>
+    Test stat
+  </styled.h3>
+</styled.div>
+`;

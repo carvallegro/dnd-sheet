@@ -1,12 +1,16 @@
-import actionTypes from './action-types'
+import { createAction } from 'redux-actions'
+import {
+  ATTRIBUTE_INCREMENT,
+  ATTRIBUTE_DECREMENT,
+  ATTRIBUTE_SET_PROFICIENCY
+} from './action-types'
 
-// TODO: Use createAction
-// export const incrementAbility = ability => ({
-//   type: actionTypes.ABILITY_INCREMENT,
-//   ability
-// })
-//
-// export const decrementAbility = ability => ({
-//   type: actionTypes.ABILITY_DECREMENT,
-//   ability
-// })
+export const incrementAttribute = createAction(ATTRIBUTE_INCREMENT)
+export const decrementAttribute = createAction(ATTRIBUTE_DECREMENT)
+export const setProficiency = createAction(
+  ATTRIBUTE_SET_PROFICIENCY,
+  (attribute, isProficient) => ({
+    attribute,
+    isProficient
+  })
+)

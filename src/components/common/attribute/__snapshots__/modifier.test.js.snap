@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modifier /> renders 1`] = `
+<styled.div>
+  <styled.p>
+    undefined
+  </styled.p>
+  <styled.img
+    src="shield.svg"
+  />
+</styled.div>
+`;
+
+exports[`<Modifier /> renders with negative value 1`] = `
+<styled.div>
+  <styled.p>
+    -2
+  </styled.p>
+  <styled.img
+    src="shield.svg"
+  />
+</styled.div>
+`;

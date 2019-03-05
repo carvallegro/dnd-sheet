@@ -1,19 +1,25 @@
 import _ from 'lodash'
 import { handleActions } from 'redux-actions'
 
-import attributesEnum from './enums'
-import actionTypes from './action-types'
+import attributesEnum from '../../enums/attributes'
+
+import {
+  incrementAttribute,
+  decrementAttribute,
+  setProficiency
+} from './actions'
 
 const INITIAL_STATE = _.mapValues(attributesEnum, attr => ({
   name: attr,
   base: 8,
-  modifier: 0
+  modifier: 0,
+  isProficient: false
 }))
 
 const attributeReducer = handleActions(
   {
-    [actionTypes.ABILITY_INCREMENT]: (state, action) => {
-      const attribute = action.attribute
+    [incrementAttribute]: (state, action) => {
+      const attribute = action.payload
       return {
         ...state,
         [attribute]: getUpdatedAttribute(
@@ -22,14 +28,24 @@ const attributeReducer = handleActions(
         )
       }
     },
-    [actionTypes.ABILITY_DECREMENT]: (state, action) => {
-      const attribute = action.attribute
+    [decrementAttribute]: (state, action) => {
+      const attribute = action.payload
       return {
         ...state,
         [attribute]: getUpdatedAttribute(
           state[attribute],
           state[attribute].base - 1
         )
+      }
+    },
+    [setProficiency]: (state, action) => {
+      const { attribute, isProficient } = action.payload
+      return {
+        ...state,
+        [attribute]: {
+          ...state[attribute],
+          isProficient
+        }
       }
     }
   },

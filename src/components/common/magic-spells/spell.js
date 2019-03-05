@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-import Checkbox from '../inputs/checkbox'
-import { InputField } from '../inputs/styles'
+import Checkbox from '../fields/checkbox'
+import { Input } from '../fields/styles'
 
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
 `
 
-const SpellNameField = styled(InputField)`
+const SpellNameField = styled(Input)`
   margin-left: 0.6rem;
 `
 

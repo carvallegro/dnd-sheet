@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridArea /> renders 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          "
+  display: flex;
+  flex-direction: column;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "propStyle": Object {
+        "gridArea": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;
+
+exports[`<GridArea /> renders with Props 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          "
+  display: flex;
+  flex-direction: column;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "foldedComponentIds": Array [],
+      "propStyle": Object {
+        "gridArea": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  gridArea="tes ARea"
+/>
+`;
+
+exports[`<HalfWidth /> renders 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-htpNat",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          "
+  display: flex;
+  flex-direction: column;
+",
+          "
+  width: 50%;
+",
+        ],
+      },
+      "displayName": "Styled(styled.div)",
+      "foldedComponentIds": Array [
+        "sc-bdVaJa",
+      ],
+      "propStyle": Object {
+        "gridArea": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-htpNat",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;
+
+exports[`<Page /> renders in print mode 1`] = `
+<StyledComponent
+  displayMode="web"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          "
+  display: flex;
+  flex-direction: column;
+",
+          "
+  height: ",
+          [Function],
+          ";
+  width: ",
+          [Function],
+          ";
+  background-color: white;
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+
+  ",
+          "
+    @media only print {
+      ",
+          "
+    height: 240mm;
+    width: 148mm;
+    page-break-after: always;
+    page-break-inside: avoid;
+  ",
+          ";
+    }
+  ",
+          "
+",
+        ],
+      },
+      "defaultProps": Object {
+        "displayMode": "web",
+      },
+      "displayName": "Styled(styled.div)",
+      "foldedComponentIds": Array [
+        "sc-bdVaJa",
+      ],
+      "propStyle": Object {
+        "gridArea": [Function],
+      },
+      "propTypes": Object {
+        "displayMode": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  theme={
+    Object {
+      "displayMode": "print",
+    }
+  }
+/>
+`;
+
+exports[`<Page /> renders in web mode 1`] = `
+<StyledComponent
+  displayMode="web"
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bwzfXH",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          [Function],
+          "
+  display: flex;
+  flex-direction: column;
+",
+          "
+  height: ",
+          [Function],
+          ";
+  width: ",
+          [Function],
+          ";
+  background-color: white;
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+
+  ",
+          "
+    @media only print {
+      ",
+          "
+    height: 240mm;
+    width: 148mm;
+    page-break-after: always;
+    page-break-inside: avoid;
+  ",
+          ";
+    }
+  ",
+          "
+",
+        ],
+      },
+      "defaultProps": Object {
+        "displayMode": "web",
+      },
+      "displayName": "Styled(styled.div)",
+      "foldedComponentIds": Array [
+        "sc-bdVaJa",
+      ],
+      "propStyle": Object {
+        "gridArea": [Function],
+      },
+      "propTypes": Object {
+        "displayMode": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bwzfXH",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  theme={
+    Object {
+      "displayMode": "web",
+    }
+  }
+/>
+`;

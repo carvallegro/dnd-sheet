@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import SubShield from './sub_shield.svg'
@@ -19,9 +18,10 @@ const Outline = styled.img`
 
 const Value = styled.p`
   margin: 0;
+  padding-bottom: 0.2rem;
   text-align: center;
   font-family: ${fonts.input};
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   line-height: 1.25;
 `
 

@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import Checkbox from '@common/inputs/checkbox'
-import Input from '@common/inputs/input'
+import Checkbox from '@common/fields/checkbox'
+import InputField from '@common/fields/input-field'
 import Label from '@common/typography/label'
 
 import { SIZES } from '@styles'
@@ -13,7 +13,7 @@ export const HitDice = () => (
   <StatWrapper>
     <StatLabel>Hit Dice</StatLabel>
     <StatOutline>
-      <Input label="Total" size="xsmall" />
+      <InputField label="Total" size="xsmall" />
     </StatOutline>
   </StatWrapper>
 )
@@ -62,7 +62,7 @@ export const CurrentHP = () => (
   <StatWrapper>
     <StatLabel>Current HP</StatLabel>
     <StatOutline>
-      <Input label="Max HP" size="xsmall" />
+      <InputField label="Max HP" size="xsmall" />
     </StatOutline>
   </StatWrapper>
 )

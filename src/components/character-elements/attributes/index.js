@@ -18,10 +18,11 @@ const mapStateToProps = state => ({
 })
 
 export default connect(mapStateToProps)(Attributes)
+
 export const AttributesWrapper = styled.div`
   grid-area: attributes;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 `

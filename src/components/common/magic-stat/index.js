@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Name, Value, ValueWrapper, Wrapper } from './styles'
 
 const MagicStat = ({ gridArea, justifySelf, name, value }) => (
@@ -9,6 +10,13 @@ const MagicStat = ({ gridArea, justifySelf, name, value }) => (
     <Name>{name}</Name>
   </Wrapper>
 )
+
+MagicStat.propTypes = {
+  gridArea: PropTypes.string,
+  justifySelf: PropTypes.string,
+  name: PropTypes.string,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+}
 
 MagicStat.defaultProps = {
   justifySelf: 'inherit'

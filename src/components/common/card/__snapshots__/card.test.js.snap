@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders 1`] = `
+<styled.div>
+  <styled.p />
+</styled.div>
+`;
+
+exports[`<Card /> renders with title 1`] = `
+<styled.div>
+  <styled.p>
+    test title
+  </styled.p>
+</styled.div>
+`;
