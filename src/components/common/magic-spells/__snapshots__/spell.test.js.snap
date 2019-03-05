@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spell /> renders 1`] = `
+<styled.div>
+  <Checkbox
+    name="spell-a"
+    onChange={[Function]}
+    size="xsmall"
+  />
+  <Styled(styled.input)
+    size="small"
+  />
+</styled.div>
+`;

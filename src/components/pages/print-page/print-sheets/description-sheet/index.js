@@ -1,8 +1,8 @@
 import React from 'react'
 
 import PageTitle from '@common/typography/index'
-import Input from '@common/inputs/input'
-import TextAreaField from '@common/inputs/textarea'
+import InputField from '@common/fields/input-field'
+import TextAreaField from '@common/fields/textarea-field'
 import { HalfWidth } from '@common/layout/index'
 
 import {
@@ -19,7 +19,7 @@ import {
   Height,
   Skin,
   Weight
-} from '@character-elements/general'
+} from '@character-elements/description'
 
 const DescriptionSheet = ({ id, gridArea }) => (
   <Description id={id} gridArea={gridArea}>
@@ -27,13 +27,13 @@ const DescriptionSheet = ({ id, gridArea }) => (
       <Heading>
         <PageTitle>History</PageTitle>
         <HalfWidth>
-          <Input label="Character Name" size="small" />
+          <InputField label="Character Name" size="small" />
         </HalfWidth>
       </Heading>
 
       <DescriptionHeader>
-        <Input gridArea="background" label="Background" />
-        <Input gridArea="alignment" label="Alignment" />
+        <InputField gridArea="background" label="Background" />
+        <InputField gridArea="alignment" label="Alignment" />
 
         <Skin gridArea="skin" />
         <Eyes gridArea="eyes" />

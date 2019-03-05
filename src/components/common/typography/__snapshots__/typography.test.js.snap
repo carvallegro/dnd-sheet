@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageTitle /> renders 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  ",
+          "
+    font-family: Lora;
+    font-size: 28pt;
+    font-weight: bold;
+    color: ",
+          [Function],
+          ";
+  ",
+          ";
+  grid-area: ",
+          [Function],
+          "
+  margin: 0;
+",
+        ],
+      },
+      "displayName": "styled.h1",
+      "foldedComponentIds": Array [],
+      "propStyle": Object {
+        "gridArea": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "h1",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;

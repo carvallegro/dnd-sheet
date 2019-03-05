@@ -4,7 +4,7 @@ import { fonts } from '@styles'
 export const AttributeWrapper = styled.div`
   position: relative;
   width: 4rem;
-  height: 5.4rem;
+  height: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -2,8 +2,8 @@ import React from 'react'
 
 import { HalfWidth } from '@common/layout/index'
 import PageTitle from '@common/typography/index'
-import Input from '@common/inputs/input'
-import TextAreaField from '@common/inputs/textarea'
+import InputField from '@common/fields/input-field'
+import TextAreaField from '@common/fields/textarea-field'
 
 import {
   CurrentHP,
@@ -26,14 +26,18 @@ const CombatSheet = ({ id, gridArea }) => (
       <Heading>
         <PageTitle>Combat</PageTitle>
         <HalfWidth>
-          <Input label="Character Name" size="small" />
+          <InputField label="Character Name" size="small" />
         </HalfWidth>
       </Heading>
 
       <HeadingStats>
-        <Input gridArea="ac" label="AC" size="medium" />
-        <Input gridArea="initiative" label="Initiative" size="medium" />
-        <Input gridArea="perception" label="Passive Perception" size="medium" />
+        <InputField gridArea="ac" label="AC" size="medium" />
+        <InputField gridArea="initiative" label="Initiative" size="medium" />
+        <InputField
+          gridArea="perception"
+          label="Passive Perception"
+          size="medium"
+        />
       </HeadingStats>
     </HeadingWrapper>
 

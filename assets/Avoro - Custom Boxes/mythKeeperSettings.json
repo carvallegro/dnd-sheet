@@ -1,0 +1,38 @@
+{
+   "basicInformation": {
+      "name": "Avoro - Custom Boxes",
+      "version": "1.0",
+      "author":{
+         "exists": true,
+         "name": "Nexoness",
+         "mail": false,
+         "url": "https://www.patreon.com/nexoness",
+         "donationURL": "https://www.patreon.com/nexoness"
+      },
+      "distributor":{
+         "exists": true,
+         "name": "Nexoness",
+         "mail": false,
+         "url": "https://www.patreon.com/nexoness",
+         "donationURL": "https://www.patreon.com/nexoness"
+      },
+      "tagLine": "High quality boxes for use on all kind of maps!",
+      "downloadURL": false,
+      "commercialUse": true,
+      "commercialURL": false,
+      "license": {
+         "hasLicense": true,
+         "type": "Commercial use allowed",
+         "localFile": false,
+         "externalLink": false,
+         "commentary": false
+      },
+      "tags": [
+         "boxes",
+         "avoro",
+         "custom boxes",
+         "box",
+         "label"
+      ]     
+   }
+}

@@ -7,12 +7,8 @@ import Menu from '../menu'
 const Wrapper = styled.div`
   padding-top: 65px;
   position: relative;
-  width: 900px;
+  width: 1100px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  grid-auto-rows: 1200px;
 
   ${NotPrintableStyle}
 `

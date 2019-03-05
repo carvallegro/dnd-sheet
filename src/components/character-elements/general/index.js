@@ -1,80 +1,46 @@
-import React from 'react'
-import { connect } from 'react-redux'
-
-import Input from '@common/inputs/input'
 import {
-  updateAge,
   updateCharacterName,
-  updateEyes,
-  updateHair,
-  updateHeight,
+  updateFeaturesAndTraits,
+  updateOtherProfLanguage,
   updatePlayerName,
-  updateSkin,
-  updateWeight
+  updateRace,
+  updateXP
 } from '@redux/general/actions'
+import { connectToInput, connectToTextArea } from '../utils'
+import { connectToTextEditor } from '@character-elements/utils'
 
-// updateAge,
-//   updateAlignment,
-//   updateBackground,
-//   updateXP
-
-export const connectInput = (label, action, mapValue) =>
-  connect(
-    state => ({
-      value: mapValue(state)
-    }),
-    dispatch => ({
-      updateValue: name => dispatch(action(name))
-    })
-  )(props => (
-    <Input
-      label={label}
-      value={props.value}
-      onChange={props.updateValue}
-      {...props}
-    />
-  ))
-
-export const Age = connectInput('Age', updateAge, state => state.general.age)
-
-export const CharacterName = connectInput(
+export const CharacterName = connectToInput(
   'Character Name',
   updateCharacterName,
   state => state.general.name
 )
 
-export const PlayerName = connectInput(
+export const PlayerName = connectToInput(
   'Player Name',
   updatePlayerName,
   state => state.general.playerName
 )
 
-export const Eyes = connectInput(
-  'Eyes',
-  updateEyes,
-  state => state.general.eyes
+export const Race = connectToInput(
+  'Race',
+  updateRace,
+  state => state.general.race
 )
 
-export const Hair = connectInput(
-  'Hair',
-  updateHair,
-  state => state.general.hair
+export const XP = connectToInput(
+  'Experience Points',
+  updateXP,
+  state => state.general.experiencePoints
 )
 
-export const Height = connectInput(
-  'Height',
-  updateHeight,
-  state => state.general.height
+export const OtherProfAndLanguages = connectToTextEditor(
+  'Other Prof. & Languages',
+  updateOtherProfLanguage,
+  state => state.general.otherProfLanguage
 )
 
-export const Skin = connectInput(
-  'Skin',
-  updateSkin,
-  state => state.general.skin
-)
-
-export const Weight = connectInput(
-  'Weight',
-  updateWeight,
-  state => state.general.weight
+export const FeaturesAndTraits = connectToTextEditor(
+  'Features & Traits',
+  updateFeaturesAndTraits,
+  state => state.general.featuresAndTraits
 )

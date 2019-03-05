@@ -1,8 +1,8 @@
 import React from 'react'
 
 import PageTitle from '@common/typography/index'
-import Input from '@common/inputs/input'
-import TextAreaField from '@common/inputs/textarea'
+import InputField from '@common/fields/input-field'
+import TextAreaField from '@common/fields/textarea-field'
 import Money from '@common/money/index'
 
 import {
@@ -16,7 +16,7 @@ const PageA = ({ id, gridArea }) => (
   <PageAWrapper id={id} gridArea={gridArea}>
     <HeaderWrapping>
       <PageTitle>Inventory</PageTitle>
-      <Input label="Character Name" size="small" />
+      <InputField label="Character Name" size="small" />
     </HeaderWrapping>
     <MoneyWrapping>
       <MoneyTopLine>

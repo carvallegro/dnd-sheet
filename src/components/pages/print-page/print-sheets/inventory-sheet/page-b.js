@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import { Page } from '@common/layout/index'
 import PageTitle from '@common/typography/index'
-import TextAreaField from '@common/inputs/textarea'
+import TextAreaField from '@common/fields/textarea-field'
 
 const PageBWrapper = styled(Page)`
   grid-template:

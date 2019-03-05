@@ -10,7 +10,7 @@ export const PageWrapper = styled(Page)`
     'calculatedValues calculatedValues calculatedValues calculatedValues calculatedValues calculatedValues' 2.4rem
     'savingThrows skills skills skills skills skills' 140px
     'featuresTraits featuresTraits featuresTraits featuresTraits profLanguages profLanguages' auto
-    'personnalityTrait personnalityTrait personnalityTrait ideals ideals ideals' minmax(
+    'personalityTrait personalityTrait personalityTrait ideals ideals ideals' minmax(
       40px,
       auto
     )

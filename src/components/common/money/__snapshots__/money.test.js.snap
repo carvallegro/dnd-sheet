@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Money /> renders 1`] = `
+<styled.div
+  justifySelf="inherit"
+>
+  <styled.h3 />
+  <styled.div>
+    <styled.p />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`<Money /> renders with value 1`] = `
+<styled.div
+  justifySelf="inherit"
+>
+  <styled.h3>
+    TC
+  </styled.h3>
+  <styled.div>
+    <styled.p>
+      100
+    </styled.p>
+  </styled.div>
+</styled.div>
+`;

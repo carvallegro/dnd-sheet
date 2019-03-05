@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { GridArea } from '../layout'
-import Spell from './spell'
 import SpellListHeading from './spell-list-heading'
 
 const Wrapper = styled(GridArea)`
@@ -35,5 +34,14 @@ const MagicSpells = ({
     {children}
   </Wrapper>
 )
+
+MagicSpells.propTypes = {
+  gridArea: PropTypes.string,
+  columns: PropTypes.number,
+  children: PropTypes.node,
+  spellLevel: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  slotTotal: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  slotExtented: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+}
 
 export default MagicSpells
