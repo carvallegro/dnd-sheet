@@ -30,7 +30,7 @@
     "prop-types": "^15.6.2",
     "react": "next",
     "react-app-polyfill": "^0.2.0",
-    "react-dev-utils": "^7.0.1",
+    "react-dev-utils": "^8.0.0",
     "react-dom": "next",
     "react-icons-kit": "^1.2.1",
     "react-markdown": "^4.0.6",
