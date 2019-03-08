@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Name, Value, ValueWrapper, Wrapper } from './styles'
 
 const Money = ({ justifySelf, name, value }) => (
@@ -9,6 +10,11 @@ const Money = ({ justifySelf, name, value }) => (
     </ValueWrapper>
   </Wrapper>
 )
+
+Money.propTypes = {
+  name: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired
+}
 
 Money.defaultProps = {
   justifySelf: 'inherit'

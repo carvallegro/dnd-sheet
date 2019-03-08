@@ -1,4 +1,4 @@
-import React  from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import Card, { CardBody } from '@common/card'
 
@@ -6,7 +6,7 @@ import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 import Skills from '@character-elements/skills'
 import {
   FeaturesAndTraits,
-  OtherProfAndLanguages,
+  OtherProfAndLanguages
 } from '@character-elements/general'
 import SavingThrows from '@character-elements/saving-throws'
 import {

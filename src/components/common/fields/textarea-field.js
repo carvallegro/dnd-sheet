@@ -13,7 +13,7 @@ const TextAreaField = ({ align, gridArea, label, size, value, onChange }) => (
         <b>{label}</b>
       </Label>
     )}
-    <TextArea value={value} onChange={onChange}/>
+    <TextArea value={value} onChange={onChange} />
   </FieldWrapper>
 )
 

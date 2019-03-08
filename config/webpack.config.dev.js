@@ -18,6 +18,7 @@ const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin-alt');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
 
+const webpackCommon = require('./webpack.common')
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
@@ -146,15 +147,7 @@ module.exports = {
     extensions: paths.moduleFileExtensions
       .map(ext => `.${ext}`)
       .filter(ext => useTypeScript || !ext.includes('ts')),
-    alias: {
-      // Support React Native Web
-      // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
-      'react-native': 'react-native-web',
-      '@styles': path.resolve(__dirname, '../src/styles/'),
-      '@redux': path.resolve(__dirname, '../src/redux/'),
-      '@common': path.resolve(__dirname, '../src/components/common/'),
-      '@character-elements': path.resolve(__dirname, '../src/components/character-elements/')
-    },
+    alias: webpackCommon.resolve.alias,
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding
       // guards against forgotten dependencies and such.

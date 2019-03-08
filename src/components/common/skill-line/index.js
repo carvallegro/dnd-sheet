@@ -36,7 +36,7 @@ SkillLine.propTypes = {
 }
 
 SkillLine.defaultProps = {
-  onProficiencyChange: () => {}
+  onProficiencyChange: e => {}
 }
 
 export const SkillGrid = styled.div`
