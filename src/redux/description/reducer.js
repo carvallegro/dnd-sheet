@@ -18,14 +18,16 @@ const INITIAL_STATE = {
   age: 31,
   alignment: 'Loyal Good',
   background: 'Apprentice', // TODO: Extract Race in own reducer ?
-  bonds: 'Your clan is the most important thing in your life, even when they are far from you.',
+  bonds:
+    'Your clan is the most important thing in your life, even when they are far from you.',
   eyes: 'Blue',
   flaws: 'It is nature’s way that the strong survive and the weak perish.',
   hair: 'Bald',
   height: '231cm',
   ideals: '',
   skin: 'Pale',
-  personalityTraits: 'You once ran 25 miles to warn your clan of an approaching threat, and you’d do the same again.',
+  personalityTraits:
+    'You once ran 25 miles to warn your clan of an approaching threat, and you’d do the same again.',
   weight: '142kg'
 }
 

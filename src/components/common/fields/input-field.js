@@ -40,7 +40,7 @@ InputField.propStyle = {
 InputField.defaultProps = {
   type: 'string',
   size: SIZES.medium,
-  onChange: (e) => {}
+  onChange: e => {}
 }
 
 export default InputField

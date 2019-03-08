@@ -9,7 +9,8 @@ module.exports = {
   ],
   'resolver': 'jest-pnp-resolver',
   'setupFiles': [
-    'react-app-polyfill/jsdom'
+    'react-app-polyfill/jsdom',
+    '<rootDir>/config/jest/register-context.js'
   ],
   'setupTestFrameworkScriptFile': '<rootDir>/config/jest/globalSetupTestFramework.js',
   'snapshotSerializers': ['enzyme-to-json/serializer'],

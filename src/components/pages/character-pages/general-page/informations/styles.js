@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 4fr 2fr;
   grid-gap: 1rem;
-  
 `
 
 export const ClassIcon = styled.img`
@@ -13,4 +12,3 @@ export const ClassIcon = styled.img`
   justify-self: center;
   opacity: 0.6;
 `
-

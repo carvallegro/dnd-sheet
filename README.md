@@ -7,3 +7,9 @@ D&D 5e SRD data: https://github.com/BTMorton/dnd-5e-srd
 
 ## Stats
 https://adventurerscodex.com/player-tools.html
+
+## Testing
+
+### Storybook jest testing
+
+Mock refs: https://github.com/storybooks/storybook/tree/master/addons/storyshots/storyshots-core#using-createnodemock-to-mock-refs

@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { fonts } from '@styles'
 
 const Wrapper = styled.div`
-  //padding: 8px;
   background-color: ${({ theme }) => theme.backgroundColor};
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
 `
@@ -26,7 +25,7 @@ export const CardBody = styled.div`
 const Card = ({ children, title }) => (
   <Wrapper>
     {children}
-    <CardTitle>{title}</CardTitle>
+    {title && <CardTitle>{title}</CardTitle>}
   </Wrapper>
 )
 
