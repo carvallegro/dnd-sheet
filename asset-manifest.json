@@ -1,0 +1,17 @@
+{
+  "main.js": "/dnd-sheet/static/js/main.8c4d4842.chunk.js",
+  "main.js.map": "/dnd-sheet/static/js/main.8c4d4842.chunk.js.map",
+  "runtime~main.js": "/dnd-sheet/static/js/runtime~main.2734d41c.js",
+  "runtime~main.js.map": "/dnd-sheet/static/js/runtime~main.2734d41c.js.map",
+  "static/js/2.0641015f.chunk.js": "/dnd-sheet/static/js/2.0641015f.chunk.js",
+  "static/js/2.0641015f.chunk.js.map": "/dnd-sheet/static/js/2.0641015f.chunk.js.map",
+  "index.html": "/dnd-sheet/index.html",
+  "precache-manifest.abaf4f3aff9abe6a0123caa0258ca5d7.js": "/dnd-sheet/precache-manifest.abaf4f3aff9abe6a0123caa0258ca5d7.js",
+  "service-worker.js": "/dnd-sheet/service-worker.js",
+  "static/media/barbarian.svg": "/dnd-sheet/static/media/barbarian.81cfb63f.svg",
+  "static/media/magic-outline.svg": "/dnd-sheet/static/media/magic-outline.86ff023b.svg",
+  "static/media/menu-icon.ae8b8b64.svg": "/dnd-sheet/static/media/menu-icon.ae8b8b64.svg",
+  "static/media/money_outline.svg": "/dnd-sheet/static/media/money_outline.f46f8aef.svg",
+  "static/media/shield.svg": "/dnd-sheet/static/media/shield.d4e03584.svg",
+  "static/media/sub_shield.svg": "/dnd-sheet/static/media/sub_shield.258e351d.svg"
+}
