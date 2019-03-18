@@ -2,24 +2,53 @@ language: node_js
 node_js:
 - 10.12.0
 
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
 branches:
   except:
-  - gh-pages
+    - gh-pages
 
 install:
- - npm i -f
- - npm i -g codecov
+  - yarn install --force
+  - yarn global add codecov
 
-script: 
- - npm run test
- - codecov
- - npm run build
+jobs:
+  includes:
+    - stage: test
+      name: "Test"
+      script: yarn test
+    - name: "Coverage"
+      if: type != pull_request
+      script: codecov
+    - stage: pr_title_check
+      name: "Check PR title format"
+      # if: env(TRAVIS_PULL_REQUEST) != "false"
+      #  script: yarn ci:check-title
+      script: echo $TRAVIS_EVENT_TYPE $TRAVIS_PULL_REQUEST $TRAVIS_PULL_REQUEST_SLUG $TRAVIS_PULL_REQUEST_SHA
+    - stage: build
+      if: type != pull_request
+      script: yarn build
+    - stage: deploy
+      name: "Deploy"
+      script: skip
+      deploy:
+        local-dir: build
+        provider: pages
+        skip-cleanup: true
+        github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+        keep-history: true
 
-deploy:
-  local-dir: build
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  on:
-    branch: master
+stages:
+  - name: test
+    if: type != pull_request
+  - name: pr_title_check
+    if: type != pull_request
+  - name: build
+    if: type != pull_request
+  - name: deploy
+    if: type != pull_request
+    on:
+      branch: master
