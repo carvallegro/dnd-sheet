@@ -16,20 +16,13 @@ install:
   - yarn global add codecov
 
 jobs:
-  includes:
+  include:
     - stage: test
       name: "Test"
       script: yarn test
     - name: "Coverage"
-      if: type != pull_request
       script: codecov
-    - stage: pr_title_check
-      name: "Check PR title format"
-      # if: env(TRAVIS_PULL_REQUEST) != "false"
-      #  script: yarn ci:check-title
-      script: echo $TRAVIS_EVENT_TYPE $TRAVIS_PULL_REQUEST $TRAVIS_PULL_REQUEST_SLUG $TRAVIS_PULL_REQUEST_SHA
     - stage: build
-      if: type != pull_request
       script: yarn build
     - stage: deploy
       name: "Deploy"
@@ -43,12 +36,8 @@ jobs:
 
 stages:
   - name: test
-    if: type != pull_request
   - name: pr_title_check
-    if: type != pull_request
   - name: build
-    if: type != pull_request
   - name: deploy
-    if: type != pull_request
     on:
       branch: master
