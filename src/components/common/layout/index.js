@@ -46,3 +46,11 @@ Page.defaultProps = {
 export const HalfWidth = styled(GridArea)`
   width: 50%;
 `
+export const Column = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+  grid-gap: 1.8rem;
+  justify-content: start;
+  align-content: start;
+`

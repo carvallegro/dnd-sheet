@@ -1,11 +1,13 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { text, boolean } from '@storybook/addon-knobs'
+import { text, boolean, withKnobs } from '@storybook/addon-knobs'
 import { action } from '@storybook/addon-actions'
 
 import { SkillLine, SkillGrid } from './index'
 
-storiesOf('Skills/Skill Line', module).add('default', () => (
+storiesOf('Skills/Skill Line', module)
+  .addDecorator(withKnobs())
+  .add('default', () => (
   <SkillLine
     name={text('Name', 'Intimidation')}
     attribute={text('Attribute', 'STR')}

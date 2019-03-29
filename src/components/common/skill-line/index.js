@@ -3,8 +3,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { DISPLAY_MODE } from '@common/layout'
-
 import Checkbox from '../fields/checkbox'
 import { Attribute, SkillLineWrapper, SkillName, SkillValue } from './styles'
 

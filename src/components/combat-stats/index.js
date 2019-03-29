@@ -1,13 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import Checkbox from '@common/fields/checkbox'
 import InputField from '@common/fields/input-field'
-import Label from '@common/typography/label'
 
-import { SIZES } from '@styles'
 import { StatLabel, StatOutline, StatWrapper } from './styles'
+import DeathSavesCheckboxes from '@common/death-saves-checkboxes'
 
 export const HitDice = () => (
   <StatWrapper>
@@ -24,36 +21,12 @@ const SaveWrapper = styled.div`
   flex-direction: column;
 `
 
-const SaveGroup = styled.div`
-  align-self: ${({ reversed }) => (reversed ? 'flex-end' : 'flex-start')};
-  margin: 0.4rem 0 0.2rem;
-  display: flex;
-  width: 60%;
-  flex-direction: ${({ reversed }) => (reversed ? 'row-reverse' : 'row')};
-  justify-content: space-between;
-`
-SaveGroup.propTypes = {
-  reversed: PropTypes.bool
-}
-
 export const DeathSaves = () => (
   <StatWrapper>
     <StatLabel>Death Saves</StatLabel>
     <SaveWrapper>
-      <SaveGroup>
-        <Checkbox name="success-save-a" size={SIZES.small} />
-        <Checkbox name="success-save-b" size={SIZES.small} />
-        <Checkbox name="success-save-c" size={SIZES.small} />
-      </SaveGroup>
-      <Label size="xsmall">Successes</Label>
-      <SaveGroup reversed>
-        <Checkbox name="fail-save-a" size={SIZES.small} />
-        <Checkbox name="fail-save-b" size={SIZES.small} />
-        <Checkbox name="fail-save-c" size={SIZES.small} />
-      </SaveGroup>
-      <Label align="right" size="xsmall">
-        Failures
-      </Label>
+      <DeathSavesCheckboxes label="Successes" name="success-save" />
+      <DeathSavesCheckboxes label="Failures" name="fail-save" reversed />
     </SaveWrapper>
   </StatWrapper>
 )

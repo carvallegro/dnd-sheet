@@ -11,8 +11,11 @@ import Serializer from './serializer'
 
 const EditorWrapper = styled.div`
   position: relative;
+  
+  border: 1px dashed rgba(0,0,0,0.2);
+  
   overflow: scroll;
-
+  
   display: flex;
   flex-direction: column;
 

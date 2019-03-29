@@ -1,21 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
+
 import Card, { CardBody } from '@common/card'
+import { Column } from '@common/layout'
 
 import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 import Skills from '@character-elements/skills'
+import SavingThrows from '@character-elements/saving-throws'
 import {
   FeaturesAndTraits,
   OtherProfAndLanguages
 } from '@character-elements/general'
-import SavingThrows from '@character-elements/saving-throws'
 import {
   Bonds,
   Flaws,
   Ideals,
   PersonalityTraits
 } from '@character-elements/description'
-import TextAreaField from '@common/fields/textarea-field'
 
 import Stats from './stats'
 import Informations from './informations'
@@ -26,15 +27,6 @@ const Wrapper = styled.div`
   grid-template-columns: 65fr 45fr;
   grid-auto-flow: column;
   grid-gap: 2rem;
-`
-
-const Column = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-flow: row;
-  grid-gap: 1.8rem;
-  justify-content: start;
-  align-content: start;
 `
 
 const GeneralPage = () => (

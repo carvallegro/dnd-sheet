@@ -1,23 +1,10 @@
-import _ from 'lodash'
-import React, { Fragment } from 'react'
-import { connect } from 'react-redux'
-
-import Attribute from '@common/attribute'
+import React from 'react'
 import styled from 'styled-components'
 
-const Attributes = ({ attributes }) => (
-  <Fragment>
-    {_.flatMap(attributes, (v, k) => (
-      <Attribute key={k} name={v.name} value={v.base} modifier={v.modifier} />
-    ))}
-  </Fragment>
-)
+import connect from './connect'
+import Attributes from './component'
 
-const mapStateToProps = state => ({
-  attributes: state.attributes
-})
-
-export default connect(mapStateToProps)(Attributes)
+export default connect(Attributes)
 
 export const AttributesWrapper = styled.div`
   grid-area: attributes;

@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Fields <Checkbox /> renders 1`] = `
+.c0 {
+  position: relative;
+  height: 0.6rem;
+  width: 0.6rem;
+}
+
+.c0 label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #2d2d2d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c0 input[type='checkbox'] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+<Checkbox
+  name="Test name"
+  onChange={[Function]}
+  size="xsmall"
+>
+  <styled.div
+    size="xsmall"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  position: relative;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+
+  label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid ",
+              "#2d2d2d",
+              ";
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  input[type='checkbox'] {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100%;
+    width: 100%;
+
+    &:checked + label {
+      background-color: ",
+              [Function],
+              ";
+      border-color: ",
+              [Function],
+              ";
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      size="xsmall"
+    >
+      <div
+        className="c0"
+        size="xsmall"
+      >
+        <input
+          name="Test name"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="Test name"
+        />
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Checkbox>
+`;
+
+exports[`Form Fields <Checkbox /> renders with props 1`] = `
+.c0 {
+  position: relative;
+  height: 1rem;
+  width: 1rem;
+}
+
+.c0 label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #2d2d2d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c0 input[type='checkbox'] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+<Checkbox
+  checked={true}
+  name="Test name"
+  onChange={[Function]}
+  size="medium"
+>
+  <styled.div
+    size="medium"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  position: relative;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+
+  label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid ",
+              "#2d2d2d",
+              ";
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  input[type='checkbox'] {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 100%;
+    width: 100%;
+
+    &:checked + label {
+      background-color: ",
+              [Function],
+              ";
+      border-color: ",
+              [Function],
+              ";
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      size="medium"
+    >
+      <div
+        className="c0"
+        size="medium"
+      >
+        <input
+          checked={true}
+          name="Test name"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="Test name"
+        />
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Checkbox>
+`;

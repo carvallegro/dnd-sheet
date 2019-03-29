@@ -5,7 +5,9 @@ export const colors = {
   'brownish-grey': '#616161',
   lightGrey: '#F3F3F3',
   black: '#2d2d2d',
-  white: 'white'
+  white: 'white',
+  blue: '#1A5D90',
+  purple: '#561E98'
 }
 
 export const typography = {
@@ -125,6 +127,13 @@ export const fontSizes = {
   medium: '1rem',
   small: '0.8rem',
   xsmall: '0.6rem'
+}
+
+export const labelFontSizes = {
+  large: '1rem',
+  medium: '0.8rem',
+  small: '0.6rem',
+  xsmall: '0.4rem'
 }
 
 export const fonts = {

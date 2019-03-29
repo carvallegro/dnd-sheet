@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { typography } from '@styles'
+import { fonts, typography } from '@styles'
 
 export const PageTitle = styled.h1`
   ${typography.Heading};
@@ -12,5 +12,14 @@ export const PageTitle = styled.h1`
 PageTitle.propStyle = {
   gridArea: PropTypes.string
 }
+
+export const DisplayText = styled.p`
+  font-family: ${fonts.display};
+`
+
+export const BodyText = styled.p`
+  font-family: ${fonts.input};
+`
+
 
 export default PageTitle

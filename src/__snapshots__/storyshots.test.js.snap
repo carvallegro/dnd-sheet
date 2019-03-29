@@ -174,10 +174,432 @@ exports[`Storyshots Card with title 1`] = `
 </div>
 `;
 
+exports[`Storyshots ClassIcon default 1`] = `
+.c0 {
+  height: 100%;
+  grid-row: span 2;
+  justify-self: center;
+  opacity: 0.6;
+}
+
+<img
+  className="c0"
+  src="Bard.svg"
+/>
+`;
+
+exports[`Storyshots Death Saves Checkboxes Death Saves 1`] = `
+.c3 {
+  position: relative;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.c3 label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #2d2d2d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c3 input[type='checkbox'] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 input[type='checkbox']:checked + label {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+.c4 {
+  font-family: Lora;
+  font-size: 0.6rem;
+  text-align: right;
+  color: #2d2d2d;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin: 0.4rem 0 0.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 {
+  width: 100px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      reversed={true}
+    >
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="death-save-0"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="death-save-0"
+        />
+      </div>
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="death-save-1"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="death-save-1"
+        />
+      </div>
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="death-save-2"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="death-save-2"
+        />
+      </div>
+    </div>
+    <label
+      className="c4"
+      size="small"
+    >
+      Death saves
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Death Saves Checkboxes Life Saves 1`] = `
+.c3 {
+  position: relative;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.c3 label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #2d2d2d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c3 input[type='checkbox'] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 input[type='checkbox']:checked + label {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+.c4 {
+  font-family: Lora;
+  font-size: 0.6rem;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 0.4rem 0 0.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 {
+  width: 100px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      reversed={false}
+    >
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="life-save-0"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="life-save-0"
+        />
+      </div>
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="life-save-1"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="life-save-1"
+        />
+      </div>
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="life-save-2"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="life-save-2"
+        />
+      </div>
+    </div>
+    <label
+      className="c4"
+      size="small"
+    >
+      Life saves
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Death Saves Checkboxes default 1`] = `
+.c3 {
+  position: relative;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.c3 label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #2d2d2d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c3 input[type='checkbox'] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 input[type='checkbox']:checked + label {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+.c4 {
+  font-family: Lora;
+  font-size: 0.6rem;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 0.4rem 0 0.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 {
+  width: 100px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      reversed={false}
+    >
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="life-save-0"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="life-save-0"
+        />
+      </div>
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="life-save-1"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="life-save-1"
+        />
+      </div>
+      <div
+        className="c3"
+        size="small"
+      >
+        <input
+          checked={false}
+          name="life-save-2"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          htmlFor="life-save-2"
+        />
+      </div>
+    </div>
+    <label
+      className="c4"
+      size="small"
+    >
+      LABEL
+    </label>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Inputs/Inline Field default 1`] = `
 .c2 {
   font-family: Lora;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: left;
   color: #2d2d2d;
 }
@@ -231,7 +653,7 @@ exports[`Storyshots Inputs/Inline Field default 1`] = `
 exports[`Storyshots Inputs/Input Field default 1`] = `
 .c2 {
   font-family: Lora;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: left;
   color: #2d2d2d;
 }
@@ -295,7 +717,7 @@ exports[`Storyshots Inputs/Input Field default 1`] = `
 exports[`Storyshots Inputs/Textarea default 1`] = `
 .c1 {
   font-family: Lora;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: left;
   color: #2d2d2d;
 }
@@ -391,7 +813,6 @@ exports[`Storyshots Inputs/checkbox default 1`] = `
   size="medium"
 >
   <input
-    id="default_checkbox"
     name="default_checkbox"
     onChange={[Function]}
     type="checkbox"
@@ -734,7 +1155,6 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -756,7 +1176,6 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -778,7 +1197,6 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -800,7 +1218,6 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -822,7 +1239,6 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -844,7 +1260,6 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1061,7 +1476,6 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1083,7 +1497,6 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1105,7 +1518,6 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1127,7 +1539,6 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1149,7 +1560,6 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1171,7 +1581,6 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1193,7 +1602,6 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       size="xsmall"
     >
       <input
-        id="spell-a"
         name="spell-a"
         onChange={[Function]}
         type="checkbox"
@@ -1457,7 +1865,6 @@ exports[`Storyshots Skills/Skill Grid default 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_1"
         name="skill_skill_1"
         onChange={[Function]}
         type="checkbox"
@@ -1488,7 +1895,6 @@ exports[`Storyshots Skills/Skill Grid default 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_2"
         name="skill_skill_2"
         onChange={[Function]}
         type="checkbox"
@@ -1519,7 +1925,6 @@ exports[`Storyshots Skills/Skill Grid default 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_3"
         name="skill_skill_3"
         onChange={[Function]}
         type="checkbox"
@@ -1550,7 +1955,6 @@ exports[`Storyshots Skills/Skill Grid default 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_4"
         name="skill_skill_4"
         onChange={[Function]}
         type="checkbox"
@@ -1581,7 +1985,6 @@ exports[`Storyshots Skills/Skill Grid default 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_5"
         name="skill_skill_5"
         onChange={[Function]}
         type="checkbox"
@@ -1612,7 +2015,6 @@ exports[`Storyshots Skills/Skill Grid default 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_6"
         name="skill_skill_6"
         onChange={[Function]}
         type="checkbox"
@@ -1732,7 +2134,6 @@ exports[`Storyshots Skills/Skill Grid with 2 rows 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_1"
         name="skill_skill_1"
         onChange={[Function]}
         type="checkbox"
@@ -1763,7 +2164,6 @@ exports[`Storyshots Skills/Skill Grid with 2 rows 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_2"
         name="skill_skill_2"
         onChange={[Function]}
         type="checkbox"
@@ -1794,7 +2194,6 @@ exports[`Storyshots Skills/Skill Grid with 2 rows 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_3"
         name="skill_skill_3"
         onChange={[Function]}
         type="checkbox"
@@ -1825,7 +2224,6 @@ exports[`Storyshots Skills/Skill Grid with 2 rows 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_4"
         name="skill_skill_4"
         onChange={[Function]}
         type="checkbox"
@@ -1856,7 +2254,6 @@ exports[`Storyshots Skills/Skill Grid with 2 rows 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_5"
         name="skill_skill_5"
         onChange={[Function]}
         type="checkbox"
@@ -1887,7 +2284,6 @@ exports[`Storyshots Skills/Skill Grid with 2 rows 1`] = `
       size="xsmall"
     >
       <input
-        id="skill_skill_6"
         name="skill_skill_6"
         onChange={[Function]}
         type="checkbox"
@@ -1996,7 +2392,6 @@ exports[`Storyshots Skills/Skill Line default 1`] = `
   >
     <input
       checked={false}
-      id="skill_intimidation"
       name="skill_intimidation"
       onChange={[Function]}
       type="checkbox"
@@ -2020,5 +2415,461 @@ exports[`Storyshots Skills/Skill Line default 1`] = `
   >
     STR
   </p>
+</div>
+`;
+
+exports[`Storyshots Tag custom 1`] = `
+.c0 {
+  background-color: #2d2d2d;
+  font-family: "Open Sans",arial,sans serif;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+<span
+  className="c0"
+  color="#2d2d2d"
+>
+  value
+</span>
+`;
+
+exports[`Storyshots Tag default 1`] = `
+Array [
+  .c1 {
+  background-color: #2d2d2d;
+  font-family: "Open Sans",arial,sans serif;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.c0 {
+  padding: 6px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="#2d2d2d"
+    >
+      Default tag
+    </span>
+  </div>,
+  .c1 {
+  background-color: #1A5D90;
+  font-family: "Open Sans",arial,sans serif;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.c0 {
+  padding: 6px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="#1A5D90"
+    >
+      Blue tag
+    </span>
+  </div>,
+  .c1 {
+  background-color: #561E98;
+  font-family: "Open Sans",arial,sans serif;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.c0 {
+  padding: 6px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="#561E98"
+    >
+      Purple tag
+    </span>
+  </div>,
+]
+`;
+
+exports[`Storyshots Weapon Table default 1`] = `
+.c4 {
+  position: relative;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.c4 label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #2d2d2d;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.c4 input[type='checkbox'] {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.c4 input[type='checkbox']:checked + label {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d;
+}
+
+.c8 {
+  background-color: #1A5D90;
+  font-family: "Open Sans",arial,sans serif;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.c6 {
+  background-color: #561E98;
+  font-family: "Open Sans",arial,sans serif;
+  font-size: 0.6rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c2 {
+  font-family: Lora,Times,serif;
+  font-weight: normal;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.c3 {
+  font-family: "Open Sans",arial,sans serif;
+}
+
+.c7 {
+  font-family: "Open Sans",arial,sans serif;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.c5 {
+  vertical-align: middle;
+}
+
+.c0 {
+  width: 800px;
+}
+
+<div
+  className="c0"
+>
+  <table
+    className="c1"
+  >
+    <thead
+      className=""
+    >
+      <tr
+        className=""
+      >
+        <th
+          className="c2"
+        >
+          Prof.
+        </th>
+        <th
+          className="c2"
+        >
+          Name
+        </th>
+        <th
+          className="c2"
+        >
+          Attack Bonus
+        </th>
+        <th
+          className="c2"
+        >
+          Damage
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className=""
+    >
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        >
+          <div
+            className="c4"
+            size="small"
+          >
+            <input
+              checked={true}
+              name="weapon-proficiency"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              htmlFor="weapon-proficiency"
+            />
+          </div>
+        </td>
+        <td
+          className="c3"
+        >
+          <span
+            className="c5"
+          >
+            Sun Blade
+          </span>
+           
+          <span
+            className="c6"
+            color="#561E98"
+          >
+            Main hand
+          </span>
+        </td>
+        <td
+          className="c3"
+        >
+          +6
+        </td>
+        <td
+          className="c3"
+        >
+          1d8+4
+           
+          Radiant
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        />
+        <td
+          className="c7"
+          colSpan="3"
+        >
+          Finesse +1d8 damage when hitting Undead, Bonus action to create the blade,
+        Sunlight: emits bright light in a 15-foot radius and dim light for an additional 15 feet, expand or reduce its
+        radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each. -less
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        >
+          <div
+            className="c4"
+            size="small"
+          >
+            <input
+              checked={true}
+              name="weapon-proficiency"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              htmlFor="weapon-proficiency"
+            />
+          </div>
+        </td>
+        <td
+          className="c3"
+        >
+          <span
+            className="c5"
+          >
+            Moon Blade
+          </span>
+           
+          <span
+            className="c8"
+            color="#1A5D90"
+          >
+            Off hand
+          </span>
+        </td>
+        <td
+          className="c3"
+        >
+          +6
+        </td>
+        <td
+          className="c3"
+        >
+          1d8+2
+           
+          Slashing
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        />
+        <td
+          className="c7"
+          colSpan="3"
+        >
+          Finesse, +1d8 damage when hitting Undead, Bonus action to create the blade +more
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        >
+          <div
+            className="c4"
+            size="small"
+          >
+            <input
+              checked={true}
+              name="weapon-proficiency"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              htmlFor="weapon-proficiency"
+            />
+          </div>
+        </td>
+        <td
+          className="c3"
+        >
+          <span
+            className="c5"
+          >
+            Light hammer
+          </span>
+           
+        </td>
+        <td
+          className="c3"
+        >
+          +4
+        </td>
+        <td
+          className="c3"
+        >
+          1d4+2
+           
+          Bludgeoning
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        />
+        <td
+          className="c7"
+          colSpan="3"
+        >
+          Light, thrown (range 20/60)
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        >
+          <div
+            className="c4"
+            size="small"
+          >
+            <input
+              checked={false}
+              name="weapon-proficiency"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              htmlFor="weapon-proficiency"
+            />
+          </div>
+        </td>
+        <td
+          className="c3"
+        >
+          <span
+            className="c5"
+          >
+            Blowgun
+          </span>
+           
+        </td>
+        <td
+          className="c3"
+        >
+          +1
+        </td>
+        <td
+          className="c3"
+        >
+          1+4
+           
+          Piercing
+        </td>
+      </tr>
+      <tr
+        className=""
+      >
+        <td
+          className="c3"
+        />
+        <td
+          className="c7"
+          colSpan="3"
+        >
+          Ammunition (range 100/400), loading
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 `;

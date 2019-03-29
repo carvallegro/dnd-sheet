@@ -44,7 +44,6 @@ const Checkbox = ({ name, size, checked, onChange }) => {
   return (
     <Wrapper size={size}>
       <input
-        id={name}
         name={name}
         checked={isChecked}
         type="checkbox"
