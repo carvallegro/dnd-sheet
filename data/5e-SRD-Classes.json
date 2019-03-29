@@ -1,0 +1,1328 @@
+[
+	{
+		"index": 1,
+		"name": "Barbarian",
+    "description": "Barbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise.",
+		"hit_die": 12,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "106",
+						"name": "Skill: Animal Handling"
+					},
+					{
+						"id": "108",
+						"name": "Skill: Athletics"
+					},
+					{
+						"id": "112",
+						"name": "Skill: Intimidation"
+					},
+					{
+						"id": "115",
+						"name": "Skill: Nature"
+					},
+					{
+						"id": "116",
+						"name": "Skill: Perception"
+					},
+					{
+						"id": "122",
+						"name": "Skill: Survival"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Light armor",
+				"id": "1"
+			},
+			{
+				"name": "Medium armor",
+				"id": "2"
+			},
+			{
+				"name": "Shields",
+				"id": "18"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			},
+			{
+				"name": "Martial weapons",
+				"id": "20"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "STR",
+				"id": "1"
+			},
+			{
+				"name": "CON",
+				"id": "3"
+			}
+		],
+		"starting_equipment": {
+			"id": "1",
+			"class": "Barbarian"
+		},
+		"class_levels": {
+			"id": "barbarian/levels",
+			"class": "Barbarian"
+		},
+		"subclasses": [
+			{
+				"id": "1",
+				"name": "Berserker"
+			}
+		],
+		"spellcasting": {
+			
+		},
+		"id": "1"
+	},
+	{
+		"index": 2,
+		"name": "Bard",
+		"hit_die": 8,
+		"proficiency_choices": [
+			{
+				"choose": 3,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "105",
+						"name": "Skill: Acrobatics"
+					},
+					{
+						"id": "106",
+						"name": "Skill: Animal Handling"
+					},
+					{
+						"id": "107",
+						"name": "Skill: Arcana"
+					},
+					{
+						"id": "108",
+						"name": "Skill: Athletics"
+					},
+					{
+						"id": "109",
+						"name": "Skill: Deception"
+					},
+					{
+						"id": "110",
+						"name": "Skill: History"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "112",
+						"name": "Skill: Intimidation"
+					},
+					{
+						"id": "113",
+						"name": "Skill: Investigation"
+					},
+					{
+						"id": "114",
+						"name": "Skill: Medicine"
+					},
+					{
+						"id": "115",
+						"name": "Skill: Nature"
+					},
+					{
+						"id": "116",
+						"name": "Skill: Perception"
+					},
+					{
+						"id": "117",
+						"name": "Skill: Performance"
+					},
+					{
+						"id": "118",
+						"name": "Skill: Persuasion"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					},
+					{
+						"id": "120",
+						"name": "Skill: Sleight of Hand"
+					},
+					{
+						"id": "121",
+						"name": "Skill: Stealth"
+					},
+					{
+						"id": "122",
+						"name": "Skill: Survival"
+					}
+				]
+			},
+			{
+				"choose": 3,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "81",
+						"name": "Bagpipes"
+					},
+					{
+						"id": "82",
+						"name": "Drum"
+					},
+					{
+						"id": "83",
+						"name": "Dulcimer"
+					},
+					{
+						"id": "84",
+						"name": "Flute"
+					},
+					{
+						"id": "85",
+						"name": "Lute"
+					},
+					{
+						"id": "86",
+						"name": "Lyre"
+					},
+					{
+						"id": "87",
+						"name": "Horn"
+					},
+					{
+						"id": "88",
+						"name": "Pan flute"
+					},
+					{
+						"id": "89",
+						"name": "Shawm"
+					},
+					{
+						"id": "90",
+						"name": "Viol"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Light armor",
+				"id": "1"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			},
+			{
+				"name": "Longswords",
+				"id": "42"
+			},
+			{
+				"name": "Rapiers",
+				"id": "46"
+			},
+			{
+				"name": "Shortswords",
+				"id": "48"
+			},
+			{
+				"name": "Crossbows, hand",
+				"id": "54"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "DEX",
+				"id": "2"
+			},
+			{
+				"name": "CHA",
+				"id": "6"
+			}
+		],
+		"starting_equipment": {
+			"id": "2",
+			"class": "Bard"
+		},
+		"class_levels": {
+			"id": "bard/levels",
+			"class": "Bard"
+		},
+		"subclasses": [
+			{
+				"id": "2",
+				"name": "Lore"
+			}
+		],
+		"spellcasting": {
+			"id": "1",
+			"class": "Bard"
+		},
+		"id": "2"
+	},
+	{
+		"index": 3,
+		"name": "Cleric",
+    "description": "Divine magic, as the name suggests, is the power of the gods, flowing from them into the world. Clerics are conduits for that power, manifesting it as miraculous effects. The gods don't grant this power to everyone who seeks it, but only to those chosen to fulfill a high calling. Harnessing divine magic doesn't rely on study or training. A cleric might learn formulaic prayers and ancient rites, but the ability to cast cleric spells relies on devotion and an intuitive sense of a deity's wishes. Clerics combine the helpful magic of healing and inspiring their allies with spells that harm and hinder foes. They can provoke awe and dread, lay curses of plague or poison, and even call down flames from heaven to consume their enemies. For those evildoers who will benefit most from a mace to the head, clerics depend on their combat training to let them wade into melee with the power of the gods on their side.",
+		"hit_die": 8,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "110",
+						"name": "Skill: History"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "114",
+						"name": "Skill: Medicine"
+					},
+					{
+						"id": "118",
+						"name": "Skill: Persuasion"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Light armor",
+				"id": "1"
+			},
+			{
+				"name": "Medium armor",
+				"id": "2"
+			},
+			{
+				"name": "Shields",
+				"id": "18"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "WIS",
+				"id": "5"
+			},
+			{
+				"name": "CHA",
+				"id": "6"
+			}
+		],
+		"starting_equipment": {
+			"id": "3",
+			"class": "Cleric"
+		},
+		"class_levels": {
+			"id": "cleric/levels",
+			"class": "Cleric"
+		},
+		"subclasses": [
+			{
+				"id": "3",
+				"name": "Life"
+			}
+		],
+		"spellcasting": {
+			"id": "2",
+			"class": "Cleric"
+		},
+		"id": "3"
+	},
+	{
+		"index": 4,
+		"name": "Druid",
+		"hit_die": 8,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "106",
+						"name": "Skill: Animal Handling"
+					},
+					{
+						"id": "107",
+						"name": "Skill: Arcana"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "114",
+						"name": "Skill: Medicine"
+					},
+					{
+						"id": "115",
+						"name": "Skill: Nature"
+					},
+					{
+						"id": "116",
+						"name": "Skill: Perception"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					},
+					{
+						"id": "122",
+						"name": "Skill: Survival"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Light armor",
+				"id": "1"
+			},
+			{
+				"name": "Medium armor",
+				"id": "2"
+			},
+			{
+				"name": "Shields",
+				"id": "18"
+			},
+			{
+				"name": "Clubs",
+				"id": "21"
+			},
+			{
+				"name": "Daggers",
+				"id": "22"
+			},
+			{
+				"name": "Javelins",
+				"id": "25"
+			},
+			{
+				"name": "Maces",
+				"id": "27"
+			},
+			{
+				"name": "Quarterstaffs",
+				"id": "28"
+			},
+			{
+				"name": "Sickles",
+				"id": "29"
+			},
+			{
+				"name": "Spears",
+				"id": "30"
+			},
+			{
+				"name": "Darts",
+				"id": "32"
+			},
+			{
+				"name": "Slings",
+				"id": "34"
+			},
+			{
+				"name": "Scimitars",
+				"id": "47"
+			},
+			{
+				"name": "Herbalism Kit",
+				"id": "93"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "INT",
+				"id": "4"
+			},
+			{
+				"name": "WIS",
+				"id": "5"
+			}
+		],
+		"starting_equipment": {
+			"id": "4",
+			"class": "Druid"
+		},
+		"class_levels": {
+			"id": "druid/levels",
+			"class": "Druid"
+		},
+		"subclasses": [
+			{
+				"id": "4",
+				"name": "Land"
+			}
+		],
+		"spellcasting": {
+			"id": "3",
+			"class": "Druid"
+		},
+		"id": "4"
+	},
+	{
+		"index": 5,
+		"name": "Fighter",
+		"hit_die": 10,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "105",
+						"name": "Skill: Acrobatics"
+					},
+					{
+						"id": "106",
+						"name": "Skill: Animal Handling"
+					},
+					{
+						"id": "108",
+						"name": "Skill: Athletics"
+					},
+					{
+						"id": "110",
+						"name": "Skill: History"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "112",
+						"name": "Skill: Intimidation"
+					},
+					{
+						"id": "116",
+						"name": "Skill: Perception"
+					},
+					{
+						"id": "122",
+						"name": "Skill: Survival"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "All armor",
+				"id": "4"
+			},
+			{
+				"name": "Shields",
+				"id": "18"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			},
+			{
+				"name": "Martial weapons",
+				"id": "20"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "STR",
+				"id": "1"
+			},
+			{
+				"name": "CON",
+				"id": "3"
+			}
+		],
+		"starting_equipment": {
+			"id": "5",
+			"class": "Fighter"
+		},
+		"class_levels": {
+			"id": "fighter/levels",
+			"class": "Fighter"
+		},
+		"subclasses": [
+			{
+				"id": "5",
+				"name": "Champion"
+			}
+		],
+		"spellcasting": {
+			
+		},
+		"id": "5"
+	},
+	{
+		"index": 6,
+		"name": "Monk",
+    "description": "Monks make careful study of a magical energy that most monastic traditions call ki. Monks harness this power within themselves to create magical effects and exceed their bodies' physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents.",
+		"hit_die": 8,
+		"proficiency_choices": [
+			{
+				"choose": 1,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "58",
+						"name": "Alchemist's supplies"
+					},
+					{
+						"id": "59",
+						"name": "Brewer's supplies"
+					},
+					{
+						"id": "60",
+						"name": "Calligrapher's supplies"
+					},
+					{
+						"id": "61",
+						"name": "Carpenter's tools"
+					},
+					{
+						"id": "62",
+						"name": "Cartographer's tools"
+					},
+					{
+						"id": "63",
+						"name": "Cobbler's tools"
+					},
+					{
+						"id": "64",
+						"name": "Cook's utensils"
+					},
+					{
+						"id": "65",
+						"name": "Glassblower's tools"
+					},
+					{
+						"id": "66",
+						"name": "Jeweler's tools"
+					},
+					{
+						"id": "67",
+						"name": "Leatherworker's tools"
+					},
+					{
+						"id": "68",
+						"name": "Mason's tools"
+					},
+					{
+						"id": "69",
+						"name": "Painter's supplies"
+					},
+					{
+						"id": "70",
+						"name": "Potter's tools"
+					},
+					{
+						"id": "71",
+						"name": "Smith's tools"
+					},
+					{
+						"id": "72",
+						"name": "Tinker's tools"
+					},
+					{
+						"id": "73",
+						"name": "Weaver's tools"
+					},
+					{
+						"id": "74",
+						"name": "Woodcarver's tools"
+					},
+					{
+						"id": "75",
+						"name": "Disguise kit"
+					},
+					{
+						"id": "76",
+						"name": "Forgery kit"
+					}
+				]
+			},
+			{
+				"choose": 1,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "81",
+						"name": "Bagpipes"
+					},
+					{
+						"id": "82",
+						"name": "Drum"
+					},
+					{
+						"id": "83",
+						"name": "Dulcimer"
+					},
+					{
+						"id": "84",
+						"name": "Flute"
+					},
+					{
+						"id": "85",
+						"name": "Lute"
+					},
+					{
+						"id": "86",
+						"name": "Lyre"
+					},
+					{
+						"id": "87",
+						"name": "Horn"
+					},
+					{
+						"id": "88",
+						"name": "Pan flute"
+					},
+					{
+						"id": "89",
+						"name": "Shawm"
+					},
+					{
+						"id": "90",
+						"name": "Viol"
+					}
+				]
+			},
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "105",
+						"name": "Skill: Acrobatics"
+					},
+					{
+						"id": "108",
+						"name": "Skill: Athletics"
+					},
+					{
+						"id": "110",
+						"name": "Skill: History"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					},
+					{
+						"id": "121",
+						"name": "Skill: Stealth"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			},
+			{
+				"name": "Shortswords",
+				"id": "48"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "STR",
+				"id": "1"
+			},
+			{
+				"name": "DEX",
+				"id": "2"
+			}
+		],
+		"starting_equipment": {
+			"id": "6",
+			"class": "Monk"
+		},
+		"class_levels": {
+			"id": "monk/levels",
+			"class": "Monk"
+		},
+		"subclasses": [
+			{
+				"id": "6",
+				"name": "Open Hand"
+			}
+		],
+		"spellcasting": {
+			
+		},
+		"id": "6"
+	},
+	{
+		"index": 7,
+		"name": "Paladin",
+		"hit_die": 10,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "108",
+						"name": "Skill: Athletics"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "112",
+						"name": "Skill: Intimidation"
+					},
+					{
+						"id": "114",
+						"name": "Skill: Medicine"
+					},
+					{
+						"id": "118",
+						"name": "Skill: Persuasion"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "All armor",
+				"id": "4"
+			},
+			{
+				"name": "Shields",
+				"id": "18"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			},
+			{
+				"name": "Martial weapons",
+				"id": "20"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "WIS",
+				"id": "5"
+			},
+			{
+				"name": "CHA",
+				"id": "6"
+			}
+		],
+		"starting_equipment": {
+			"id": "7",
+			"class": "Paladin"
+		},
+		"class_levels": {
+			"id": "paladin/levels",
+			"class": "Paladin"
+		},
+		"subclasses": [
+			{
+				"id": "7",
+				"name": "Devotion"
+			}
+		],
+		"spellcasting": {
+			"id": "4",
+			"class": "Paladin"
+		},
+		"id": "7"
+	},
+	{
+		"index": 8,
+		"name": "Ranger",
+    "description": "Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization--humanoid raiders, rampaging beasts and monstrosities, terrible giants and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.",
+		"hit_die": 10,
+		"proficiency_choices": [
+			{
+				"choose": 3,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "106",
+						"name": "Skill: Animal Handling"
+					},
+					{
+						"id": "108",
+						"name": "Skill: Athletics"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "113",
+						"name": "Skill: Investigation"
+					},
+					{
+						"id": "115",
+						"name": "Skill: Nature"
+					},
+					{
+						"id": "116",
+						"name": "Skill: Perception"
+					},
+					{
+						"id": "121",
+						"name": "Skill: Stealth"
+					},
+					{
+						"id": "122",
+						"name": "Skill: Survival"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Light armor",
+				"id": "1"
+			},
+			{
+				"name": "Medium armor",
+				"id": "2"
+			},
+			{
+				"name": "Shields",
+				"id": "18"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			},
+			{
+				"name": "Martial weapons",
+				"id": "20"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "STR",
+				"id": "1"
+			},
+			{
+				"name": "DEX",
+				"id": "2"
+			}
+		],
+		"starting_equipment": {
+			"id": "8",
+			"class": "Ranger"
+		},
+		"class_levels": {
+			"id": "ranger/levels",
+			"class": "Ranger"
+		},
+		"subclasses": [
+			{
+				"id": "8",
+				"name": "Hunter"
+			}
+		],
+		"spellcasting": {
+			"id": "5",
+			"class": "Ranger"
+		},
+		"id": "8"
+	},
+	{
+		"index": 9,
+		"name": "Rogue",
+		"hit_die": 8,
+		"proficiency_choices": [
+			{
+				"choose": 4,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "105",
+						"name": "Skill: Acrobatics"
+					},
+					{
+						"id": "108",
+						"name": "Skill: Athletics"
+					},
+					{
+						"id": "109",
+						"name": "Skill: Deception"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "112",
+						"name": "Skill: Intimidation"
+					},
+					{
+						"id": "113",
+						"name": "Skill: Investigation"
+					},
+					{
+						"id": "116",
+						"name": "Skill: Perception"
+					},
+					{
+						"id": "117",
+						"name": "Skill: Performance"
+					},
+					{
+						"id": "118",
+						"name": "Skill: Persuasion"
+					},
+					{
+						"id": "120",
+						"name": "Skill: Sleight of Hand"
+					},
+					{
+						"id": "121",
+						"name": "Skill: Stealth"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Light armor",
+				"id": "1"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			},
+			{
+				"name": "Longswords",
+				"id": "42"
+			},
+			{
+				"name": "Rapiers",
+				"id": "46"
+			},
+			{
+				"name": "Shortswords",
+				"id": "48"
+			},
+			{
+				"name": "Crossbows, hand",
+				"id": "54"
+			},
+			{
+				"name": "Thieves' Tools",
+				"id": "96"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "DEX",
+				"id": "2"
+			},
+			{
+				"name": "INT",
+				"id": "4"
+			}
+		],
+		"starting_equipment": {
+			"id": "9",
+			"class": "Rogue"
+		},
+		"class_levels": {
+			"id": "rogue/levels",
+			"class": "Rogue"
+		},
+		"subclasses": [
+			{
+				"id": "9",
+				"name": "Thief"
+			}
+		],
+		"spellcasting": {
+			
+		},
+		"id": "9"
+	},
+	{
+		"index": 10,
+		"name": "Sorcerer",
+		"hit_die": 6,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "107",
+						"name": "Skill: Arcana"
+					},
+					{
+						"id": "109",
+						"name": "Skill: Deception"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "112",
+						"name": "Skill: Intimidation"
+					},
+					{
+						"id": "118",
+						"name": "Skill: Persuasion"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Daggers",
+				"id": "22"
+			},
+			{
+				"name": "Quarterstaffs",
+				"id": "28"
+			},
+			{
+				"name": "Darts",
+				"id": "32"
+			},
+			{
+				"name": "Slings",
+				"id": "34"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "CON",
+				"id": "3"
+			},
+			{
+				"name": "CHA",
+				"id": "6"
+			}
+		],
+		"starting_equipment": {
+			"id": "10",
+			"class": "Sorcerer"
+		},
+		"class_levels": {
+			"id": "sorcerer/levels",
+			"class": "Sorcerer"
+		},
+		"subclasses": [
+			{
+				"id": "10",
+				"name": "Draconic"
+			}
+		],
+		"spellcasting": {
+			"id": "6",
+			"class": "Sorcerer"
+		},
+		"id": "10"
+	},
+	{
+		"index": 11,
+		"name": "Warlock",
+		"hit_die": 8,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "107",
+						"name": "Skill: Arcana"
+					},
+					{
+						"id": "109",
+						"name": "Skill: Deception"
+					},
+					{
+						"id": "110",
+						"name": "Skill: History"
+					},
+					{
+						"id": "112",
+						"name": "Skill: Intimidation"
+					},
+					{
+						"id": "113",
+						"name": "Skill: Investigation"
+					},
+					{
+						"id": "115",
+						"name": "Skill: Nature"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Light armor",
+				"id": "1"
+			},
+			{
+				"name": "Simple weapons",
+				"id": "19"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "WIS",
+				"id": "5"
+			},
+			{
+				"name": "CHA",
+				"id": "6"
+			}
+		],
+		"starting_equipment": {
+			"id": "11",
+			"class": "Warlock"
+		},
+		"class_levels": {
+			"id": "warlock/levels",
+			"class": "Warlock"
+		},
+		"subclasses": [
+			{
+				"id": "11",
+				"name": "Fiend"
+			}
+		],
+		"spellcasting": {
+			"id": "7",
+			"class": "Warlock"
+		},
+		"id": "11"
+	},
+	{
+		"index": 12,
+		"name": "Wizard",
+		"hit_die": 6,
+		"proficiency_choices": [
+			{
+				"choose": 2,
+				"type": "proficiencies",
+				"from": [
+					{
+						"id": "107",
+						"name": "Skill: Arcana"
+					},
+					{
+						"id": "110",
+						"name": "Skill: History"
+					},
+					{
+						"id": "111",
+						"name": "Skill: Insight"
+					},
+					{
+						"id": "113",
+						"name": "Skill: Investigation"
+					},
+					{
+						"id": "114",
+						"name": "Skill: Medicine"
+					},
+					{
+						"id": "119",
+						"name": "Skill: Religion"
+					}
+				]
+			}
+		],
+		"proficiencies": [
+			{
+				"name": "Daggers",
+				"id": "22"
+			},
+			{
+				"name": "Quarterstaffs",
+				"id": "28"
+			},
+			{
+				"name": "Darts",
+				"id": "32"
+			},
+			{
+				"name": "Slings",
+				"id": "34"
+			}
+		],
+		"saving_throws": [
+			{
+				"name": "INT",
+				"id": "4"
+			},
+			{
+				"name": "WIS",
+				"id": "5"
+			}
+		],
+		"starting_equipment": {
+			"id": "12",
+			"class": "Wizard"
+		},
+		"class_levels": {
+			"id": "wizard/levels",
+			"class": "Wizard"
+		},
+		"subclasses": [
+			{
+				"id": "12",
+				"name": "Evocation"
+			}
+		],
+		"spellcasting": {
+			"id": "8",
+			"class": "Wizard"
+		},
+		"id": "12"
+	}
+]

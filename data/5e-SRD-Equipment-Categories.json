@@ -1,0 +1,2273 @@
+[
+	{
+		"index": 1,
+		"name": "Weapon",
+		"equipment": [
+			{
+				"name": "Club",
+				"id": "1"
+			},
+			{
+				"name": "Dagger",
+				"id": "2"
+			},
+			{
+				"name": "Greatclub",
+				"id": "3"
+			},
+			{
+				"name": "Handaxe",
+				"id": "4"
+			},
+			{
+				"name": "Javelin",
+				"id": "5"
+			},
+			{
+				"name": "Light hammer",
+				"id": "6"
+			},
+			{
+				"name": "Mace",
+				"id": "7"
+			},
+			{
+				"name": "Quarterstaff",
+				"id": "8"
+			},
+			{
+				"name": "Sickle",
+				"id": "9"
+			},
+			{
+				"name": "Spear",
+				"id": "10"
+			},
+			{
+				"name": "Crossbow, light",
+				"id": "11"
+			},
+			{
+				"name": "Dart",
+				"id": "12"
+			},
+			{
+				"name": "Shortbow",
+				"id": "13"
+			},
+			{
+				"name": "Sling",
+				"id": "14"
+			},
+			{
+				"name": "Battleaxe",
+				"id": "15"
+			},
+			{
+				"name": "Flail",
+				"id": "16"
+			},
+			{
+				"name": "Glaive",
+				"id": "17"
+			},
+			{
+				"name": "Greataxe",
+				"id": "18"
+			},
+			{
+				"name": "Greatsword",
+				"id": "19"
+			},
+			{
+				"name": "Halberd",
+				"id": "20"
+			},
+			{
+				"name": "Lance",
+				"id": "21"
+			},
+			{
+				"name": "Longsword",
+				"id": "22"
+			},
+			{
+				"name": "Maul",
+				"id": "23"
+			},
+			{
+				"name": "Morningstar",
+				"id": "24"
+			},
+			{
+				"name": "Pike",
+				"id": "25"
+			},
+			{
+				"name": "Rapier",
+				"id": "26"
+			},
+			{
+				"name": "Scimitar",
+				"id": "27"
+			},
+			{
+				"name": "Shortsword",
+				"id": "28"
+			},
+			{
+				"name": "Trident",
+				"id": "29"
+			},
+			{
+				"name": "War pick",
+				"id": "30"
+			},
+			{
+				"name": "Warhammer",
+				"id": "31"
+			},
+			{
+				"name": "Whip",
+				"id": "32"
+			},
+			{
+				"name": "Blowgun",
+				"id": "33"
+			},
+			{
+				"name": "Crossbow, hand",
+				"id": "34"
+			},
+			{
+				"name": "Crossbow, heavy",
+				"id": "35"
+			},
+			{
+				"name": "Longbow",
+				"id": "36"
+			},
+			{
+				"name": "Net",
+				"id": "37"
+			}
+		],
+		"id": "1"
+	},
+	{
+		"index": 2,
+		"name": "Armor",
+		"equipment": [
+			{
+				"name": "Padded",
+				"id": "38"
+			},
+			{
+				"name": "Leather",
+				"id": "39"
+			},
+			{
+				"name": "Studded Leather",
+				"id": "40"
+			},
+			{
+				"name": "Hide",
+				"id": "41"
+			},
+			{
+				"name": "Chain Shirt",
+				"id": "42"
+			},
+			{
+				"name": "Scale Mail",
+				"id": "43"
+			},
+			{
+				"name": "Breastplate",
+				"id": "44"
+			},
+			{
+				"name": "Half Plate",
+				"id": "45"
+			},
+			{
+				"name": "Ring Mail",
+				"id": "46"
+			},
+			{
+				"name": "Chain Mail",
+				"id": "47"
+			},
+			{
+				"name": "Splint",
+				"id": "48"
+			},
+			{
+				"name": "Plate",
+				"id": "49"
+			},
+			{
+				"name": "Shield",
+				"id": "50"
+			}
+		],
+		"id": "2"
+	},
+	{
+		"index": 3,
+		"name": "Adventuring Gear",
+		"equipment": [
+			{
+				"id": "51",
+				"name": "Abacus"
+			},
+			{
+				"id": "52",
+				"name": "Acid (vial)"
+			},
+			{
+				"id": "53",
+				"name": "Alchemist’s fire (flask)"
+			},
+			{
+				"id": "54",
+				"name": "Arrow"
+			},
+			{
+				"id": "55",
+				"name": "Blowgun needle"
+			},
+			{
+				"id": "56",
+				"name": "Crossbow bolt"
+			},
+			{
+				"id": "57",
+				"name": "Sling bullet"
+			},
+			{
+				"id": "58",
+				"name": "Amulet"
+			},
+			{
+				"id": "59",
+				"name": "Antitoxin (vial)"
+			},
+			{
+				"id": "60",
+				"name": "Crystal"
+			},
+			{
+				"id": "61",
+				"name": "Orb"
+			},
+			{
+				"id": "62",
+				"name": "Rod"
+			},
+			{
+				"id": "63",
+				"name": "Staff"
+			},
+			{
+				"id": "64",
+				"name": "Wand"
+			},
+			{
+				"id": "65",
+				"name": "Backpack"
+			},
+			{
+				"id": "66",
+				"name": "Ball bearings (bag of 1,000)"
+			},
+			{
+				"id": "67",
+				"name": "Barrel"
+			},
+			{
+				"id": "68",
+				"name": "Basket"
+			},
+			{
+				"id": "69",
+				"name": "Bedroll"
+			},
+			{
+				"id": "70",
+				"name": "Bell"
+			},
+			{
+				"id": "71",
+				"name": "Blanket"
+			},
+			{
+				"id": "72",
+				"name": "Block and tackle"
+			},
+			{
+				"id": "73",
+				"name": "Book"
+			},
+			{
+				"id": "74",
+				"name": "Bottle, glass"
+			},
+			{
+				"id": "75",
+				"name": "Bucket"
+			},
+			{
+				"id": "76",
+				"name": "Caltrops"
+			},
+			{
+				"id": "77",
+				"name": "Candle"
+			},
+			{
+				"id": "78",
+				"name": "Case, crossbow bolt"
+			},
+			{
+				"id": "79",
+				"name": "Case, map or scroll"
+			},
+			{
+				"id": "80",
+				"name": "Chain (10 feet)"
+			},
+			{
+				"id": "81",
+				"name": "Chalk (1 piece)"
+			},
+			{
+				"id": "82",
+				"name": "Chest"
+			},
+			{
+				"id": "83",
+				"name": "Clothes, common"
+			},
+			{
+				"id": "84",
+				"name": "Clothes, costume"
+			},
+			{
+				"id": "85",
+				"name": "Clothes, fine"
+			},
+			{
+				"id": "86",
+				"name": "Clothes, traveler’s"
+			},
+			{
+				"id": "87",
+				"name": "Component pouch"
+			},
+			{
+				"id": "88",
+				"name": "Crowbar"
+			},
+			{
+				"id": "89",
+				"name": "Sprig of mistletoe"
+			},
+			{
+				"id": "90",
+				"name": "Totem"
+			},
+			{
+				"id": "91",
+				"name": "Wooden staff"
+			},
+			{
+				"id": "92",
+				"name": "Yew wand"
+			},
+			{
+				"id": "93",
+				"name": "Emblem"
+			},
+			{
+				"id": "94",
+				"name": "Fishing tackle"
+			},
+			{
+				"id": "95",
+				"name": "Flask or tankard"
+			},
+			{
+				"id": "96",
+				"name": "Grappling hook"
+			},
+			{
+				"id": "97",
+				"name": "Hammer"
+			},
+			{
+				"id": "98",
+				"name": "Hammer, sledge"
+			},
+			{
+				"id": "99",
+				"name": "Holy water (flask)"
+			},
+			{
+				"id": "100",
+				"name": "Hourglass"
+			},
+			{
+				"id": "101",
+				"name": "Hunting trap"
+			},
+			{
+				"id": "102",
+				"name": "Ink (1 ounce bottle)"
+			},
+			{
+				"id": "103",
+				"name": "Ink pen"
+			},
+			{
+				"id": "100",
+				"name": "Hourglass"
+			},
+			{
+				"id": "101",
+				"name": "Hunting trap"
+			},
+			{
+				"id": "102",
+				"name": "Ink (1 ounce bottle)"
+			},
+			{
+				"id": "103",
+				"name": "Ink pen"
+			},
+			{
+				"id": "104",
+				"name": "Jug or pitcher"
+			},
+			{
+				"id": "105",
+				"name": "Climber’s Kit"
+			},
+			{
+				"id": "106",
+				"name": "Disguise Kit"
+			},
+			{
+				"id": "107",
+				"name": "Forgery Kit"
+			},
+			{
+				"id": "108",
+				"name": "Herbalism Kit"
+			},
+			{
+				"id": "109",
+				"name": "Healer’s Kit"
+			},
+			{
+				"id": "110",
+				"name": "Mess Kit"
+			},
+			{
+				"id": "111",
+				"name": "Poisoner’s Kit"
+			},
+			{
+				"id": "112",
+				"name": "Ladder (10-foot)"
+			},
+			{
+				"id": "113",
+				"name": "Lamp"
+			},
+			{
+				"id": "114",
+				"name": "Lantern, bullseye"
+			},
+			{
+				"id": "115",
+				"name": "Lantern, hooded"
+			},
+			{
+				"id": "116",
+				"name": "Lock"
+			},
+			{
+				"id": "117",
+				"name": "Magnifying glass"
+			},
+			{
+				"id": "118",
+				"name": "Manacles"
+			},
+			{
+				"id": "119",
+				"name": "Mirror, steel"
+			},
+			{
+				"id": "120",
+				"name": "Oil (flask)"
+			},
+			{
+				"id": "121",
+				"name": "Paper (one sheet)"
+			},
+			{
+				"id": "122",
+				"name": "Parchment (one sheet)"
+			},
+			{
+				"id": "123",
+				"name": "Perfume (vial)"
+			},
+			{
+				"id": "124",
+				"name": "Pick, miner’s"
+			},
+			{
+				"id": "125",
+				"name": "Piton"
+			},
+			{
+				"id": "126",
+				"name": "Poison, basic (vial)"
+			},
+			{
+				"id": "127",
+				"name": "Pole (10-foot)"
+			},
+			{
+				"id": "128",
+				"name": "Pot, iron"
+			},
+			{
+				"id": "129",
+				"name": "Potion of healing"
+			},
+			{
+				"id": "130",
+				"name": "Pouch"
+			},
+			{
+				"id": "131",
+				"name": "Quiver"
+			},
+			{
+				"id": "132",
+				"name": "Ram, portable"
+			},
+			{
+				"id": "133",
+				"name": "Rations (1 day)"
+			},
+			{
+				"id": "134",
+				"name": "Reliquary"
+			},
+			{
+				"id": "135",
+				"name": "Robes"
+			},
+			{
+				"id": "136",
+				"name": "Rope, hempen (50 feet)"
+			},
+			{
+				"id": "137",
+				"name": "Rope, silk (50 feet)"
+			},
+			{
+				"id": "138",
+				"name": "Sack"
+			},
+			{
+				"id": "139",
+				"name": "Scale, merchant’s"
+			},
+			{
+				"id": "140",
+				"name": "Sealing wax"
+			},
+			{
+				"id": "141",
+				"name": "Shovel"
+			},
+			{
+				"id": "142",
+				"name": "Signal whistle"
+			},
+			{
+				"id": "143",
+				"name": "Signet ring"
+			},
+			{
+				"id": "144",
+				"name": "Soap"
+			},
+			{
+				"id": "145",
+				"name": "Spellbook"
+			},
+			{
+				"id": "146",
+				"name": "Spike, iron"
+			},
+			{
+				"id": "147",
+				"name": "Spyglass"
+			},
+			{
+				"id": "148",
+				"name": "Tent, two-person"
+			},
+			{
+				"id": "149",
+				"name": "Tinderbox"
+			},
+			{
+				"id": "150",
+				"name": "Torch"
+			},
+			{
+				"id": "151",
+				"name": "Vial"
+			},
+			{
+				"id": "152",
+				"name": "Waterskin"
+			},
+			{
+				"id": "153",
+				"name": "Whetstone"
+			},
+			{
+				"id": "154",
+				"name": "Burglar's Pack"
+			},
+			{
+				"id": "155",
+				"name": "Diplomat's Pack"
+			},
+			{
+				"id": "156",
+				"name": "Dungeoneer's Pack"
+			},
+			{
+				"id": "157",
+				"name": "Entertainer's Pack"
+			},
+			{
+				"id": "158",
+				"name": "Explorer's Pack"
+			},
+			{
+				"id": "159",
+				"name": "Priest's Pack"
+			},
+			{
+				"id": "160",
+				"name": "Scholar's Pack"
+			}
+		],
+		"id": "3"
+	},
+	{
+		"index": 4,
+		"name": "Tools",
+		"equipment": [
+			{
+				"id": "161",
+				"name": "Alchemist’s supplies"
+			},
+			{
+				"id": "162",
+				"name": "Brewer’s supplies"
+			},
+			{
+				"id": "163",
+				"name": "Calligrapher’s supplies"
+			},
+			{
+				"id": "164",
+				"name": "Carpenter’s tools"
+			},
+			{
+				"id": "165",
+				"name": "Cartographer’s tools"
+			},
+			{
+				"id": "166",
+				"name": "Cobbler’s tools"
+			},
+			{
+				"id": "167",
+				"name": "Cook’s utensils"
+			},
+			{
+				"id": "168",
+				"name": "Glassblower’s tools"
+			},
+			{
+				"id": "169",
+				"name": "Jeweler’s tools"
+			},
+			{
+				"id": "170",
+				"name": "Leatherworker’s tools"
+			},
+			{
+				"id": "171",
+				"name": "Mason’s tools"
+			},
+			{
+				"id": "172",
+				"name": "Painter’s supplies"
+			},
+			{
+				"id": "173",
+				"name": "Potter’s tools"
+			},
+			{
+				"id": "174",
+				"name": "Smith’s tools"
+			},
+			{
+				"id": "175",
+				"name": "Tinker’s tools"
+			},
+			{
+				"id": "176",
+				"name": "Weaver’s tools"
+			},
+			{
+				"id": "177",
+				"name": "Woodcarver’s tools"
+			},
+			{
+				"id": "178",
+				"name": "Dice set"
+			},
+			{
+				"id": "179",
+				"name": "Playing card set"
+			},
+			{
+				"id": "180",
+				"name": "Bagpipes"
+			},
+			{
+				"id": "181",
+				"name": "Drum"
+			},
+			{
+				"id": "182",
+				"name": "Dulcimer"
+			},
+			{
+				"id": "183",
+				"name": "Flute"
+			},
+			{
+				"id": "184",
+				"name": "Lute"
+			},
+			{
+				"id": "185",
+				"name": "Lyre"
+			},
+			{
+				"id": "186",
+				"name": "Horn"
+			},
+			{
+				"id": "187",
+				"name": "Pan flute"
+			},
+			{
+				"id": "188",
+				"name": "Shawm"
+			},
+			{
+				"id": "189",
+				"name": "Viol"
+			},
+			{
+				"id": "190",
+				"name": "Navigator’s tools"
+			},
+			{
+				"id": "191",
+				"name": "Thieves’ tools"
+			}
+		],
+		"id": "4"
+	},
+	{
+		"index": 5,
+		"name": "Mounts and Vehicles",
+		"equipment": [
+			{
+				"id": "194",
+				"name": "Mule"
+			},
+			{
+				"id": "195",
+				"name": "Elephant"
+			},
+			{
+				"id": "196",
+				"name": "Horse, draft"
+			},
+			{
+				"id": "197",
+				"name": "Horse, riding"
+			},
+			{
+				"id": "198",
+				"name": "Mastiff"
+			},
+			{
+				"id": "199",
+				"name": "Pony"
+			},
+			{
+				"id": "200",
+				"name": "Warhorse"
+			},
+			{
+				"id": "201",
+				"name": "Barding: Padded"
+			},
+			{
+				"id": "202",
+				"name": "Barding: Leather"
+			},
+			{
+				"id": "203",
+				"name": "Barding: Studded Leather"
+			},
+			{
+				"id": "204",
+				"name": "Barding: Hide"
+			},
+			{
+				"id": "205",
+				"name": "Barding: Chain shirt"
+			},
+			{
+				"id": "206",
+				"name": "Barding: Scale mail"
+			},
+			{
+				"id": "207",
+				"name": "Barding: Breastplate"
+			},
+			{
+				"id": "208",
+				"name": "Barding: Half plate"
+			},
+			{
+				"id": "209",
+				"name": "Barding: Ring mail"
+			},
+			{
+				"id": "210",
+				"name": "Barding: Chain mail"
+			},
+			{
+				"id": "211",
+				"name": "Barding: Splint"
+			},
+			{
+				"id": "212",
+				"name": "Barding: Plate"
+			},
+			{
+				"id": "213",
+				"name": "Bit and bridle"
+			},
+			{
+				"id": "214",
+				"name": "Carriage"
+			},
+			{
+				"id": "215",
+				"name": "Cart"
+			},
+			{
+				"id": "216",
+				"name": "Chariot"
+			},
+			{
+				"id": "217",
+				"name": "Animal Feed (1 day)"
+			},
+			{
+				"id": "218",
+				"name": "Saddle, Exotic"
+			},
+			{
+				"id": "219",
+				"name": "Saddle, Military"
+			},
+			{
+				"id": "220",
+				"name": "Saddle, Pack"
+			},
+			{
+				"id": "221",
+				"name": "Riding"
+			},
+			{
+				"id": "222",
+				"name": "Saddlebags"
+			},
+			{
+				"id": "223",
+				"name": "Sled"
+			},
+			{
+				"id": "224",
+				"name": "Stabling (1 day)"
+			},
+			{
+				"id": "225",
+				"name": "Wagon"
+			},
+			{
+				"id": "226",
+				"name": "Barding: Padded"
+			},
+			{
+				"id": "227",
+				"name": "Barding: Leather"
+			},
+			{
+				"id": "228",
+				"name": "Barding: Studded Leather"
+			},
+			{
+				"id": "229",
+				"name": "Barding: Hide"
+			},
+			{
+				"id": "230",
+				"name": "Barding: Chain shirt"
+			},
+			{
+				"id": "231",
+				"name": "Barding: Scale mail"
+			},
+			{
+				"id": "232",
+				"name": "Barding: Breastplate"
+			},
+			{
+				"id": "233",
+				"name": "Barding: Half plate"
+			},
+			{
+				"id": "234",
+				"name": "Barding: Ring mail"
+			},
+			{
+				"id": "235",
+				"name": "Barding: Chain mail"
+			},
+			{
+				"id": "236",
+				"name": "Barding: Splint"
+			},
+			{
+				"id": "237",
+				"name": "Barding: Plate"
+			},
+			{
+				"id": "238",
+				"name": "Bit and bridle"
+			},
+			{
+				"id": "239",
+				"name": "Carriage"
+			},
+			{
+				"id": "240",
+				"name": "Cart"
+			},
+			{
+				"id": "241",
+				"name": "Chariot"
+			},
+			{
+				"id": "242",
+				"name": "Animal Feed (1 day)"
+			},
+			{
+				"id": "243",
+				"name": "Saddle, Exotic"
+			},
+			{
+				"id": "244",
+				"name": "Saddle, Military"
+			},
+			{
+				"id": "245",
+				"name": "Saddle, Pack"
+			},
+			{
+				"id": "246",
+				"name": "Riding"
+			},
+			{
+				"id": "247",
+				"name": "Saddlebags"
+			},
+			{
+				"id": "248",
+				"name": "Sled"
+			},
+			{
+				"id": "249",
+				"name": "Stabling (1 day)"
+			},
+			{
+				"id": "250",
+				"name": "Wagon"
+			},
+			{
+				"id": "251",
+				"name": "Galley"
+			},
+			{
+				"id": "252",
+				"name": "Keelboat"
+			},
+			{
+				"id": "253",
+				"name": "Longship"
+			},
+			{
+				"id": "254",
+				"name": "Rowboat"
+			},
+			{
+				"id": "255",
+				"name": "Sailing ship"
+			},
+			{
+				"id": "256",
+				"name": "Warship"
+			}
+		],
+		"id": "5"
+	},
+	{
+		"index": 6,
+		"name": "Simple Weapons",
+		"equipment": [
+			{
+				"id": "1",
+				"name": "Club"
+			},
+			{
+				"id": "2",
+				"name": "Dagger"
+			},
+			{
+				"id": "3",
+				"name": "Greatclub"
+			},
+			{
+				"id": "4",
+				"name": "Handaxe"
+			},
+			{
+				"id": "5",
+				"name": "Javelin"
+			},
+			{
+				"id": "6",
+				"name": "Light hammer"
+			},
+			{
+				"id": "7",
+				"name": "Mace"
+			},
+			{
+				"id": "8",
+				"name": "Quarterstaff"
+			},
+			{
+				"id": "9",
+				"name": "Sickle"
+			},
+			{
+				"id": "10",
+				"name": "Spear"
+			}
+		],
+		"id": "6"
+	},
+	{
+		"index": 7,
+		"name": "Martial Weapons",
+		"equipment": [
+			{
+				"id": "15",
+				"name": "Battleaxe"
+			},
+			{
+				"id": "16",
+				"name": "Flail"
+			},
+			{
+				"id": "17",
+				"name": "Glaive"
+			},
+			{
+				"id": "18",
+				"name": "Greataxe"
+			},
+			{
+				"id": "19",
+				"name": "Greatsword"
+			},
+			{
+				"id": "20",
+				"name": "Halberd"
+			},
+			{
+				"id": "21",
+				"name": "Lance"
+			},
+			{
+				"id": "22",
+				"name": "Longsword"
+			},
+			{
+				"id": "23",
+				"name": "Maul"
+			},
+			{
+				"id": "24",
+				"name": "Morningstar"
+			},
+			{
+				"id": "25",
+				"name": "Pike"
+			},
+			{
+				"id": "26",
+				"name": "Rapier"
+			},
+			{
+				"id": "27",
+				"name": "Scimitar"
+			},
+			{
+				"id": "28",
+				"name": "Shortsword"
+			},
+			{
+				"id": "29",
+				"name": "Trident"
+			},
+			{
+				"id": "30",
+				"name": "War pick"
+			},
+			{
+				"id": "31",
+				"name": "Warhammer"
+			},
+			{
+				"id": "32",
+				"name": "Whip"
+			},
+			{
+				"id": "33",
+				"name": "Blowgun"
+			},
+			{
+				"id": "34",
+				"name": "Crossbow, hand"
+			},
+			{
+				"id": "35",
+				"name": "Crossbow, heavy"
+			},
+			{
+				"id": "36",
+				"name": "Longbow"
+			},
+			{
+				"id": "37",
+				"name": "Net"
+			}
+		],
+		"id": "7"
+	},
+	{
+		"index": 8,
+		"name": "Simple Melee Weapons",
+		"equipment": [
+			{
+				"id": "1",
+				"name": "Club"
+			},
+			{
+				"id": "2",
+				"name": "Dagger"
+			},
+			{
+				"id": "3",
+				"name": "Greatclub"
+			},
+			{
+				"id": "4",
+				"name": "Handaxe"
+			},
+			{
+				"id": "5",
+				"name": "Javelin"
+			},
+			{
+				"id": "6",
+				"name": "Light hammer"
+			},
+			{
+				"id": "7",
+				"name": "Mace"
+			},
+			{
+				"id": "8",
+				"name": "Quarterstaff"
+			},
+			{
+				"id": "9",
+				"name": "Sickle"
+			},
+			{
+				"id": "10",
+				"name": "Spear"
+			}
+		],
+		"id": "8"
+	},
+	{
+		"index": 9,
+		"name": "Simple Ranged Weapons",
+		"equipment": [
+			{
+				"id": "11",
+				"name": "Crossbow, light"
+			},
+			{
+				"id": "12",
+				"name": "Dart"
+			},
+			{
+				"id": "13",
+				"name": "Shortbow"
+			},
+			{
+				"id": "14",
+				"name": "Sling"
+			}
+		],
+		"id": "9"
+	},
+	{
+		"index": 10,
+		"name": "Martial Melee Weapons",
+		"equipment": [
+			{
+				"id": "15",
+				"name": "Battleaxe"
+			},
+			{
+				"id": "16",
+				"name": "Flail"
+			},
+			{
+				"id": "17",
+				"name": "Glaive"
+			},
+			{
+				"id": "18",
+				"name": "Greataxe"
+			},
+			{
+				"id": "19",
+				"name": "Greatsword"
+			},
+			{
+				"id": "20",
+				"name": "Halberd"
+			},
+			{
+				"id": "21",
+				"name": "Lance"
+			},
+			{
+				"id": "22",
+				"name": "Longsword"
+			},
+			{
+				"id": "23",
+				"name": "Maul"
+			},
+			{
+				"id": "24",
+				"name": "Morningstar"
+			},
+			{
+				"id": "25",
+				"name": "Pike"
+			},
+			{
+				"id": "26",
+				"name": "Rapier"
+			},
+			{
+				"id": "27",
+				"name": "Scimitar"
+			},
+			{
+				"id": "28",
+				"name": "Shortsword"
+			},
+			{
+				"id": "29",
+				"name": "Trident"
+			},
+			{
+				"id": "30",
+				"name": "War pick"
+			},
+			{
+				"id": "31",
+				"name": "Warhammer"
+			},
+			{
+				"id": "32",
+				"name": "Whip"
+			}
+		],
+		"id": "10"
+	},
+	{
+		"index": 11,
+		"name": "Martial Ranged Weapons",
+		"equipment": [
+			{
+				"id": "33",
+				"name": "Blowgun"
+			},
+			{
+				"id": "34",
+				"name": "Crossbow, hand"
+			},
+			{
+				"id": "35",
+				"name": "Crossbow, heavy"
+			},
+			{
+				"id": "36",
+				"name": "Longbow"
+			},
+			{
+				"id": "37",
+				"name": "Net"
+			}
+		],
+		"id": "11"
+	},
+	{
+		"index": 12,
+		"name": "Light Armor",
+		"equipment": [
+			{
+				"id": "38",
+				"name": "Padded"
+			},
+			{
+				"id": "39",
+				"name": "Leather"
+			},
+			{
+				"id": "40",
+				"name": "Studded Leather"
+			}
+		],
+		"id": "12"
+	},
+	{
+		"index": 13,
+		"name": "Medium Armor",
+		"equipment": [
+			{
+				"id": "41",
+				"name": "Hide"
+			},
+			{
+				"id": "42",
+				"name": "Chain Shirt"
+			},
+			{
+				"id": "43",
+				"name": "Scale Mail"
+			},
+			{
+				"id": "44",
+				"name": "Breastplate"
+			},
+			{
+				"id": "45",
+				"name": "Half Plate"
+			}
+		],
+		"id": "13"
+	},
+	{
+		"index": 14,
+		"name": "Heavy Armor",
+		"equipment": [
+			{
+				"id": "46",
+				"name": "Ring Mail"
+			},
+			{
+				"id": "47",
+				"name": "Chain Mail"
+			},
+			{
+				"id": "48",
+				"name": "Splint"
+			},
+			{
+				"id": "49",
+				"name": "Plate"
+			}
+		],
+		"id": "14"
+	},
+	{
+		"index": 15,
+		"name": "Shields",
+		"equipment": [
+			{
+				"id": "50",
+				"name": "Shield"
+			}
+		],
+		"id": "15"
+	},
+	{
+		"index": 16,
+		"name": "Standard Gear",
+		"equipment": [
+			{
+				"id": "51",
+				"name": "Abacus"
+			},
+			{
+				"id": "52",
+				"name": "Acid (vial)"
+			},
+			{
+				"id": "53",
+				"name": "Alchemist’s fire (flask)"
+			},
+			{
+				"id": "54",
+				"name": "Arrow"
+			},
+			{
+				"id": "55",
+				"name": "Blowgun needle"
+			},
+			{
+				"id": "56",
+				"name": "Crossbow bolt"
+			},
+			{
+				"id": "57",
+				"name": "Sling bullet"
+			},
+			{
+				"id": "58",
+				"name": "Amulet"
+			},
+			{
+				"id": "59",
+				"name": "Antitoxin (vial)"
+			},
+			{
+				"id": "60",
+				"name": "Crystal"
+			},
+			{
+				"id": "61",
+				"name": "Orb"
+			},
+			{
+				"id": "62",
+				"name": "Rod"
+			},
+			{
+				"id": "63",
+				"name": "Staff"
+			},
+			{
+				"id": "64",
+				"name": "Wand"
+			},
+			{
+				"id": "65",
+				"name": "Backpack"
+			},
+			{
+				"id": "66",
+				"name": "Ball bearings (bag of 1,000)"
+			},
+			{
+				"id": "67",
+				"name": "Barrel"
+			},
+			{
+				"id": "68",
+				"name": "Basket"
+			},
+			{
+				"id": "69",
+				"name": "Bedroll"
+			},
+			{
+				"id": "70",
+				"name": "Bell"
+			},
+			{
+				"id": "71",
+				"name": "Blanket"
+			},
+			{
+				"id": "72",
+				"name": "Block and tackle"
+			},
+			{
+				"id": "73",
+				"name": "Book"
+			},
+			{
+				"id": "74",
+				"name": "Bottle, glass"
+			},
+			{
+				"id": "75",
+				"name": "Bucket"
+			},
+			{
+				"id": "76",
+				"name": "Caltrops"
+			},
+			{
+				"id": "77",
+				"name": "Candle"
+			},
+			{
+				"id": "78",
+				"name": "Case, crossbow bolt"
+			},
+			{
+				"id": "79",
+				"name": "Case, map or scroll"
+			},
+			{
+				"id": "80",
+				"name": "Chain (10 feet)"
+			},
+			{
+				"id": "81",
+				"name": "Chalk (1 piece)"
+			},
+			{
+				"id": "82",
+				"name": "Chest"
+			},
+			{
+				"id": "83",
+				"name": "Clothes, common"
+			},
+			{
+				"id": "84",
+				"name": "Clothes, costume"
+			},
+			{
+				"id": "85",
+				"name": "Clothes, fine"
+			},
+			{
+				"id": "86",
+				"name": "Clothes, traveler’s"
+			},
+			{
+				"id": "87",
+				"name": "Component pouch"
+			},
+			{
+				"id": "88",
+				"name": "Crowbar"
+			},
+			{
+				"id": "89",
+				"name": "Sprig of mistletoe"
+			},
+			{
+				"id": "90",
+				"name": "Totem"
+			},
+			{
+				"id": "91",
+				"name": "Wooden staff"
+			},
+			{
+				"id": "92",
+				"name": "Yew wand"
+			},
+			{
+				"id": "93",
+				"name": "Emblem"
+			},
+			{
+				"id": "94",
+				"name": "Fishing tackle"
+			},
+			{
+				"id": "95",
+				"name": "Flask or tankard"
+			},
+			{
+				"id": "96",
+				"name": "Grappling hook"
+			},
+			{
+				"id": "97",
+				"name": "Hammer"
+			},
+			{
+				"id": "98",
+				"name": "Hammer, sledge"
+			},
+			{
+				"id": "99",
+				"name": "Holy water (flask)"
+			},
+			{
+				"id": "100",
+				"name": "Hourglass"
+			},
+			{
+				"id": "101",
+				"name": "Hunting trap"
+			},
+			{
+				"id": "102",
+				"name": "Ink (1 ounce bottle)"
+			},
+			{
+				"id": "103",
+				"name": "Ink pen"
+			},
+			{
+				"id": "100",
+				"name": "Hourglass"
+			},
+			{
+				"id": "101",
+				"name": "Hunting trap"
+			},
+			{
+				"id": "102",
+				"name": "Ink (1 ounce bottle)"
+			},
+			{
+				"id": "103",
+				"name": "Ink pen"
+			},
+			{
+				"id": "104",
+				"name": "Jug or pitcher"
+			},
+			{
+				"id": "112",
+				"name": "Ladder (10-foot)"
+			},
+			{
+				"id": "113",
+				"name": "Lamp"
+			},
+			{
+				"id": "114",
+				"name": "Lantern, bullseye"
+			},
+			{
+				"id": "115",
+				"name": "Lantern, hooded"
+			},
+			{
+				"id": "116",
+				"name": "Lock"
+			},
+			{
+				"id": "117",
+				"name": "Magnifying glass"
+			},
+			{
+				"id": "118",
+				"name": "Manacles"
+			},
+			{
+				"id": "119",
+				"name": "Mirror, steel"
+			},
+			{
+				"id": "120",
+				"name": "Oil (flask)"
+			},
+			{
+				"id": "121",
+				"name": "Paper (one sheet)"
+			},
+			{
+				"id": "122",
+				"name": "Parchment (one sheet)"
+			},
+			{
+				"id": "123",
+				"name": "Perfume (vial)"
+			},
+			{
+				"id": "124",
+				"name": "Pick, miner’s"
+			},
+			{
+				"id": "125",
+				"name": "Piton"
+			},
+			{
+				"id": "126",
+				"name": "Poison, basic (vial)"
+			},
+			{
+				"id": "127",
+				"name": "Pole (10-foot)"
+			},
+			{
+				"id": "128",
+				"name": "Pot, iron"
+			},
+			{
+				"id": "129",
+				"name": "Potion of healing"
+			},
+			{
+				"id": "130",
+				"name": "Pouch"
+			},
+			{
+				"id": "131",
+				"name": "Quiver"
+			},
+			{
+				"id": "132",
+				"name": "Ram, portable"
+			},
+			{
+				"id": "133",
+				"name": "Rations (1 day)"
+			},
+			{
+				"id": "134",
+				"name": "Reliquary"
+			},
+			{
+				"id": "135",
+				"name": "Robes"
+			},
+			{
+				"id": "136",
+				"name": "Rope, hempen (50 feet)"
+			},
+			{
+				"id": "137",
+				"name": "Rope, silk (50 feet)"
+			},
+			{
+				"id": "138",
+				"name": "Sack"
+			},
+			{
+				"id": "139",
+				"name": "Scale, merchant’s"
+			},
+			{
+				"id": "140",
+				"name": "Sealing wax"
+			},
+			{
+				"id": "141",
+				"name": "Shovel"
+			},
+			{
+				"id": "142",
+				"name": "Signal whistle"
+			},
+			{
+				"id": "143",
+				"name": "Signet ring"
+			},
+			{
+				"id": "144",
+				"name": "Soap"
+			},
+			{
+				"id": "145",
+				"name": "Spellbook"
+			},
+			{
+				"id": "146",
+				"name": "Spike, iron"
+			},
+			{
+				"id": "147",
+				"name": "Spyglass"
+			},
+			{
+				"id": "148",
+				"name": "Tent, two-person"
+			},
+			{
+				"id": "149",
+				"name": "Tinderbox"
+			},
+			{
+				"id": "150",
+				"name": "Torch"
+			},
+			{
+				"id": "151",
+				"name": "Vial"
+			},
+			{
+				"id": "152",
+				"name": "Waterskin"
+			},
+			{
+				"id": "153",
+				"name": "Whetstone"
+			}
+		],
+		"id": "16"
+	},
+	{
+		"index": 17,
+		"name": "Kits",
+		"equipment": [
+			{
+				"id": "105",
+				"name": "Climber’s Kit"
+			},
+			{
+				"id": "106",
+				"name": "Disguise Kit"
+			},
+			{
+				"id": "107",
+				"name": "Forgery Kit"
+			},
+			{
+				"id": "108",
+				"name": "Herbalism Kit"
+			},
+			{
+				"id": "109",
+				"name": "Healer’s Kit"
+			},
+			{
+				"id": "110",
+				"name": "Mess Kit"
+			},
+			{
+				"id": "111",
+				"name": "Poisoner’s Kit"
+			}
+		],
+		"id": "17"
+	},
+	{
+		"index": 18,
+		"name": "Equipment Packs",
+		"equipment": [
+			{
+				"id": "154",
+				"name": "Burglar's Pack"
+			},
+			{
+				"id": "155",
+				"name": "Diplomat's Pack"
+			},
+			{
+				"id": "156",
+				"name": "Dungeoneer's Pack"
+			},
+			{
+				"id": "157",
+				"name": "Entertainer's Pack"
+			},
+			{
+				"id": "158",
+				"name": "Explorer's Pack"
+			},
+			{
+				"id": "159",
+				"name": "Priest's Pack"
+			},
+			{
+				"id": "160",
+				"name": "Scholar's Pack"
+			}
+		],
+		"id": "18"
+	},
+	{
+		"index": 19,
+		"name": "Artisan's Tools",
+		"equipment": [
+			{
+				"id": "161",
+				"name": "Alchemist’s supplies"
+			},
+			{
+				"id": "162",
+				"name": "Brewer’s supplies"
+			},
+			{
+				"id": "163",
+				"name": "Calligrapher’s supplies"
+			},
+			{
+				"id": "164",
+				"name": "Carpenter’s tools"
+			},
+			{
+				"id": "165",
+				"name": "Cartographer’s tools"
+			},
+			{
+				"id": "166",
+				"name": "Cobbler’s tools"
+			},
+			{
+				"id": "167",
+				"name": "Cook’s utensils"
+			},
+			{
+				"id": "168",
+				"name": "Glassblower’s tools"
+			},
+			{
+				"id": "169",
+				"name": "Jeweler’s tools"
+			},
+			{
+				"id": "170",
+				"name": "Leatherworker’s tools"
+			},
+			{
+				"id": "171",
+				"name": "Mason’s tools"
+			},
+			{
+				"id": "172",
+				"name": "Painter’s supplies"
+			},
+			{
+				"id": "173",
+				"name": "Potter’s tools"
+			},
+			{
+				"id": "174",
+				"name": "Smith’s tools"
+			},
+			{
+				"id": "175",
+				"name": "Tinker’s tools"
+			},
+			{
+				"id": "176",
+				"name": "Weaver’s tools"
+			},
+			{
+				"id": "177",
+				"name": "Woodcarver’s tools"
+			}
+		],
+		"id": "19"
+	},
+	{
+		"index": 20,
+		"name": "Gaming Sets",
+		"equipment": [
+			{
+				"id": "178",
+				"name": "Dice set"
+			},
+			{
+				"id": "179",
+				"name": "Playing card set"
+			}
+		],
+		"id": "20"
+	},
+	{
+		"index": 21,
+		"name": "Musical Instruments",
+		"equipment": [
+			{
+				"id": "180",
+				"name": "Bagpipes"
+			},
+			{
+				"id": "181",
+				"name": "Drum"
+			},
+			{
+				"id": "182",
+				"name": "Dulcimer"
+			},
+			{
+				"id": "183",
+				"name": "Flute"
+			},
+			{
+				"id": "184",
+				"name": "Lute"
+			},
+			{
+				"id": "185",
+				"name": "Lyre"
+			},
+			{
+				"id": "186",
+				"name": "Horn"
+			},
+			{
+				"id": "187",
+				"name": "Pan flute"
+			},
+			{
+				"id": "188",
+				"name": "Shawm"
+			},
+			{
+				"id": "189",
+				"name": "Viol"
+			}
+		],
+		"id": "21"
+	},
+	{
+		"index": 22,
+		"name": "Other Tools",
+		"equipment": [
+			{
+				"id": "190",
+				"name": "Navigator’s tools"
+			},
+			{
+				"id": "191",
+				"name": "Thieves’ tools"
+			}
+		],
+		"id": "22"
+	},
+	{
+		"index": 23,
+		"name": "Mounts and Other Anumals",
+		"equipment": [
+			{
+				"id": "194",
+				"name": "Mule"
+			},
+			{
+				"id": "195",
+				"name": "Elephant"
+			},
+			{
+				"id": "196",
+				"name": "Horse, draft"
+			},
+			{
+				"id": "197",
+				"name": "Horse, riding"
+			},
+			{
+				"id": "198",
+				"name": "Mastiff"
+			},
+			{
+				"id": "199",
+				"name": "Pony"
+			},
+			{
+				"id": "200",
+				"name": "Warhorse"
+			}
+		],
+		"id": "23"
+	},
+	{
+		"index": 24,
+		"name": "Tack, Harness, and Drawn Vehicles",
+		"equipment": [
+			{
+				"id": "226",
+				"name": "Barding: Padded"
+			},
+			{
+				"id": "227",
+				"name": "Barding: Leather"
+			},
+			{
+				"id": "228",
+				"name": "Barding: Studded Leather"
+			},
+			{
+				"id": "229",
+				"name": "Barding: Hide"
+			},
+			{
+				"id": "230",
+				"name": "Barding: Chain shirt"
+			},
+			{
+				"id": "231",
+				"name": "Barding: Scale mail"
+			},
+			{
+				"id": "232",
+				"name": "Barding: Breastplate"
+			},
+			{
+				"id": "233",
+				"name": "Barding: Half plate"
+			},
+			{
+				"id": "234",
+				"name": "Barding: Ring mail"
+			},
+			{
+				"id": "235",
+				"name": "Barding: Chain mail"
+			},
+			{
+				"id": "236",
+				"name": "Barding: Splint"
+			},
+			{
+				"id": "237",
+				"name": "Barding: Plate"
+			},
+			{
+				"id": "238",
+				"name": "Bit and bridle"
+			},
+			{
+				"id": "239",
+				"name": "Carriage"
+			},
+			{
+				"id": "240",
+				"name": "Cart"
+			},
+			{
+				"id": "241",
+				"name": "Chariot"
+			},
+			{
+				"id": "242",
+				"name": "Animal Feed (1 day)"
+			},
+			{
+				"id": "243",
+				"name": "Saddle, Exotic"
+			},
+			{
+				"id": "244",
+				"name": "Saddle, Military"
+			},
+			{
+				"id": "245",
+				"name": "Saddle, Pack"
+			},
+			{
+				"id": "246",
+				"name": "Riding"
+			},
+			{
+				"id": "247",
+				"name": "Saddlebags"
+			},
+			{
+				"id": "248",
+				"name": "Sled"
+			},
+			{
+				"id": "249",
+				"name": "Stabling (1 day)"
+			},
+			{
+				"id": "250",
+				"name": "Wagon"
+			}
+		],
+		"id": "24"
+	},
+	{
+		"index": 25,
+		"name": "Waterborne Vehicles",
+		"equipment": [
+			{
+				"id": "251",
+				"name": "Galley"
+			},
+			{
+				"id": "252",
+				"name": "Keelboat"
+			},
+			{
+				"id": "253",
+				"name": "Longship"
+			},
+			{
+				"id": "254",
+				"name": "Rowboat"
+			},
+			{
+				"id": "255",
+				"name": "Sailing ship"
+			},
+			{
+				"id": "256",
+				"name": "Warship"
+			}
+		],
+		"id": "25"
+	}
+]

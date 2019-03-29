@@ -33,6 +33,7 @@
     "gh-pages": "^2.0.1",
     "history": "^4.7.2",
     "is-hotkey": "^0.1.4",
+    "localforage": "^1.7.3",
     "lodash": "^4.17.11",
     "onchange": "^5.2.0",
     "polished": "^3.0.0",
