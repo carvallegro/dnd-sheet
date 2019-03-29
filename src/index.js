@@ -8,16 +8,15 @@ import App from './components/app'
 import { checkMissingItems } from './local-database'
 import loadSrdData from './local-database/stub-data-load'
 
-checkMissingItems()
-  .then(result => {
-    if (result.length > 0) {
-      return loadSrdData
-    }
-  })
+checkMissingItems().then(result => {
+  if (result.length > 0) {
+    return loadSrdData
+  }
+})
 
 ReactDOM.render(
   <AppWrapper>
-    <App/>
+    <App />
   </AppWrapper>,
   document.getElementById('root')
 )

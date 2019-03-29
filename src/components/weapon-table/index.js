@@ -7,24 +7,35 @@ import Tag from '@common/tag'
 import { damageTypes } from '@enums/damage-types'
 import equippedHandEnum from '@enums/equipped-hand'
 
-import { Table, TBody, TD, TH, THead, TR, WeaponName, WeaponDescription } from './styles'
+import {
+  Table,
+  TBody,
+  TD,
+  TH,
+  THead,
+  TR,
+  WeaponName,
+  WeaponDescription
+} from './styles'
 
 const handToColor = {
   [equippedHandEnum.MAIN]: colors.purple,
   [equippedHandEnum.OFF]: colors.blue,
   [equippedHandEnum.DUAL]: colors['brownish-grey']
 }
-const EquippedTag = ({ equippedHand }) => <Tag color={handToColor[equippedHand]}>{equippedHand}</Tag>
+const EquippedTag = ({ equippedHand }) => (
+  <Tag color={handToColor[equippedHand]}>{equippedHand}</Tag>
+)
 
 const WeaponLine = ({
-                      isProficient,
-                      weaponName,
-                      equipped,
-                      attackBonus,
-                      damage,
-                      damageType,
-                      description
-                    }) => (
+  isProficient,
+  weaponName,
+  equipped,
+  attackBonus,
+  damage,
+  damageType,
+  description
+}) => (
   <Fragment>
     <TR>
       <TD>
@@ -34,14 +45,17 @@ const WeaponLine = ({
           checked={isProficient}
         />
       </TD>
-      <TD><WeaponName>{weaponName}</WeaponName> {equipped && <EquippedTag equippedHand={equipped}/>}</TD>
+      <TD>
+        <WeaponName>{weaponName}</WeaponName>{' '}
+        {equipped && <EquippedTag equippedHand={equipped} />}
+      </TD>
       <TD>{attackBonus}</TD>
       <TD>
         {damage} {damageType}
       </TD>
     </TR>
     <TR>
-      <TD/>
+      <TD />
       <WeaponDescription colSpan="3">{description}</WeaponDescription>
     </TR>
   </Fragment>
@@ -97,17 +111,17 @@ const TEST_TABLE = [
 export const WeaponTable = ({ weapons }) => (
   <Table>
     <THead>
-    <TR>
-      <TH>Prof.</TH>
-      <TH>Name</TH>
-      <TH>Attack Bonus</TH>
-      <TH>Damage</TH>
-    </TR>
+      <TR>
+        <TH>Prof.</TH>
+        <TH>Name</TH>
+        <TH>Attack Bonus</TH>
+        <TH>Damage</TH>
+      </TR>
     </THead>
     <TBody>
-    {weapons.map((w, i) => (
-      <WeaponLine k={i} {...w} />
-    ))}
+      {weapons.map((w, i) => (
+        <WeaponLine k={i} {...w} />
+      ))}
     </TBody>
   </Table>
 )

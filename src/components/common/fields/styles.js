@@ -52,3 +52,13 @@ export const TextArea = styled.textarea`
     border-color: rgba(0, 0, 0, 0.4);
   }
 `
+
+export const SelectInput = styled(Input)`
+  border: none;
+`
+
+export const DottedBorderWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  ${DottedBorderStyle}
+`

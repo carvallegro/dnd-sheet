@@ -21,5 +21,4 @@ export const BodyText = styled.p`
   font-family: ${fonts.input};
 `
 
-
 export default PageTitle

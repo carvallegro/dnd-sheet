@@ -10,10 +10,12 @@ export const checkMissingItems = async () => {
 
 export const getStoredData = async () => {
   const result = []
-  await Promise.all(_.map(indexedItems, async itemKey => {
-    const item = await storage.getItem(itemKey)
-    result.push(item)
-  }))
+  await Promise.all(
+    _.map(indexedItems, async itemKey => {
+      const item = await storage.getItem(itemKey)
+      result.push(item)
+    })
+  )
 
   return result
 }

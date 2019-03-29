@@ -5,7 +5,7 @@ import { Column } from '@common/layout'
 import Card, { CardBody } from '@common/card'
 
 import { fonts } from '@styles'
-import InputField from '@common/fields/input-field'
+import SelectField from '@common/fields/select-field'
 import { Race } from '@character-elements/general'
 import Skills from '@character-elements/skills'
 import SavingThrows from '@character-elements/saving-throws'
@@ -32,7 +32,7 @@ const CombatPage = () => (
     <Column>
       <Card title="Infos" gridColumn="primary">
         <CardBody>
-          <InputField label="Class" />
+          <SelectField label="Class" />
           <Race />
         </CardBody>
       </Card>
@@ -44,11 +44,15 @@ const CombatPage = () => (
       </Card>
 
       <Card title="Armor" gridColumn="primary">
-        <CardBody><Armor/></CardBody>
+        <CardBody>
+          <Armor />
+        </CardBody>
       </Card>
 
       <Card title="Proficiencies" gridColumn="primary">
-        <CardBody><Armor/></CardBody>
+        <CardBody>
+          <Armor />
+        </CardBody>
       </Card>
 
       <Card title="Saving Throws" gridColumn="primary">

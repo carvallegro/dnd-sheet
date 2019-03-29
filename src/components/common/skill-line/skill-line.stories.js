@@ -8,14 +8,14 @@ import { SkillLine, SkillGrid } from './index'
 storiesOf('Skills/Skill Line', module)
   .addDecorator(withKnobs())
   .add('default', () => (
-  <SkillLine
-    name={text('Name', 'Intimidation')}
-    attribute={text('Attribute', 'STR')}
-    isProficient={boolean('Is Proficient', false)}
-    value={text('Value', 4)}
-    onProficiencyChange={action('onProficiencyChange')}
-  />
-))
+    <SkillLine
+      name={text('Name', 'Intimidation')}
+      attribute={text('Attribute', 'STR')}
+      isProficient={boolean('Is Proficient', false)}
+      value={text('Value', 4)}
+      onProficiencyChange={action('onProficiencyChange')}
+    />
+  ))
 
 storiesOf('Skills/Skill Grid', module)
   .add('default', () => (

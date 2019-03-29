@@ -13,6 +13,7 @@ const InputField = ({
   type,
   value,
   onChange,
+  readonly,
   placeholder
 }) => (
   <FieldWrapper gridArea={gridArea}>
@@ -22,6 +23,7 @@ const InputField = ({
       value={value}
       onChange={e => onChange(e.target.value)}
       placeholder={placeholder}
+      readonly={readonly}
     />
     {label && <Label size={size}>{label}</Label>}
   </FieldWrapper>
@@ -34,12 +36,14 @@ InputField.propStyle = {
   size: PropTypes.oneOf(Object.values(SIZES)),
   value: PropTypes.string,
   onChange: PropTypes.func,
-  placeholder: PropTypes.func
+  placeholder: PropTypes.func,
+  readonly: PropTypes.bool
 }
 
 InputField.defaultProps = {
   type: 'string',
   size: SIZES.medium,
+  readonly: false,
   onChange: e => {}
 }
 

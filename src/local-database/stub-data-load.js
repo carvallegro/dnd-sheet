@@ -46,11 +46,9 @@ export const STUB_DATA_LOAD = {
   WEAPON_PROPERTIES: WeaponProperties
 }
 
-const loadSrdData = () => Promise.all(
-  _.map(
-    indexedItems,
-    key => storage.setItem(key, STUB_DATA_LOAD[key])
+const loadSrdData = () =>
+  Promise.all(
+    _.map(indexedItems, key => storage.setItem(key, STUB_DATA_LOAD[key]))
   )
-)
 
 export default loadSrdData

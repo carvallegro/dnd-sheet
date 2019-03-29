@@ -27,7 +27,5 @@ storiesOf('Tag', module)
     </Fragment>
   ))
   .add('custom', () => (
-    <Tag color={select('Color', colors)}>
-      {text('Name', 'value')}
-    </Tag>
+    <Tag color={select('Color', colors)}>{text('Name', 'value')}</Tag>
   ))
