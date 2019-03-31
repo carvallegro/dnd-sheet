@@ -23,10 +23,8 @@ jobs:
     - name: "Coverage"
       script: codecov
     - stage: build
-      name: "Build"
+      name: "Build & Deploy"
       script: yarn build
-    - name: "Deploy"
-      script: skip
       deploy:
         local-dir: build
         provider: pages
