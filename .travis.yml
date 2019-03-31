@@ -23,9 +23,9 @@ jobs:
     - name: "Coverage"
       script: codecov
     - stage: build
+      name: "Build"
       script: yarn build
-    - stage: deploy
-      name: "Deploy"
+    - name: "Deploy"
       script: skip
       deploy:
         local-dir: build
@@ -38,7 +38,4 @@ jobs:
 
 stages:
   - name: test
-  - name: pr_title_check
   - name: build
-  - name: deploy
-
