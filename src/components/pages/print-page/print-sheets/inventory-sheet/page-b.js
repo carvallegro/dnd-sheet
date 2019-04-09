@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Page } from '@common/layout/index'
+import { Page } from '@components/layout'
 import PageTitle from '@common/typography/index'
 import TextAreaField from '@common/fields/textarea-field'
 

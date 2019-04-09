@@ -17,13 +17,6 @@ Mock refs: https://github.com/storybooks/storybook/tree/master/addons/storyshots
 
 ## UI Ideas
 
-### TODOS
-- Header no shadow
-- Card with new style
-```css
-    box-shadow: none;
-    border: 1px solid rgba(100, 100, 100, 0.34);
-```
 ### Inspiration
 Keep main page for actual playing and add options to: 
 - Change race

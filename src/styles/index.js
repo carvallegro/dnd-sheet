@@ -37,8 +37,12 @@ export const labelFontSizes = {
 }
 
 export const shadowLevels = {
-  base: css`box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);`,
-  levelOne: css`box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);`
+  base: css`
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  `,
+  levelOne: css`
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  `
 }
 
 export const typography = {

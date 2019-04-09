@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 import Label from '@common/typography/label'
@@ -7,24 +7,26 @@ import { FieldWrapper, SelectInput } from '@common/fields/styles'
 import { DottedBorderWrapper } from '@components/common/fields/styles'
 
 import { Icon } from 'react-icons-kit'
-import {androidArrowDropdown} from 'react-icons-kit/ionicons/androidArrowDropdown'
+import { androidArrowDropdown } from 'react-icons-kit/ionicons/androidArrowDropdown'
 import { shadowLevels } from '@styles'
 
 const SelectButton = styled.button`
   background: none;
-  border:none;
+  border: none;
   opacity: 0.8;
   cursor: pointer;
-  
+
   &:hover {
     opacity: 1;
   }
-  
+
   &:focus {
     outline: none;
   }
-  
-  ${({isOpen}) => isOpen && `
+
+  ${({ isOpen }) =>
+    isOpen &&
+    `
     transform: rotate(180deg);
   `}
 `
@@ -37,7 +39,7 @@ const SelectWindow = styled.div`
   position: absolute;
   top: 100%;
   width: 100%;
-  
+
   background-color: white;
   ${shadowLevels.levelOne}
 `
@@ -64,12 +66,15 @@ const SelectField = ({
           placeholder={placeholder}
           readOnly
         />
-        {
-          !readOnly &&
-          <SelectButton role='button' onClick={() => setOpen(!isOpen)} isOpen={isOpen}>
-            <Icon icon={androidArrowDropdown}/>
+        {!readOnly && (
+          <SelectButton
+            role="button"
+            onClick={() => setOpen(!isOpen)}
+            isOpen={isOpen}
+          >
+            <Icon icon={androidArrowDropdown} />
           </SelectButton>
-        }
+        )}
         <SelectWindow>
           <p>trsters</p>
           <p>testestete</p>

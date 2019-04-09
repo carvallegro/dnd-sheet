@@ -1,8 +1,8 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { shallow } from 'enzyme/build'
 
 import { DISPLAY_MODE, GridArea, Page } from './index'
-import { HalfWidth } from '@common/layout/index'
+import { HalfWidth } from './index'
 
 describe('<GridArea />', () => {
   it('renders', () => {

@@ -1,9 +1,8 @@
 import React from 'react'
 
 import InputField from '@common/fields/input-field'
-import TextAreaField from '@common/fields/textarea-field'
 import InlineField from '@common/fields/inline'
-import { GridArea } from '@common/layout'
+import { GridArea } from '@components/layout'
 import Label from '@common/typography/label'
 
 import Attributes, { AttributesWrapper } from '@character-elements/attributes'
@@ -14,16 +13,15 @@ import {
   OtherProfAndLanguages,
   PlayerName
 } from '@character-elements/general'
-
-import SavingThrows from '../../../../character-elements/saving-throws/index'
-
-import { CalculatedValuesWrapper, PageWrapper } from './styles'
+import SavingThrows from '@character-elements/saving-throws/index'
 import {
   Bonds,
   Flaws,
   Ideals,
   PersonalityTraits
 } from '@character-elements/description'
+
+import { CalculatedValuesWrapper, PageWrapper } from './styles'
 
 export const GeneralSheet = ({ id, gridArea }) => (
   <PageWrapper id={id} gridArea={gridArea}>

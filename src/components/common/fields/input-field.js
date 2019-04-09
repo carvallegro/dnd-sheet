@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { SIZES } from '@styles'
 import Label from '../typography/label'
 
-import { Input, FieldWrapper } from './styles'
+import { Input, FieldWrapper, FakeInput } from './styles'
 
 const InputField = ({
   gridArea,
@@ -14,17 +14,23 @@ const InputField = ({
   value,
   onChange,
   readOnly,
+  editing,
   placeholder
 }) => (
   <FieldWrapper gridArea={gridArea}>
-    <Input
-      type={type}
-      size={size}
-      value={value}
-      onChange={e => onChange(e.target.value)}
-      placeholder={placeholder}
-      readOnly={readOnly}
-    />
+    {editing ? (
+      <Input
+        type={type}
+        size={size}
+        value={value}
+        onChange={e => onChange(e.target.value)}
+        placeholder={placeholder}
+        readOnly={readOnly} />
+    ) : (
+      <FakeInput size={size}>
+        {value || <i>&nbsp;</i>}
+      </FakeInput>
+    )}
     {label && <Label size={size}>{label}</Label>}
   </FieldWrapper>
 )
@@ -37,13 +43,15 @@ InputField.propStyle = {
   value: PropTypes.string,
   onChange: PropTypes.func,
   placeholder: PropTypes.func,
-  readOnly: PropTypes.bool
+  readOnly: PropTypes.bool,
+  editing: PropTypes.bool
 }
 
 InputField.defaultProps = {
   type: 'string',
   size: SIZES.medium,
   readOnly: false,
+  editing: false,
   onChange: e => {}
 }
 

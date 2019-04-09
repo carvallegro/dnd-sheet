@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {rgba} from 'polished'
+import { rgba } from 'polished'
 import { colors, fonts } from '@styles'
 
 export const Wrapper = styled.div`

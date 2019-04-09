@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { DISPLAY_MODE } from '../components/common/layout'
+import { DISPLAY_MODE } from '../components/layout'
 import { colors, media } from './index'
 
 const GlobalStyle = createGlobalStyle`

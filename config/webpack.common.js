@@ -7,9 +7,9 @@ module.exports = {
       '@enums': path.resolve(__dirname, '../src/enums/'),
       '@styles': path.resolve(__dirname, '../src/styles/'),
       '@redux': path.resolve(__dirname, '../src/redux/'),
-      '@components': path.resolve(__dirname, '../src/components/'),
+      '@character-elements': path.resolve(__dirname, '../src/components/character-elements/'),
       '@common': path.resolve(__dirname, '../src/components/common/'),
-      '@character-elements': path.resolve(__dirname, '../src/components/character-elements/')
+      '@components': path.resolve(__dirname, '../src/components/'),
     }
   }
 }

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Page } from '@common/layout/index'
-import { AttributesWrapper } from '../../../../character-elements/attributes'
+import { Page } from '@components/layout'
+import { AttributesWrapper } from '@character-elements/attributes'
 
 export const PageWrapper = styled(Page)`
   grid-template:

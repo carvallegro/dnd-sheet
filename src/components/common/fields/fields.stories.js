@@ -31,6 +31,25 @@ storiesOf('Inputs/Input Field', module)
     <InputField
       label="Input Field Label"
       placeholder="Type a value"
+      value={text('Input Value', 'Default Value')}
+      onChange={action('input-onchange')}
+      size={select('Size', SIZES, SIZES.medium)}
+    />
+  ))
+  .add('readonly', () => (
+    <InputField
+      readOnly
+      label="Input Field Label"
+      placeholder="Type a value"
+      value="Readonly field"
+      size={select('Size', SIZES, SIZES.medium)}
+    />
+  ))
+  .add('edited', () => (
+    <InputField
+      editing
+      label="Input Field Label"
+      placeholder="Type a value"
       value={text('Input Value')}
       onChange={action('input-onchange')}
       size={select('Size', SIZES, SIZES.medium)}

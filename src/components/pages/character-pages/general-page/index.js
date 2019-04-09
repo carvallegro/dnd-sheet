@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { Column } from '@components/layout'
 import Card from '@common/card'
-import { Column } from '@common/layout'
 
 import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 import Skills from '@character-elements/skills'

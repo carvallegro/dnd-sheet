@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { colors, media } from '@styles/index'
+import { colors, media } from '@styles'
 
 export const BookWrapper = styled.div`
   overflow: auto;

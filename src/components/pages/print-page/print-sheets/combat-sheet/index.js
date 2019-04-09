@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { HalfWidth } from '@common/layout/index'
+import { HalfWidth } from '@components/layout'
 import PageTitle from '@common/typography/index'
 import InputField from '@common/fields/input-field'
 import TextAreaField from '@common/fields/textarea-field'

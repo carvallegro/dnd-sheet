@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { GridArea } from '../layout'
+import { GridArea } from '../../layout'
 import SpellListHeading from './spell-list-heading'
 
 const Wrapper = styled(GridArea)`

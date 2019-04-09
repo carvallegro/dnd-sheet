@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { connect, Provider } from 'react-redux'
 
-import { DISPLAY_MODE } from './components/common/layout'
+import { DISPLAY_MODE } from './components/layout'
 import routes from './base-routes'
 import store from './redux/store'
 import GlobalStyle from './styles/global'

@@ -1,12 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
+
+import { Page } from '@components/layout'
 import PageTitle from '@common/typography/index'
 import InputField from '@common/fields/input-field'
 import MagicStat from '@common/magic-stat/index'
 import MagicSpells from '@common/magic-spells/index'
-import { Heading } from './styles'
-import styled from 'styled-components'
-import { Page } from '@common/layout/index'
 import Spell from '@common/magic-spells/spell'
+
+import { Heading } from './styles'
 
 export const Magic = styled(Page)`
   grid-template:

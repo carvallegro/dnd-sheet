@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Column } from '@common/layout'
+import { Column } from '@components/layout'
 import Card from '@common/card'
 
 import { fonts } from '@styles'

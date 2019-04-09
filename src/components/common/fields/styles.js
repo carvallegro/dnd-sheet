@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { DottedBorderStyle, fonts, fontSizes, SIZES } from '@styles'
-import { GridArea } from '../layout'
+import { GridArea } from '../../layout'
 
 export const FieldWrapper = styled(GridArea)`
   display: flex;
@@ -9,11 +9,17 @@ export const FieldWrapper = styled(GridArea)`
   max-width: 100%;
 `
 
+export const DottedBorderWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  ${DottedBorderStyle}
+`
+
 export const Input = styled.input`
   width: 100%;
   border: none;
   margin: 0;
-  padding: 0.2em;
+  padding: 0.2em 0;
   background: none;
 
   font-family: ${fonts.input};
@@ -27,12 +33,29 @@ export const Input = styled.input`
   }
 `
 
+export const SelectInput = styled(Input)`
+  border: none;
+`
+
 Input.propTypes = {
   size: PropTypes.oneOf(Object.values(SIZES))
 }
 Input.defaultProps = {
   size: SIZES.medium
 }
+
+export const FakeInput = styled.p`
+  width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0.2em 0;
+  background: none;
+
+  font-family: ${fonts.input};
+  color: ${({ theme }) => theme.textColor};
+
+  font-size: calc(1pt + ${({ size }) => fontSizes[size]});
+`
 
 export const TextArea = styled.textarea`
   max-width: 100%;
@@ -51,14 +74,4 @@ export const TextArea = styled.textarea`
     outline: none;
     border-color: rgba(0, 0, 0, 0.4);
   }
-`
-
-export const SelectInput = styled(Input)`
-  border: none;
-`
-
-export const DottedBorderWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  ${DottedBorderStyle}
 `
