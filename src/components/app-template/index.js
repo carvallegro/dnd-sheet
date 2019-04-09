@@ -1,17 +1,10 @@
 import React, { Fragment, useState } from 'react'
 import styled from 'styled-components'
-import { NotPrintableStyle } from '@styles'
+
+import { PageWrapper } from '@components/layout'
+import ChooseClass from '@components/choose-class'
 import Header from '../header'
 import Menu from '../menu'
-
-const Wrapper = styled.div`
-  padding-top: 65px;
-  position: relative;
-  width: 1100px;
-  margin: 0 auto;
-
-  ${NotPrintableStyle}
-`
 
 const PageContent = styled.div`
   ${({ isMenuOpen }) =>
@@ -24,14 +17,14 @@ const PageContent = styled.div`
 
 const AppTemplate = ({ children }) => {
   const [isMenuOpen, setMenuOpen] = useState(false)
-
   return (
     <Fragment>
       <Header isMenuOpen={isMenuOpen} />
-      <Wrapper>
+      <ChooseClass/>
+      <PageWrapper>
         <PageContent isMenuOpen={isMenuOpen}>{children}</PageContent>
         <Menu onMenuClick={setMenuOpen} />
-      </Wrapper>
+      </PageWrapper>
     </Fragment>
   )
 }

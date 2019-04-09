@@ -1,12 +1,20 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
-import { media } from '@styles'
+import { media, NotPrintableStyle } from '@styles'
 
 export const DISPLAY_MODE = {
   web: 'web',
   print: 'print'
 }
+
+export const PageWrapper = styled.div`
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+
+  ${NotPrintableStyle}
+`
 
 export const GridArea = styled.div`
   ${({ gridArea }) => gridArea && `grid-area: ${gridArea};`}

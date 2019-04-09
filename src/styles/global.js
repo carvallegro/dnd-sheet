@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    padding-top: 65px;
     margin: 0;
     background-color: ${colors.lightGrey};
     color: ${({ theme }) => theme.textColor};
