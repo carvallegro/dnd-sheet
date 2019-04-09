@@ -120,7 +120,7 @@ export const WeaponTable = ({ weapons }) => (
     </THead>
     <TBody>
       {weapons.map((w, i) => (
-        <WeaponLine k={i} {...w} />
+        <WeaponLine key={i} {...w} />
       ))}
     </TBody>
   </Table>

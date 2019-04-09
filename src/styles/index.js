@@ -1,6 +1,11 @@
 import { css } from 'styled-components'
 import { transparentize } from 'polished'
 
+export const fonts = {
+  display: 'Lora, Times, serif',
+  input: '"Open Sans", arial, sans serif'
+}
+
 export const colors = {
   'brownish-grey': '#616161',
   lightGrey: '#F3F3F3',
@@ -8,6 +13,32 @@ export const colors = {
   white: 'white',
   blue: '#1A5D90',
   purple: '#561E98'
+}
+
+export const SIZES = {
+  large: 'large',
+  medium: 'medium',
+  small: 'small',
+  xsmall: 'xsmall'
+}
+
+export const fontSizes = {
+  large: '1.2rem',
+  medium: '1rem',
+  small: '0.8rem',
+  xsmall: '0.6rem'
+}
+
+export const labelFontSizes = {
+  large: '1rem',
+  medium: '0.8rem',
+  small: '0.6rem',
+  xsmall: '0.4rem'
+}
+
+export const shadowLevels = {
+  base: css`box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);`,
+  levelOne: css`box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);`
 }
 
 export const typography = {
@@ -113,32 +144,6 @@ export const typography = {
     font-weight: bold;
     color: ${({ theme }) => theme.textColor};
   `
-}
-
-export const SIZES = {
-  large: 'large',
-  medium: 'medium',
-  small: 'small',
-  xsmall: 'xsmall'
-}
-
-export const fontSizes = {
-  large: '1.2rem',
-  medium: '1rem',
-  small: '0.8rem',
-  xsmall: '0.6rem'
-}
-
-export const labelFontSizes = {
-  large: '1rem',
-  medium: '0.8rem',
-  small: '0.6rem',
-  xsmall: '0.4rem'
-}
-
-export const fonts = {
-  display: 'Lora, Times, serif',
-  input: '"Open Sans", arial, sans serif'
 }
 
 export const media = {

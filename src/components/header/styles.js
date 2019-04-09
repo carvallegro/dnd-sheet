@@ -10,7 +10,6 @@ export const Wrapper = styled.header`
   right: 0;
 
   height: 65px;
-  box-shadow: 0 1px 9px -1px rgba(0, 0, 0, 0.5);
 
   background-color: ${({ theme }) => theme.backgroundColor};
 

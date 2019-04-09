@@ -13,3 +13,22 @@ The idea was originally to create a A5 format character sheet PDF but now the pl
 ### Storybook jest testing
 
 Mock refs: https://github.com/storybooks/storybook/tree/master/addons/storyshots/storyshots-core#using-createnodemock-to-mock-refs
+
+
+## UI Ideas
+
+### TODOS
+- Header no shadow
+- Card with new style
+```css
+    box-shadow: none;
+    border: 1px solid rgba(100, 100, 100, 0.34);
+```
+### Inspiration
+Keep main page for actual playing and add options to: 
+- Change race
+- Change class/subclass
+- Level up
+
+Invert colors (white header and darker body find old paper color, invisible cards?) source: https://uimovement.com/ui/7415/ecommerce-analytics/ 
+Change screen size to 14px.

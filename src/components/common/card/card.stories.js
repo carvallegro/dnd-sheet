@@ -1,7 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import Card, { CardBody } from './index'
+import Card from './index'
+import { CardBody } from '@components/common/card/styles'
 
 storiesOf('Card', module)
   .add('default', () => (

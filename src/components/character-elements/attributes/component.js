@@ -13,7 +13,7 @@ export const Attributes = ({ attributes }) => (
 )
 
 Attributes.propTypes = {
-  attributes: PropTypes.array.isRequired
+  attributes: PropTypes.object.isRequired
 }
 
 export default Attributes

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { Column } from '@common/layout'
-import Card, { CardBody } from '@common/card'
+import Card from '@common/card'
 
 import { fonts } from '@styles'
 import SelectField from '@common/fields/select-field'
@@ -14,6 +14,7 @@ import Attributes, { AttributesWrapper } from '@character-elements/attributes'
 import WeaponTable from '../../../weapon-table'
 import Life from './life'
 import Armor from './armor'
+import { CardBody } from '@components/common/card/styles'
 
 const Wrapper = styled.div`
   padding-top: 1.8rem;
