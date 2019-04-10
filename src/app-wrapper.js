@@ -7,6 +7,14 @@ import routes from './base-routes'
 import store from './redux/store'
 import GlobalStyle from './styles/global'
 import { defaultTheme } from './styles/theme'
+import { checkMissingItems, getStoredData } from './local-database'
+import loadSrdData from './local-database/stub-data-load'
+import { loadAllStoredData } from '@redux/data/actions'
+
+checkMissingItems()
+  .then(result => result.length > 0 ? loadSrdData : undefined)
+  .then(getStoredData)
+  .then(data => store.dispatch(loadAllStoredData(data)))
 
 const mapStateToProps = state => ({
   displayMode:

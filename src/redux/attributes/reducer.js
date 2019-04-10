@@ -53,12 +53,12 @@ const attributeReducer = handleActions(
 )
 
 const getUpdatedAttribute = (attribute, newBase) => {
-  const base = _(newBase)
+  const attributeBase = _(newBase)
     .max(0)
     .min(20)
   return {
     ...attribute,
-    base,
+    base: attributeBase,
     modifier: _.floor(base / 2 - 5)
   }
 }

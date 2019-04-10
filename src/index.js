@@ -5,14 +5,6 @@ import * as serviceWorker from './serviceWorker'
 import AppWrapper from './app-wrapper'
 
 import App from './components/app'
-import { checkMissingItems } from './local-database'
-import loadSrdData from './local-database/stub-data-load'
-
-checkMissingItems().then(result => {
-  if (result.length > 0) {
-    return loadSrdData
-  }
-})
 
 ReactDOM.render(
   <AppWrapper>

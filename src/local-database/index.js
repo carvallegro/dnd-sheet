@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import storage from './storage'
 
-import indexedItems from '../enums/indexedItems'
+import indexedItems from '@enums/indexedItems'
 
 export const checkMissingItems = async () => {
   const keysInStore = await storage.keys()
@@ -9,11 +9,11 @@ export const checkMissingItems = async () => {
 }
 
 export const getStoredData = async () => {
-  const result = []
+  const result = {}
   await Promise.all(
     _.map(indexedItems, async itemKey => {
       const item = await storage.getItem(itemKey)
-      result.push(item)
+      result[itemKey] = item
     })
   )
 

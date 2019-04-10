@@ -1,0 +1,1 @@
+export const LOAD_ALL_STORED_DATA = 'LOAD_ALL_STORED_DATA'
