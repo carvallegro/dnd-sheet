@@ -40,15 +40,19 @@ export const STUB_DATA_LOAD = {
   SKILLS: Skills,
   SPELLCASTING: Spellcasting,
   SPELLS: Spells,
-  SUBCLASSSES: Subclasses,
+  SUBCLASSES: Subclasses,
   SUBRACES: Subraces,
   TRAITS: Traits,
   WEAPON_PROPERTIES: WeaponProperties
 }
 
-const loadSrdData = () =>
-  Promise.all(
-    _.map(indexedItems, key => storage.setItem(key, STUB_DATA_LOAD[key]))
-  )
+const loadSrdData = () => Promise.all(_.map(indexedItems, loadFromServer))
+
+const loadFromServer = indexedItem => fetch(
+  `${process.env.PUBLIC_URL}/data/${indexedItem}.json`
+)
+  .then(response => response.json())
+  .then(result => storage.setItem(indexedItem, result))
+  .catch(err => console.error(err)) // TODO better error management
 
 export default loadSrdData

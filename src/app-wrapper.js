@@ -11,9 +11,17 @@ import { checkMissingItems, getStoredData } from './local-database'
 import loadSrdData from './local-database/stub-data-load'
 import { loadAllStoredData } from '@redux/data/actions'
 
+const logger = v => {
+  console.log(v)
+  return v
+}
+
 checkMissingItems()
-  .then(result => result.length > 0 ? loadSrdData : undefined)
+  .then(logger)
+  .then(result => result.length > 0 ? loadSrdData() : undefined)
+  .then(logger)
   .then(getStoredData)
+  .then(logger)
   .then(data => store.dispatch(loadAllStoredData(data)))
 
 const mapStateToProps = state => ({

@@ -3,7 +3,8 @@ import { loadAllStoredData } from '@redux/data/actions'
 import indexedItems from '@enums/indexedItems'
 
 const INITIAL_STATE = {
-  classes: []
+  classes: [],
+  subclasses: []
 }
 
 const dataReducer = handleActions(
@@ -11,7 +12,8 @@ const dataReducer = handleActions(
     [loadAllStoredData]: (state, action) => {
       return {
         ...state,
-        classes: action.payload[indexedItems.CLASS]
+        classes: action.payload[indexedItems.CLASSES],
+        subclasses: action.payload[indexedItems.SUBCLASSES]
       }
     }
   },
