@@ -37,8 +37,7 @@ const WithRouterWrapper = connect(mapStateToProps)(
       theme={{
         ...defaultTheme,
         displayMode: displayMode
-      }}
-    >
+      }}>
       <Fragment>
         {children}
         <GlobalStyle />
