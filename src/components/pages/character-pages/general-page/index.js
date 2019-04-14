@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { CardBody } from '@components/common/card/styles'
+
 import { Column } from '@components/layout'
 import Card from '@common/card'
 
@@ -20,7 +22,6 @@ import {
 
 import Stats from './stats'
 import Informations from './informations'
-import { CardBody } from '@components/common/card/styles'
 
 const Wrapper = styled.div`
   padding-top: 1.8rem;

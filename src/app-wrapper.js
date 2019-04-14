@@ -8,7 +8,7 @@ import store from './redux/store'
 import GlobalStyle from './styles/global'
 import { defaultTheme } from './styles/theme'
 import { checkMissingItems, getStoredData } from './local-database'
-import loadSrdData from './local-database/stub-data-load'
+import loadSrdData from './local-database/data-load'
 import { loadAllStoredData } from '@redux/data/actions'
 
 const logger = v => {
@@ -17,11 +17,8 @@ const logger = v => {
 }
 
 checkMissingItems()
-  .then(logger)
-  .then(result => result.length > 0 ? loadSrdData() : undefined)
-  .then(logger)
+  .then(result => (result.length > 0 ? loadSrdData() : undefined))
   .then(getStoredData)
-  .then(logger)
   .then(data => store.dispatch(loadAllStoredData(data)))
 
 const mapStateToProps = state => ({
@@ -37,7 +34,8 @@ const WithRouterWrapper = connect(mapStateToProps)(
       theme={{
         ...defaultTheme,
         displayMode: displayMode
-      }}>
+      }}
+    >
       <Fragment>
         {children}
         <GlobalStyle />

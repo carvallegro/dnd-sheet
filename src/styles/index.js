@@ -1,5 +1,7 @@
 import { css } from 'styled-components'
 import { transparentize } from 'polished'
+import classEnum from '@enums/classes'
+import attributesEnum from '@enums/attributes'
 
 export const fonts = {
   display: 'Lora, Times, serif',
@@ -9,10 +11,36 @@ export const fonts = {
 export const colors = {
   'brownish-grey': '#616161',
   lightGrey: '#F3F3F3',
+  grey: '#808080',
+  darkGrey: '#3c3c3c',
   black: '#2d2d2d',
   white: 'white',
   blue: '#1A5D90',
   purple: '#561E98'
+}
+
+export const classColors = {
+  [classEnum.BARBARIAN]: '#e7623e',
+  [classEnum.BARD]: '#ab6dac',
+  [classEnum.CLERIC]: '#91a1b2',
+  [classEnum.DRUID]: '#7a853b',
+  [classEnum.FIGHTER]: '#7f413e',
+  [classEnum.MONK]: '#51a5c5',
+  [classEnum.PALADIN]: '#b59e54',
+  [classEnum.RANGER]: '#507f62',
+  [classEnum.ROGUE]: '#555752',
+  [classEnum.SORCERER]: '#992e2e',
+  [classEnum.WARLOCK]: '#7b469b',
+  [classEnum.WIZARD]: '#2a50a1'
+}
+
+export const abilityColors = {
+  [attributesEnum.CHA]: classColors[classEnum.PALADIN],
+  [attributesEnum.CON]: classColors[classEnum.BARBARIAN],
+  [attributesEnum.DEX]: classColors[classEnum.WIZARD],
+  [attributesEnum.INT]: classColors[classEnum.WARLOCK],
+  [attributesEnum.STR]: classColors[classEnum.SORCERER],
+  [attributesEnum.WIS]: classColors[classEnum.DRUID]
 }
 
 export const SIZES = {

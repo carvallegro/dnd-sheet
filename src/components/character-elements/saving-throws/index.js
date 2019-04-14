@@ -3,6 +3,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { SkillGrid, SkillLine } from '@common/skill-line/index'
 import { setProficiency } from '@redux/attributes/actions'
+import { attributesNameEnum } from '@enums/attributes'
 
 const SavingThrows = ({
   attributes,
@@ -15,7 +16,7 @@ const SavingThrows = ({
     {_.flatMap(attributes, (v, k) => (
       <SkillLine
         key={k}
-        name={_.capitalize(v.name)}
+        name={_.capitalize(attributesNameEnum[v.name])}
         isProficient={v.isProficient}
         value={v.modifier + (v.isProficient ? proficiencyBonus : 0)}
         onProficiencyChange={isProficient => setProficiency(k, isProficient)}

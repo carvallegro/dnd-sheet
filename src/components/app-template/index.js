@@ -20,7 +20,7 @@ const AppTemplate = ({ children }) => {
   return (
     <Fragment>
       <Header isMenuOpen={isMenuOpen} />
-      <ChooseClass/>
+      <ChooseClass />
       <PageWrapper>
         <PageContent isMenuOpen={isMenuOpen}>{children}</PageContent>
         <Menu onMenuClick={setMenuOpen} />

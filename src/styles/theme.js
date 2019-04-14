@@ -10,3 +10,9 @@ export const negativeTheme = theme => ({
   backgroundColor: theme.textColor,
   textColor: theme.backgroundColor
 })
+
+export const greyTheme = theme => ({
+  ...negativeTheme(theme),
+  backgroundColor: colors['brownish-grey'],
+  textColor: theme.backgroundColor
+})

@@ -25,11 +25,10 @@ const InputField = ({
         value={value}
         onChange={e => onChange(e.target.value)}
         placeholder={placeholder}
-        readOnly={readOnly} />
+        readOnly={readOnly}
+      />
     ) : (
-      <FakeInput size={size}>
-        {value || <i>&nbsp;</i>}
-      </FakeInput>
+      <FakeInput size={size}>{value || <i>&nbsp;</i>}</FakeInput>
     )}
     {label && <Label size={size}>{label}</Label>}
   </FieldWrapper>

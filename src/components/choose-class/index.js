@@ -1,16 +1,58 @@
-import React from 'react'
-import styled from 'styled-components'
-import { colors } from '@styles'
+import _ from 'lodash'
+import React, { useState } from 'react'
+import styled, { ThemeProvider } from 'styled-components'
+
+import { abilityColors, colors } from '@styles'
+import { greyTheme } from '@styles/theme'
 import { PageWrapper } from '@components/layout'
 
-const Wrapper = styled.div`
-  background-color: ${colors['brownish-grey']}
+import { ClassList } from './class-list'
+import connect from './connect'
+import InputField from '@common/fields/input-field'
+import Tag from '@common/tag'
+import { BodyText, DisplayText } from '@common/typography'
+
+const Wrapper = styled.section`
+  background-color: ${colors.darkGrey}
+  padding: 2rem;
+  color: ${({ theme }) => theme.textColor};
 `
 
-const ChooseClass = () => <Wrapper>
+const ClassDetails = ({ classDetail }) => (
   <PageWrapper>
-    <h1>Classes</h1>
+    <DisplayText as="h1">{classDetail.name}</DisplayText>
+    <BodyText>{classDetail.description}</BodyText>
+    <InputField label="Hit die" value={`d${classDetail.hit_die}`} readOnly />
+    <p>
+      Saving Throws:{' '}
+      {classDetail.saving_throws.map(p => (
+        <Tag color={abilityColors[p.name]}>{p.name}</Tag>
+      ))}{' '}
+    </p>
+    <p>Proficiencies: {JSON.stringify(classDetail.proficiencies)}</p>
+    <p>
+      Proficiency choices: {JSON.stringify(classDetail.proficiency_choices)}
+    </p>
+    <p>Spell casting: {JSON.stringify(classDetail.spellcasting)}</p>
   </PageWrapper>
-</Wrapper>
+)
 
-export default ChooseClass
+const ChooseClass = ({ classes = [] }) => {
+  const [chosenClassId, chooseClass] = useState()
+  return (
+    <ThemeProvider theme={greyTheme}>
+      <Wrapper>
+        {!chosenClassId && (
+          <ClassList classes={classes} onClick={chooseClass} />
+        )}
+        {chosenClassId && (
+          <ClassDetails
+            classDetail={_.find(classes, { index: chosenClassId })}
+          />
+        )}
+      </Wrapper>
+    </ThemeProvider>
+  )
+}
+
+export default connect(ChooseClass)

@@ -16,7 +16,7 @@ import { ReactComponent as Rogue } from './images/Rogue.svg'
 import { ReactComponent as Sorcerer } from './images/Sorcerer.svg'
 import { ReactComponent as Warlock } from './images/Warlock.svg'
 import { ReactComponent as Wizard } from './images/Wizard.svg'
-import { colors } from '@styles'
+import { classColors, colors } from '@styles'
 
 const getImage = className => {
   switch (className) {
@@ -74,7 +74,9 @@ const ClassIcon = ({ classEnum, color, height }) => (
 
 ClassIcon.propTypes = {
   classEnum: PropTypes.oneOf(Object.values(classes)),
-  color: PropTypes.oneOf(Object.values(colors)),
+  color: PropTypes.oneOf(
+    [].concat(Object.values(colors), Object.values(classColors))
+  ),
   height: PropTypes.string
 }
 

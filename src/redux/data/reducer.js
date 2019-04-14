@@ -4,7 +4,9 @@ import indexedItems from '@enums/indexedItems'
 
 const INITIAL_STATE = {
   classes: [],
-  subclasses: []
+  subclasses: [],
+  class_levels: [],
+  spellcasting: []
 }
 
 const dataReducer = handleActions(
@@ -13,7 +15,9 @@ const dataReducer = handleActions(
       return {
         ...state,
         classes: action.payload[indexedItems.CLASSES],
-        subclasses: action.payload[indexedItems.SUBCLASSES]
+        subclasses: action.payload[indexedItems.SUBCLASSES],
+        class_levels: action.payload[indexedItems.LEVELS],
+        spellcasting: action.payload[indexedItems.SPELLCASTING]
       }
     }
   },
