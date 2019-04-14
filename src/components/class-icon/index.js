@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import classes from '../../enums/classes'
+import classes from '@enums/classes'
 
-import { ReactComponent as Bard } from './images/Bard.svg'
 import { ReactComponent as Barbarian } from './images/Barbarian.svg'
+import { ReactComponent as Bard } from './images/Bard.svg'
 import { ReactComponent as Cleric } from './images/Cleric.svg'
 import { ReactComponent as Druid } from './images/Druid.svg'
 import { ReactComponent as Fighter } from './images/Fighter.svg'
@@ -16,51 +16,70 @@ import { ReactComponent as Rogue } from './images/Rogue.svg'
 import { ReactComponent as Sorcerer } from './images/Sorcerer.svg'
 import { ReactComponent as Warlock } from './images/Warlock.svg'
 import { ReactComponent as Wizard } from './images/Wizard.svg'
+import { colors } from '@styles'
 
 const getImage = className => {
   switch (className) {
     case classes.BARBARIAN:
-      return <Barbarian/>
+      return <Barbarian />
     case classes.BARD:
-      return <Bard/>
+      return <Bard />
     case classes.CLERIC:
-      return <Cleric/>
+      return <Cleric />
     case classes.DRUID:
-      return <Druid/>
+      return <Druid />
     case classes.FIGHTER:
-      return <Fighter/>
+      return <Fighter />
     case classes.MONK:
-      return <Monk/>
+      return <Monk />
     case classes.PALADIN:
-      return <Paladin/>
+      return <Paladin />
     case classes.RANGER:
-      return <Ranger/>
+      return <Ranger />
     case classes.ROGUE:
-      return <Rogue/>
+      return <Rogue />
     case classes.SORCERER:
-      return <Sorcerer/>
+      return <Sorcerer />
     case classes.WARLOCK:
-      return <Warlock/>
+      return <Warlock />
     case classes.WIZARD:
-      return <Wizard/>
+      return <Wizard />
     default:
-      return <Paladin/>
+      return <Paladin />
   }
 }
 
 const ClassIconWrapper = styled.div`
-  height: 100%;
-  grid-row: span 2;
-  justify-self: center;
-  opacity: 0.6;
+  height: ${({ height }) => height};
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    height: 100%;
+    width: auto;
+  }
+
+  svg path {
+    fill: ${({ theme, color }) => color || theme.textColor};
+  }
 `
 
-const ClassIcon = ({classEnum}) => <ClassIconWrapper>
-  {getImage(classEnum)}
-</ClassIconWrapper>
+const ClassIcon = ({ classEnum, color, height }) => (
+  <ClassIconWrapper color={color} height={height}>
+    {getImage(classEnum)}
+  </ClassIconWrapper>
+)
 
-ClassIcon.props = {
-  classEnum: PropTypes.oneOf(Object.values(classes))
+ClassIcon.propTypes = {
+  classEnum: PropTypes.oneOf(Object.values(classes)),
+  color: PropTypes.oneOf(Object.values(colors)),
+  height: PropTypes.string
+}
+
+ClassIcon.defaultProps = {
+  height: '100%'
 }
 
 export default ClassIcon
