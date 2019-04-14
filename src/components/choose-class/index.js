@@ -26,10 +26,19 @@ const ClassDetails = ({ classDetail }) => (
     <p>
       Saving Throws:{' '}
       {classDetail.saving_throws.map(p => (
-        <Tag color={abilityColors[p.name]}>{p.name}</Tag>
+        <Tag key={p.id} color={abilityColors[p.name]}>
+          {p.name}
+        </Tag>
       ))}{' '}
     </p>
-    <p>Proficiencies: {JSON.stringify(classDetail.proficiencies)}</p>
+    <InputField
+      label="Proficiencies"
+      value={_(classDetail.proficiencies)
+        .map('name')
+        .join(', ')}
+      readOnly
+    />
+
     <p>
       Proficiency choices: {JSON.stringify(classDetail.proficiency_choices)}
     </p>

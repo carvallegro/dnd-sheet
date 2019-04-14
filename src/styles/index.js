@@ -8,17 +8,6 @@ export const fonts = {
   input: '"Open Sans", arial, sans serif'
 }
 
-export const colors = {
-  'brownish-grey': '#616161',
-  lightGrey: '#F3F3F3',
-  grey: '#808080',
-  darkGrey: '#3c3c3c',
-  black: '#2d2d2d',
-  white: 'white',
-  blue: '#1A5D90',
-  purple: '#561E98'
-}
-
 export const classColors = {
   [classEnum.BARBARIAN]: '#e7623e',
   [classEnum.BARD]: '#ab6dac',
@@ -41,6 +30,19 @@ export const abilityColors = {
   [attributesEnum.INT]: classColors[classEnum.WARLOCK],
   [attributesEnum.STR]: classColors[classEnum.SORCERER],
   [attributesEnum.WIS]: classColors[classEnum.DRUID]
+}
+
+export const colors = {
+  ...classColors,
+  ...abilityColors,
+  'brownish-grey': '#616161',
+  lightGrey: '#F3F3F3',
+  grey: '#808080',
+  darkGrey: '#3c3c3c',
+  black: '#2d2d2d',
+  white: 'white',
+  blue: '#1A5D90',
+  purple: '#561E98'
 }
 
 export const SIZES = {

@@ -11,27 +11,27 @@
         "from": [
           {
             "id": "106",
-            "name": "Skill: Animal Handling"
+            "name": "Animal Handling"
           },
           {
             "id": "108",
-            "name": "Skill: Athletics"
+            "name": "Athletics"
           },
           {
             "id": "112",
-            "name": "Skill: Intimidation"
+            "name": "Intimidation"
           },
           {
             "id": "115",
-            "name": "Skill: Nature"
+            "name": "Nature"
           },
           {
             "id": "116",
-            "name": "Skill: Perception"
+            "name": "Perception"
           },
           {
             "id": "122",
-            "name": "Skill: Survival"
+            "name": "Survival"
           }
         ]
       }
@@ -97,75 +97,75 @@
         "from": [
           {
             "id": "105",
-            "name": "Skill: Acrobatics"
+            "name": "Acrobatics"
           },
           {
             "id": "106",
-            "name": "Skill: Animal Handling"
+            "name": "Animal Handling"
           },
           {
             "id": "107",
-            "name": "Skill: Arcana"
+            "name": "Arcana"
           },
           {
             "id": "108",
-            "name": "Skill: Athletics"
+            "name": "Athletics"
           },
           {
             "id": "109",
-            "name": "Skill: Deception"
+            "name": "Deception"
           },
           {
             "id": "110",
-            "name": "Skill: History"
+            "name": "History"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "112",
-            "name": "Skill: Intimidation"
+            "name": "Intimidation"
           },
           {
             "id": "113",
-            "name": "Skill: Investigation"
+            "name": "Investigation"
           },
           {
             "id": "114",
-            "name": "Skill: Medicine"
+            "name": "Medicine"
           },
           {
             "id": "115",
-            "name": "Skill: Nature"
+            "name": "Nature"
           },
           {
             "id": "116",
-            "name": "Skill: Perception"
+            "name": "Perception"
           },
           {
             "id": "117",
-            "name": "Skill: Performance"
+            "name": "Performance"
           },
           {
             "id": "118",
-            "name": "Skill: Persuasion"
+            "name": "Persuasion"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           },
           {
             "id": "120",
-            "name": "Skill: Sleight of Hand"
+            "name": "Sleight of Hand"
           },
           {
             "id": "121",
-            "name": "Skill: Stealth"
+            "name": "Stealth"
           },
           {
             "id": "122",
-            "name": "Skill: Survival"
+            "name": "Survival"
           }
         ]
       },
@@ -284,23 +284,23 @@
         "from": [
           {
             "id": "110",
-            "name": "Skill: History"
+            "name": "History"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "114",
-            "name": "Skill: Medicine"
+            "name": "Medicine"
           },
           {
             "id": "118",
-            "name": "Skill: Persuasion"
+            "name": "Persuasion"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           }
         ]
       }
@@ -364,35 +364,35 @@
         "from": [
           {
             "id": "106",
-            "name": "Skill: Animal Handling"
+            "name": "Animal Handling"
           },
           {
             "id": "107",
-            "name": "Skill: Arcana"
+            "name": "Arcana"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "114",
-            "name": "Skill: Medicine"
+            "name": "Medicine"
           },
           {
             "id": "115",
-            "name": "Skill: Nature"
+            "name": "Nature"
           },
           {
             "id": "116",
-            "name": "Skill: Perception"
+            "name": "Perception"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           },
           {
             "id": "122",
-            "name": "Skill: Survival"
+            "name": "Survival"
           }
         ]
       }
@@ -496,35 +496,35 @@
         "from": [
           {
             "id": "105",
-            "name": "Skill: Acrobatics"
+            "name": "Acrobatics"
           },
           {
             "id": "106",
-            "name": "Skill: Animal Handling"
+            "name": "Animal Handling"
           },
           {
             "id": "108",
-            "name": "Skill: Athletics"
+            "name": "Athletics"
           },
           {
             "id": "110",
-            "name": "Skill: History"
+            "name": "History"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "112",
-            "name": "Skill: Intimidation"
+            "name": "Intimidation"
           },
           {
             "id": "116",
-            "name": "Skill: Perception"
+            "name": "Perception"
           },
           {
             "id": "122",
-            "name": "Skill: Survival"
+            "name": "Survival"
           }
         ]
       }
@@ -715,27 +715,27 @@
         "from": [
           {
             "id": "105",
-            "name": "Skill: Acrobatics"
+            "name": "Acrobatics"
           },
           {
             "id": "108",
-            "name": "Skill: Athletics"
+            "name": "Athletics"
           },
           {
             "id": "110",
-            "name": "Skill: History"
+            "name": "History"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           },
           {
             "id": "121",
-            "name": "Skill: Stealth"
+            "name": "Stealth"
           }
         ]
       }
@@ -789,27 +789,27 @@
         "from": [
           {
             "id": "108",
-            "name": "Skill: Athletics"
+            "name": "Athletics"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "112",
-            "name": "Skill: Intimidation"
+            "name": "Intimidation"
           },
           {
             "id": "114",
-            "name": "Skill: Medicine"
+            "name": "Medicine"
           },
           {
             "id": "118",
-            "name": "Skill: Persuasion"
+            "name": "Persuasion"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           }
         ]
       }
@@ -874,35 +874,35 @@
         "from": [
           {
             "id": "106",
-            "name": "Skill: Animal Handling"
+            "name": "Animal Handling"
           },
           {
             "id": "108",
-            "name": "Skill: Athletics"
+            "name": "Athletics"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "113",
-            "name": "Skill: Investigation"
+            "name": "Investigation"
           },
           {
             "id": "115",
-            "name": "Skill: Nature"
+            "name": "Nature"
           },
           {
             "id": "116",
-            "name": "Skill: Perception"
+            "name": "Perception"
           },
           {
             "id": "121",
-            "name": "Skill: Stealth"
+            "name": "Stealth"
           },
           {
             "id": "122",
-            "name": "Skill: Survival"
+            "name": "Survival"
           }
         ]
       }
@@ -970,47 +970,47 @@
         "from": [
           {
             "id": "105",
-            "name": "Skill: Acrobatics"
+            "name": "Acrobatics"
           },
           {
             "id": "108",
-            "name": "Skill: Athletics"
+            "name": "Athletics"
           },
           {
             "id": "109",
-            "name": "Skill: Deception"
+            "name": "Deception"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "112",
-            "name": "Skill: Intimidation"
+            "name": "Intimidation"
           },
           {
             "id": "113",
-            "name": "Skill: Investigation"
+            "name": "Investigation"
           },
           {
             "id": "116",
-            "name": "Skill: Perception"
+            "name": "Perception"
           },
           {
             "id": "117",
-            "name": "Skill: Performance"
+            "name": "Performance"
           },
           {
             "id": "118",
-            "name": "Skill: Persuasion"
+            "name": "Persuasion"
           },
           {
             "id": "120",
-            "name": "Skill: Sleight of Hand"
+            "name": "Sleight of Hand"
           },
           {
             "id": "121",
-            "name": "Skill: Stealth"
+            "name": "Stealth"
           }
         ]
       }
@@ -1084,27 +1084,27 @@
         "from": [
           {
             "id": "107",
-            "name": "Skill: Arcana"
+            "name": "Arcana"
           },
           {
             "id": "109",
-            "name": "Skill: Deception"
+            "name": "Deception"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "112",
-            "name": "Skill: Intimidation"
+            "name": "Intimidation"
           },
           {
             "id": "118",
-            "name": "Skill: Persuasion"
+            "name": "Persuasion"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           }
         ]
       }
@@ -1168,31 +1168,31 @@
         "from": [
           {
             "id": "107",
-            "name": "Skill: Arcana"
+            "name": "Arcana"
           },
           {
             "id": "109",
-            "name": "Skill: Deception"
+            "name": "Deception"
           },
           {
             "id": "110",
-            "name": "Skill: History"
+            "name": "History"
           },
           {
             "id": "112",
-            "name": "Skill: Intimidation"
+            "name": "Intimidation"
           },
           {
             "id": "113",
-            "name": "Skill: Investigation"
+            "name": "Investigation"
           },
           {
             "id": "115",
-            "name": "Skill: Nature"
+            "name": "Nature"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           }
         ]
       }
@@ -1248,27 +1248,27 @@
         "from": [
           {
             "id": "107",
-            "name": "Skill: Arcana"
+            "name": "Arcana"
           },
           {
             "id": "110",
-            "name": "Skill: History"
+            "name": "History"
           },
           {
             "id": "111",
-            "name": "Skill: Insight"
+            "name": "Insight"
           },
           {
             "id": "113",
-            "name": "Skill: Investigation"
+            "name": "Investigation"
           },
           {
             "id": "114",
-            "name": "Skill: Medicine"
+            "name": "Medicine"
           },
           {
             "id": "119",
-            "name": "Skill: Religion"
+            "name": "Religion"
           }
         ]
       }
