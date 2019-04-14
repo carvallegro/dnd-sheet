@@ -1,4 +1,4 @@
-import { selectAllClasses, selectSelectedClassLevels } from './selectors'
+import { selectAllClasses, selectSelectedClassLevels, selectSelectedClassSpellcasting } from './selectors'
 
 const STUB_STATE = {
   classes: {
@@ -87,7 +87,7 @@ describe('selectors for the Data Reducer', () => {
   describe('Spellcasting selectors', () => {
     describe('#selectSelectedClassSpellcasting', () => {
       it('should return all spellcasting', () => {
-        expect(selectSelectedClassLevels(STUB_STATE)).toHaveLength(2)
+        expect(selectSelectedClassSpellcasting(STUB_STATE)).toHaveLength(3)
       })
     })
   })
