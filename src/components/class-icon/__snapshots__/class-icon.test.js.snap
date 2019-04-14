@@ -1,79 +1,105 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ClassIcon /> should render 1`] = `
-<styled.img
-  src="Paladin.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render BARBARIAN icon 1`] = `
-<styled.img
-  src="Barbarian.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render BARD icon 1`] = `
-<styled.img
-  src="Bard.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render CLERIC icon 1`] = `
-<styled.img
-  src="Cleric.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render DRUID icon 1`] = `
-<styled.img
-  src="Druid.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render FIGHTER icon 1`] = `
-<styled.img
-  src="Fighter.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render MONK icon 1`] = `
-<styled.img
-  src="Monk.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render PALADIN icon 1`] = `
-<styled.img
-  src="Paladin.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render RANGER icon 1`] = `
-<styled.img
-  src="Ranger.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render ROGUE icon 1`] = `
-<styled.img
-  src="Rogue.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render SORCERER icon 1`] = `
-<styled.img
-  src="Sorcerer.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render WARLOCK icon 1`] = `
-<styled.img
-  src="Warlock.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;
 
 exports[`<ClassIcon /> should render WIZARD icon 1`] = `
-<styled.img
-  src="Wizard.svg"
-/>
+<styled.div
+  height="100%"
+>
+  <ReactComponent />
+</styled.div>
 `;

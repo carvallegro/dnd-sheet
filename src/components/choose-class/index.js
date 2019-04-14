@@ -21,7 +21,7 @@ const Wrapper = styled.section`
 const ClassDetails = ({ classDetail }) => (
   <PageWrapper>
     <DisplayText as="h1">{classDetail.name}</DisplayText>
-    <BodyText>{classDetail.description}</BodyText>
+    <DisplayText>{classDetail.description}</DisplayText>
     <InputField label="Hit die" value={`d${classDetail.hit_die}`} readOnly />
     <p>
       Saving Throws:{' '}
@@ -39,6 +39,7 @@ const ClassDetails = ({ classDetail }) => (
       readOnly
     />
 
+    <DisplayText as="h3">Customization</DisplayText>
     <p>
       Proficiency choices: {JSON.stringify(classDetail.proficiency_choices)}
     </p>

@@ -120,7 +120,7 @@ exports[`Storyshots Attribute default 1`] = `
 exports[`Storyshots Card default 1`] = `
 .c0 {
   background-color: white;
-  box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+  border: 1px solid rgba(97,97,97,0.4);
 }
 
 .c1 {
@@ -141,7 +141,7 @@ exports[`Storyshots Card default 1`] = `
 exports[`Storyshots Card with title 1`] = `
 .c0 {
   background-color: white;
-  box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+  border: 1px solid rgba(97,97,97,0.4);
 }
 
 .c2 {
@@ -176,16 +176,39 @@ exports[`Storyshots Card with title 1`] = `
 
 exports[`Storyshots ClassIcon default 1`] = `
 .c0 {
-  height: 100%;
-  grid-row: span 2;
-  justify-self: center;
-  opacity: 0.6;
+  height: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-<img
+.c0 svg {
+  height: 100%;
+  width: auto;
+}
+
+.c0 svg path {
+  fill: #2d2d2d;
+}
+
+<div
   className="c0"
-  src="Bard.svg"
-/>
+  color="#2d2d2d"
+  height="200px"
+>
+  <svg>
+    Bard.svg
+  </svg>
+</div>
 `;
 
 exports[`Storyshots Death Saves Checkboxes Death Saves 1`] = `
@@ -614,7 +637,7 @@ exports[`Storyshots Inputs/Inline Field default 1`] = `
   width: 100%;
   border: none;
   margin: 0;
-  padding: 0.2em;
+  padding: 0.2em 0;
   background: none;
   font-family: "Open Sans",arial,sans serif;
   color: #2d2d2d;
@@ -680,7 +703,62 @@ exports[`Storyshots Inputs/Input Field default 1`] = `
   width: 100%;
   border: none;
   margin: 0;
-  padding: 0.2em;
+  padding: 0.2em 0;
+  background: none;
+  font-family: "Open Sans",arial,sans serif;
+  color: #2d2d2d;
+  font-size: calc(1pt + 1rem);
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1"
+    size="medium"
+  >
+    Default Value
+  </p>
+  <label
+    className="c2"
+    size="medium"
+  >
+    Input Field Label
+  </label>
+</div>
+`;
+
+exports[`Storyshots Inputs/Input Field edited 1`] = `
+.c2 {
+  font-family: Lora;
+  font-size: 0.8rem;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0.2em 0;
   background: none;
   font-family: "Open Sans",arial,sans serif;
   color: #2d2d2d;
@@ -702,9 +780,65 @@ exports[`Storyshots Inputs/Input Field default 1`] = `
     className="c1"
     onChange={[Function]}
     placeholder="Type a value"
+    readOnly={false}
     size="medium"
     type="string"
   />
+  <label
+    className="c2"
+    size="medium"
+  >
+    Input Field Label
+  </label>
+</div>
+`;
+
+exports[`Storyshots Inputs/Input Field readonly 1`] = `
+.c2 {
+  font-family: Lora;
+  font-size: 0.8rem;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0.2em 0;
+  background: none;
+  font-family: "Open Sans",arial,sans serif;
+  color: #2d2d2d;
+  font-size: calc(1pt + 1rem);
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1"
+    size="medium"
+  >
+    Readonly field
+  </p>
   <label
     className="c2"
     size="medium"
@@ -1080,7 +1214,7 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
   width: 100%;
   border: none;
   margin: 0;
-  padding: 0.2em;
+  padding: 0.2em 0;
   background: none;
   font-family: "Open Sans",arial,sans serif;
   color: #2d2d2d;
@@ -1401,7 +1535,7 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
   width: 100%;
   border: none;
   margin: 0;
-  padding: 0.2em;
+  padding: 0.2em 0;
   background: none;
   font-family: "Open Sans",arial,sans serif;
   color: #2d2d2d;

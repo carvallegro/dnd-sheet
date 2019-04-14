@@ -7,7 +7,7 @@ exports[`<GridArea /> renders 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "sc-bwzfXH",
         "isStatic": false,
         "rules": Array [
           "
@@ -25,7 +25,7 @@ exports[`<GridArea /> renders 1`] = `
         "gridArea": [Function],
       },
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "sc-bwzfXH",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -43,7 +43,7 @@ exports[`<GridArea /> renders with Props 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "sc-bwzfXH",
         "isStatic": false,
         "rules": Array [
           "
@@ -61,7 +61,7 @@ exports[`<GridArea /> renders with Props 1`] = `
         "gridArea": [Function],
       },
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "sc-bwzfXH",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -80,7 +80,7 @@ exports[`<HalfWidth /> renders 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-htpNat",
+        "componentId": "sc-bxivhb",
         "isStatic": false,
         "rules": Array [
           "
@@ -97,13 +97,13 @@ exports[`<HalfWidth /> renders 1`] = `
       },
       "displayName": "Styled(styled.div)",
       "foldedComponentIds": Array [
-        "sc-bdVaJa",
+        "sc-bwzfXH",
       ],
       "propStyle": Object {
         "gridArea": [Function],
       },
       "render": [Function],
-      "styledComponentId": "sc-htpNat",
+      "styledComponentId": "sc-bxivhb",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -122,7 +122,7 @@ exports[`<Page /> renders in print mode 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bwzfXH",
+        "componentId": "sc-htpNat",
         "isStatic": false,
         "rules": Array [
           "
@@ -166,7 +166,7 @@ exports[`<Page /> renders in print mode 1`] = `
       },
       "displayName": "Styled(styled.div)",
       "foldedComponentIds": Array [
-        "sc-bdVaJa",
+        "sc-bwzfXH",
       ],
       "propStyle": Object {
         "gridArea": [Function],
@@ -175,7 +175,7 @@ exports[`<Page /> renders in print mode 1`] = `
         "displayMode": [Function],
       },
       "render": [Function],
-      "styledComponentId": "sc-bwzfXH",
+      "styledComponentId": "sc-htpNat",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -199,7 +199,7 @@ exports[`<Page /> renders in web mode 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bwzfXH",
+        "componentId": "sc-htpNat",
         "isStatic": false,
         "rules": Array [
           "
@@ -243,7 +243,7 @@ exports[`<Page /> renders in web mode 1`] = `
       },
       "displayName": "Styled(styled.div)",
       "foldedComponentIds": Array [
-        "sc-bdVaJa",
+        "sc-bwzfXH",
       ],
       "propStyle": Object {
         "gridArea": [Function],
@@ -252,7 +252,7 @@ exports[`<Page /> renders in web mode 1`] = `
         "displayMode": [Function],
       },
       "render": [Function],
-      "styledComponentId": "sc-bwzfXH",
+      "styledComponentId": "sc-htpNat",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
