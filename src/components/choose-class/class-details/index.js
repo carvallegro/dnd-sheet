@@ -10,7 +10,7 @@ export const ClassDetails = ({ classDetail, classLevels, spellcasting }) => (
   <PageWrapper>
     <DisplayText as="h1">{classDetail.name}</DisplayText>
     <DisplayText>{classDetail.description}</DisplayText>
-    <InputField label="Hit die" value={`d${classDetail.hit_die}`} readOnly/>
+    <InputField label="Hit die" value={`d${classDetail.hit_die}`} readOnly />
     <p>
       Saving Throws:
       {classDetail.saving_throws.map(p => (

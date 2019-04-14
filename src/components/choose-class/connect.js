@@ -1,6 +1,10 @@
 import { connect } from 'react-redux'
 import { selectClass } from '@redux/classes/actions'
-import { selectAllClasses, selectSelectedClassLevels, selectSelectedClassSpellcasting } from '@redux/data/selectors'
+import {
+  selectAllClasses,
+  selectSelectedClassLevels,
+  selectSelectedClassSpellcasting
+} from '@redux/data/selectors'
 import { selectSelectedClass } from '@redux/classes/selectors'
 
 const mapStateToProps = state => ({
@@ -13,4 +17,7 @@ const mapStateToProps = state => ({
 const actionCreators = dispatch => ({
   selectClass: index => dispatch(selectClass(index))
 })
-export default connect(mapStateToProps, actionCreators)
+export default connect(
+  mapStateToProps,
+  actionCreators
+)

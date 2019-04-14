@@ -1,4 +1,8 @@
-import { selectAllClasses, selectSelectedClassLevels, selectSelectedClassSpellcasting } from './selectors'
+import {
+  selectAllClasses,
+  selectSelectedClassLevels,
+  selectSelectedClassSpellcasting
+} from './selectors'
 
 const STUB_STATE = {
   classes: {

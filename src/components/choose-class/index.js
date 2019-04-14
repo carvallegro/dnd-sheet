@@ -15,11 +15,17 @@ const Wrapper = styled.section`
   color: ${({ theme }) => theme.textColor};
 `
 
-const ChooseClass = ({ classes = [], selectedClass, selectClass, classLevels, spellcasting }) =>
+const ChooseClass = ({
+  classes = [],
+  selectedClass,
+  selectClass,
+  classLevels,
+  spellcasting
+}) => (
   <ThemeProvider theme={greyTheme}>
     <Wrapper>
       {!selectedClass.index && (
-        <ClassList classes={classes} onClick={selectClass}/>
+        <ClassList classes={classes} onClick={selectClass} />
       )}
       {selectedClass.index && (
         <ClassDetails
@@ -30,5 +36,6 @@ const ChooseClass = ({ classes = [], selectedClass, selectClass, classLevels, sp
       )}
     </Wrapper>
   </ThemeProvider>
+)
 
 export default connect(ChooseClass)
