@@ -22,7 +22,7 @@
     "index": 1,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/1"
@@ -50,7 +50,7 @@
     "index": 2,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/2"
@@ -74,7 +74,7 @@
     "index": 3,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/3"
@@ -98,7 +98,7 @@
     "index": 4,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/4"
@@ -126,7 +126,7 @@
     "index": 5,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/5"
@@ -146,7 +146,7 @@
     "index": 6,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/6"
@@ -171,7 +171,7 @@
     "index": 7,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/7"
@@ -196,7 +196,7 @@
     "index": 8,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/8"
@@ -221,7 +221,7 @@
     "index": 9,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/9"
@@ -241,7 +241,7 @@
     "index": 10,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/10"
@@ -266,7 +266,7 @@
     "index": 11,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/11"
@@ -290,7 +290,7 @@
     "index": 12,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/12"
@@ -314,7 +314,7 @@
     "index": 13,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/13"
@@ -333,7 +333,7 @@
     "index": 14,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/14"
@@ -357,7 +357,7 @@
     "index": 15,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/15"
@@ -381,7 +381,7 @@
     "index": 16,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/16"
@@ -405,7 +405,7 @@
     "index": 17,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/17"
@@ -429,7 +429,7 @@
     "index": 18,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/18"
@@ -453,7 +453,7 @@
     "index": 19,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/19"
@@ -477,7 +477,7 @@
     "index": 20,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {},
     "id": "barbarian/level/20"
@@ -524,7 +524,7 @@
     "index": 21,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/1"
@@ -567,7 +567,7 @@
     "index": 22,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/2"
@@ -611,7 +611,7 @@
     "index": 23,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/3"
@@ -650,7 +650,7 @@
     "index": 24,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/4"
@@ -693,7 +693,7 @@
     "index": 25,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/5"
@@ -727,7 +727,7 @@
     "index": 26,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/6"
@@ -766,7 +766,7 @@
     "index": 27,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/7"
@@ -805,7 +805,7 @@
     "index": 28,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/8"
@@ -844,7 +844,7 @@
     "index": 29,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/9"
@@ -892,7 +892,7 @@
     "index": 30,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/10"
@@ -926,7 +926,7 @@
     "index": 31,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/11"
@@ -965,7 +965,7 @@
     "index": 32,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/12"
@@ -1004,7 +1004,7 @@
     "index": 33,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/13"
@@ -1043,7 +1043,7 @@
     "index": 34,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/14"
@@ -1082,7 +1082,7 @@
     "index": 35,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/15"
@@ -1121,7 +1121,7 @@
     "index": 36,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/16"
@@ -1160,7 +1160,7 @@
     "index": 37,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/17"
@@ -1199,7 +1199,7 @@
     "index": 38,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/18"
@@ -1238,7 +1238,7 @@
     "index": 39,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/19"
@@ -1277,7 +1277,7 @@
     "index": 40,
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {},
     "id": "bard/level/20"
@@ -1321,7 +1321,7 @@
     "index": 41,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/1"
@@ -1361,7 +1361,7 @@
     "index": 42,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/2"
@@ -1397,7 +1397,7 @@
     "index": 43,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/3"
@@ -1433,7 +1433,7 @@
     "index": 44,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/4"
@@ -1473,7 +1473,7 @@
     "index": 45,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/5"
@@ -1509,7 +1509,7 @@
     "index": 46,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/6"
@@ -1545,7 +1545,7 @@
     "index": 47,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/7"
@@ -1585,7 +1585,7 @@
     "index": 48,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/8"
@@ -1621,7 +1621,7 @@
     "index": 49,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/9"
@@ -1657,7 +1657,7 @@
     "index": 50,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/10"
@@ -1693,7 +1693,7 @@
     "index": 51,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/11"
@@ -1729,7 +1729,7 @@
     "index": 52,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/12"
@@ -1760,7 +1760,7 @@
     "index": 53,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/13"
@@ -1796,7 +1796,7 @@
     "index": 54,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/14"
@@ -1827,7 +1827,7 @@
     "index": 55,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/15"
@@ -1863,7 +1863,7 @@
     "index": 56,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/16"
@@ -1903,7 +1903,7 @@
     "index": 57,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/17"
@@ -1939,7 +1939,7 @@
     "index": 58,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/18"
@@ -1975,7 +1975,7 @@
     "index": 59,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/19"
@@ -2011,7 +2011,7 @@
     "index": 60,
     "class": {
       "name": "Cleric",
-      "id": "cleric"
+      "id": 3
     },
     "subclass": {},
     "id": "cleric/level/20"
@@ -2051,7 +2051,7 @@
     "index": 61,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/1"
@@ -2091,7 +2091,7 @@
     "index": 62,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/2"
@@ -2122,7 +2122,7 @@
     "index": 63,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/3"
@@ -2162,7 +2162,7 @@
     "index": 64,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/4"
@@ -2193,7 +2193,7 @@
     "index": 65,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/5"
@@ -2224,7 +2224,7 @@
     "index": 66,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/6"
@@ -2255,7 +2255,7 @@
     "index": 67,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/7"
@@ -2295,7 +2295,7 @@
     "index": 68,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/8"
@@ -2326,7 +2326,7 @@
     "index": 69,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/9"
@@ -2357,7 +2357,7 @@
     "index": 70,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/10"
@@ -2388,7 +2388,7 @@
     "index": 71,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/11"
@@ -2424,7 +2424,7 @@
     "index": 72,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/12"
@@ -2455,7 +2455,7 @@
     "index": 73,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/13"
@@ -2486,7 +2486,7 @@
     "index": 74,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/14"
@@ -2517,7 +2517,7 @@
     "index": 75,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/15"
@@ -2553,7 +2553,7 @@
     "index": 76,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/16"
@@ -2584,7 +2584,7 @@
     "index": 77,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/17"
@@ -2624,7 +2624,7 @@
     "index": 78,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/18"
@@ -2660,7 +2660,7 @@
     "index": 79,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/19"
@@ -2696,7 +2696,7 @@
     "index": 80,
     "class": {
       "name": "Druid",
-      "id": "druid"
+      "id": 4
     },
     "subclass": {},
     "id": "druid/level/20"
@@ -2726,7 +2726,7 @@
     "index": 81,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/1"
@@ -2755,7 +2755,7 @@
     "index": 82,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/2"
@@ -2780,7 +2780,7 @@
     "index": 83,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/3"
@@ -2805,7 +2805,7 @@
     "index": 84,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/4"
@@ -2830,7 +2830,7 @@
     "index": 85,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/5"
@@ -2855,7 +2855,7 @@
     "index": 86,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/6"
@@ -2875,7 +2875,7 @@
     "index": 87,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/7"
@@ -2900,7 +2900,7 @@
     "index": 88,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/8"
@@ -2925,7 +2925,7 @@
     "index": 89,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/9"
@@ -2945,7 +2945,7 @@
     "index": 90,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/10"
@@ -2970,7 +2970,7 @@
     "index": 91,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/11"
@@ -2995,7 +2995,7 @@
     "index": 92,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/12"
@@ -3020,7 +3020,7 @@
     "index": 93,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/13"
@@ -3045,7 +3045,7 @@
     "index": 94,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/14"
@@ -3065,7 +3065,7 @@
     "index": 95,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/15"
@@ -3090,7 +3090,7 @@
     "index": 96,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/16"
@@ -3115,7 +3115,7 @@
     "index": 97,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/17"
@@ -3135,7 +3135,7 @@
     "index": 98,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/18"
@@ -3160,7 +3160,7 @@
     "index": 99,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/19"
@@ -3185,7 +3185,7 @@
     "index": 100,
     "class": {
       "name": "Fighter",
-      "id": "fighter"
+      "id": 5
     },
     "subclass": {},
     "id": "fighter/level/20"
@@ -3217,7 +3217,7 @@
     "index": 101,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/1"
@@ -3261,7 +3261,7 @@
     "index": 102,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/2"
@@ -3293,7 +3293,7 @@
     "index": 103,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/3"
@@ -3325,7 +3325,7 @@
     "index": 104,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/4"
@@ -3357,7 +3357,7 @@
     "index": 105,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/5"
@@ -3385,7 +3385,7 @@
     "index": 106,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/6"
@@ -3417,7 +3417,7 @@
     "index": 107,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/7"
@@ -3445,7 +3445,7 @@
     "index": 108,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/8"
@@ -3473,7 +3473,7 @@
     "index": 109,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/9"
@@ -3501,7 +3501,7 @@
     "index": 110,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/10"
@@ -3524,7 +3524,7 @@
     "index": 111,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/11"
@@ -3552,7 +3552,7 @@
     "index": 112,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/12"
@@ -3580,7 +3580,7 @@
     "index": 113,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/13"
@@ -3608,7 +3608,7 @@
     "index": 114,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/14"
@@ -3636,7 +3636,7 @@
     "index": 115,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/15"
@@ -3664,7 +3664,7 @@
     "index": 116,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/16"
@@ -3687,7 +3687,7 @@
     "index": 117,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/17"
@@ -3715,7 +3715,7 @@
     "index": 118,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/18"
@@ -3743,7 +3743,7 @@
     "index": 119,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/19"
@@ -3771,7 +3771,7 @@
     "index": 120,
     "class": {
       "name": "Monk",
-      "id": "monk"
+      "id": 6
     },
     "subclass": {},
     "id": "monk/level/20"
@@ -3804,7 +3804,7 @@
     "index": 121,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/1"
@@ -3842,7 +3842,7 @@
     "index": 122,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/2"
@@ -3883,7 +3883,7 @@
     "index": 123,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/3"
@@ -3912,7 +3912,7 @@
     "index": 124,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/4"
@@ -3941,7 +3941,7 @@
     "index": 125,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/5"
@@ -3966,7 +3966,7 @@
     "index": 126,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/6"
@@ -3986,7 +3986,7 @@
     "index": 127,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/7"
@@ -4011,7 +4011,7 @@
     "index": 128,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/8"
@@ -4031,7 +4031,7 @@
     "index": 129,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/9"
@@ -4056,7 +4056,7 @@
     "index": 130,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/10"
@@ -4081,7 +4081,7 @@
     "index": 131,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/11"
@@ -4106,7 +4106,7 @@
     "index": 132,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/12"
@@ -4126,7 +4126,7 @@
     "index": 133,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/13"
@@ -4151,7 +4151,7 @@
     "index": 134,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/14"
@@ -4175,7 +4175,7 @@
     "index": 135,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/15"
@@ -4200,7 +4200,7 @@
     "index": 136,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/16"
@@ -4220,7 +4220,7 @@
     "index": 137,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/17"
@@ -4245,7 +4245,7 @@
     "index": 138,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/18"
@@ -4270,7 +4270,7 @@
     "index": 139,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/19"
@@ -4290,7 +4290,7 @@
     "index": 140,
     "class": {
       "name": "Paladin",
-      "id": "paladin"
+      "id": 7
     },
     "subclass": {},
     "id": "paladin/level/20"
@@ -4325,7 +4325,7 @@
     "index": 141,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/1"
@@ -4361,7 +4361,7 @@
     "index": 142,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/2"
@@ -4396,7 +4396,7 @@
     "index": 143,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/3"
@@ -4427,7 +4427,7 @@
     "index": 144,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/4"
@@ -4458,7 +4458,7 @@
     "index": 145,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/5"
@@ -4493,7 +4493,7 @@
     "index": 146,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/6"
@@ -4519,7 +4519,7 @@
     "index": 147,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/7"
@@ -4554,7 +4554,7 @@
     "index": 148,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/8"
@@ -4580,7 +4580,7 @@
     "index": 149,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/9"
@@ -4615,7 +4615,7 @@
     "index": 150,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/10"
@@ -4641,7 +4641,7 @@
     "index": 151,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/11"
@@ -4672,7 +4672,7 @@
     "index": 152,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/12"
@@ -4698,7 +4698,7 @@
     "index": 153,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/13"
@@ -4733,7 +4733,7 @@
     "index": 154,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/14"
@@ -4759,7 +4759,7 @@
     "index": 155,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/15"
@@ -4790,7 +4790,7 @@
     "index": 156,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/16"
@@ -4816,7 +4816,7 @@
     "index": 157,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/17"
@@ -4847,7 +4847,7 @@
     "index": 158,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/18"
@@ -4878,7 +4878,7 @@
     "index": 159,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/19"
@@ -4909,7 +4909,7 @@
     "index": 160,
     "class": {
       "name": "Ranger",
-      "id": "ranger"
+      "id": 8
     },
     "subclass": {},
     "id": "ranger/level/20"
@@ -4944,7 +4944,7 @@
     "index": 161,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/1"
@@ -4970,7 +4970,7 @@
     "index": 162,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/2"
@@ -4996,7 +4996,7 @@
     "index": 163,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/3"
@@ -5022,7 +5022,7 @@
     "index": 164,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/4"
@@ -5048,7 +5048,7 @@
     "index": 165,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/5"
@@ -5074,7 +5074,7 @@
     "index": 166,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/6"
@@ -5100,7 +5100,7 @@
     "index": 167,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/7"
@@ -5126,7 +5126,7 @@
     "index": 168,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/8"
@@ -5152,7 +5152,7 @@
     "index": 169,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/9"
@@ -5178,7 +5178,7 @@
     "index": 170,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/10"
@@ -5204,7 +5204,7 @@
     "index": 171,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/11"
@@ -5230,7 +5230,7 @@
     "index": 172,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/12"
@@ -5251,7 +5251,7 @@
     "index": 173,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/13"
@@ -5277,7 +5277,7 @@
     "index": 174,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/14"
@@ -5303,7 +5303,7 @@
     "index": 175,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/15"
@@ -5329,7 +5329,7 @@
     "index": 176,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/16"
@@ -5350,7 +5350,7 @@
     "index": 177,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/17"
@@ -5376,7 +5376,7 @@
     "index": 178,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/18"
@@ -5402,7 +5402,7 @@
     "index": 179,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/19"
@@ -5428,7 +5428,7 @@
     "index": 180,
     "class": {
       "name": "Rogue",
-      "id": "rogue"
+      "id": 9
     },
     "subclass": {},
     "id": "rogue/level/20"
@@ -5469,7 +5469,7 @@
     "index": 181,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/1"
@@ -5535,7 +5535,7 @@
     "index": 182,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/2"
@@ -5593,7 +5593,7 @@
     "index": 183,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/3"
@@ -5651,7 +5651,7 @@
     "index": 184,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/4"
@@ -5704,7 +5704,7 @@
     "index": 185,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/5"
@@ -5757,7 +5757,7 @@
     "index": 186,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/6"
@@ -5810,7 +5810,7 @@
     "index": 187,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/7"
@@ -5868,7 +5868,7 @@
     "index": 188,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/8"
@@ -5921,7 +5921,7 @@
     "index": 189,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/9"
@@ -5979,7 +5979,7 @@
     "index": 190,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/10"
@@ -6032,7 +6032,7 @@
     "index": 191,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/11"
@@ -6090,7 +6090,7 @@
     "index": 192,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/12"
@@ -6143,7 +6143,7 @@
     "index": 193,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/13"
@@ -6196,7 +6196,7 @@
     "index": 194,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/14"
@@ -6249,7 +6249,7 @@
     "index": 195,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/15"
@@ -6307,7 +6307,7 @@
     "index": 196,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/16"
@@ -6365,7 +6365,7 @@
     "index": 197,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/17"
@@ -6418,7 +6418,7 @@
     "index": 198,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/18"
@@ -6476,7 +6476,7 @@
     "index": 199,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/19"
@@ -6534,7 +6534,7 @@
     "index": 200,
     "class": {
       "name": "Sorcerer",
-      "id": "sorcerer"
+      "id": 10
     },
     "subclass": {},
     "id": "sorcerer/level/20"
@@ -6577,7 +6577,7 @@
     "index": 201,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/1"
@@ -6616,7 +6616,7 @@
     "index": 202,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/2"
@@ -6655,7 +6655,7 @@
     "index": 203,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/3"
@@ -6694,7 +6694,7 @@
     "index": 204,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/4"
@@ -6733,7 +6733,7 @@
     "index": 205,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/5"
@@ -6767,7 +6767,7 @@
     "index": 206,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/6"
@@ -6806,7 +6806,7 @@
     "index": 207,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/7"
@@ -6845,7 +6845,7 @@
     "index": 208,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/8"
@@ -6884,7 +6884,7 @@
     "index": 209,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/9"
@@ -6918,7 +6918,7 @@
     "index": 210,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/10"
@@ -6957,7 +6957,7 @@
     "index": 211,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/11"
@@ -7000,7 +7000,7 @@
     "index": 212,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/12"
@@ -7039,7 +7039,7 @@
     "index": 213,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/13"
@@ -7073,7 +7073,7 @@
     "index": 214,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/14"
@@ -7116,7 +7116,7 @@
     "index": 215,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/15"
@@ -7155,7 +7155,7 @@
     "index": 216,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/16"
@@ -7194,7 +7194,7 @@
     "index": 217,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/17"
@@ -7233,7 +7233,7 @@
     "index": 218,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/18"
@@ -7272,7 +7272,7 @@
     "index": 219,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/19"
@@ -7315,7 +7315,7 @@
     "index": 220,
     "class": {
       "name": "Warlock",
-      "id": "warlock"
+      "id": 11
     },
     "subclass": {},
     "id": "warlock/level/20"
@@ -7353,7 +7353,7 @@
     "index": 221,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/1"
@@ -7387,7 +7387,7 @@
     "index": 222,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/2"
@@ -7416,7 +7416,7 @@
     "index": 223,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/3"
@@ -7450,7 +7450,7 @@
     "index": 224,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/4"
@@ -7479,7 +7479,7 @@
     "index": 225,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/5"
@@ -7508,7 +7508,7 @@
     "index": 226,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/6"
@@ -7537,7 +7537,7 @@
     "index": 227,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/7"
@@ -7571,7 +7571,7 @@
     "index": 228,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/8"
@@ -7600,7 +7600,7 @@
     "index": 229,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/9"
@@ -7629,7 +7629,7 @@
     "index": 230,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/10"
@@ -7658,7 +7658,7 @@
     "index": 231,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/11"
@@ -7692,7 +7692,7 @@
     "index": 232,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/12"
@@ -7721,7 +7721,7 @@
     "index": 233,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/13"
@@ -7750,7 +7750,7 @@
     "index": 234,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/14"
@@ -7779,7 +7779,7 @@
     "index": 235,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/15"
@@ -7813,7 +7813,7 @@
     "index": 236,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/16"
@@ -7842,7 +7842,7 @@
     "index": 237,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/17"
@@ -7876,7 +7876,7 @@
     "index": 238,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/18"
@@ -7910,7 +7910,7 @@
     "index": 239,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/19"
@@ -7944,7 +7944,7 @@
     "index": 240,
     "class": {
       "name": "Wizard",
-      "id": "wizard"
+      "id": 12
     },
     "subclass": {},
     "id": "wizard/level/20"
@@ -7965,7 +7965,7 @@
     "spellcasting": {},
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {
       "name": "Berserker",
@@ -7987,7 +7987,7 @@
     "index": 242,
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {
       "name": "Berserker",
@@ -8007,7 +8007,7 @@
     "spellcasting": {},
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {
       "name": "Berserker",
@@ -8028,7 +8028,7 @@
     "spellcasting": {},
     "class": {
       "name": "Barbarian",
-      "id": "barbarian"
+      "id": 1
     },
     "subclass": {
       "name": "Berserker",
@@ -8056,7 +8056,7 @@
     },
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {
       "name": "Lore",
@@ -8080,7 +8080,7 @@
     },
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {
       "name": "Lore",
@@ -8104,7 +8104,7 @@
     },
     "class": {
       "name": "Bard",
-      "id": "bard"
+      "id": 2
     },
     "subclass": {
       "name": "Lore",
