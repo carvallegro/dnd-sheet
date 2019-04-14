@@ -11,4 +11,4 @@ export const selectSelectedClassLevels = state =>
 export const selectSelectedClassSpellcasting = state =>
   _(state)
     .get('data.spellcasting')
-    .filter(_.matchesProperty('class.id', selectSelectedClassIndex(state)))
+    .filter(s => s.class.id == selectSelectedClassIndex(state))
