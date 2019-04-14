@@ -23,11 +23,22 @@ const STUB_STATE = {
         level: 1,
         class: {
           id: 1
-        }
+        },
+        subclass: {}
       },
       {
         level: 2,
         class: {
+          id: 1
+        },
+        subclass: {}
+      },
+      {
+        level: 1,
+        class: {
+          id: 1
+        },
+        subclass: {
           id: 1
         }
       },

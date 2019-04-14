@@ -13,7 +13,7 @@ const classesReducer = handleActions(
   {
     [selectClass]: (state, action) => ({
       ...state,
-      selectClass: {
+      selectedClass: {
         index: action.payload
       }
     })
