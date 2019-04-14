@@ -1,5 +1,6 @@
 'use strict';
 
+const _ = require('lodash')
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -107,7 +108,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
 // This is the production configuration.
 // It compiles slowly and is focused on producing a fast and minimal bundle.
 // The development configuration is different and lives in a separate file.
-module.exports = {
+module.exports = _.merge(webpackCommon, {
   mode: 'production',
   // Don't attempt to continue if there are any errors.
   bail: true,
@@ -221,7 +222,6 @@ module.exports = {
     extensions: paths.moduleFileExtensions
       .map(ext => `.${ext}`)
       .filter(ext => useTypeScript || !ext.includes('ts')),
-    alias: webpackCommon.resolve.alias,
     plugins: [
       // Adds support for installing with Plug'n'Play, leading to faster installs and adding
       // guards against forgotten dependencies and such.
@@ -287,7 +287,6 @@ module.exports = {
                 ],
               ],
               cacheDirectory: true,
-              // Save disk space when time isn't as important
               cacheCompression: true,
               compact: true,
             },
@@ -516,4 +515,4 @@ module.exports = {
   // Turn off performance processing because we utilize
   // our own hints via the FileSizeReporter
   performance: false,
-};
+});
