@@ -11,15 +11,13 @@ const INITIAL_STATE = {
 
 const dataReducer = handleActions(
   {
-    [loadAllStoredData]: (state, action) => {
-      return {
-        ...state,
-        classes: action.payload[indexedItems.CLASSES],
-        subclasses: action.payload[indexedItems.SUBCLASSES],
-        class_levels: action.payload[indexedItems.LEVELS],
-        spellcasting: action.payload[indexedItems.SPELLCASTING]
-      }
-    }
+    [loadAllStoredData]: (state, action) => ({
+      ...state,
+      classes: action.payload[indexedItems.CLASSES],
+      subclasses: action.payload[indexedItems.SUBCLASSES],
+      class_levels: action.payload[indexedItems.LEVELS],
+      spellcasting: action.payload[indexedItems.SPELLCASTING]
+    })
   },
   INITIAL_STATE
 )
