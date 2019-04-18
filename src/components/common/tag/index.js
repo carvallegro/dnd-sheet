@@ -18,6 +18,7 @@ const Tag = styled.span`
 
   font-family: ${fonts.input};
   font-size: ${getTagFontSize};
+  text-align: center;
   color: ${({ reverse, color, darkText }) => (reverse ? color : getTagTextColor(darkText))};
 `
 
