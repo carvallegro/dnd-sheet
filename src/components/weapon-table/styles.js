@@ -20,6 +20,15 @@ export const WeaponDescription = styled(TD)`
   font-size: ${fontSizes.small};
   font-style: italic;
 `
-export const WeaponName = styled.span`
+export const WeaponName = styled.div`
   vertical-align: middle;
+`
+
+export const WeaponNameLine = styled.div`
+   display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 0.2rem;
+  
 `

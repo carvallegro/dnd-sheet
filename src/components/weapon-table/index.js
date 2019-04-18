@@ -17,6 +17,7 @@ import {
   WeaponName,
   WeaponDescription
 } from './styles'
+import { WeaponNameLine } from '@components/weapon-table/styles'
 
 const handToColor = {
   [equippedHandEnum.MAIN]: colors.purple,
@@ -24,7 +25,7 @@ const handToColor = {
   [equippedHandEnum.DUAL]: colors['brownish-grey']
 }
 const EquippedTag = ({ equippedHand }) => (
-  <Tag color={handToColor[equippedHand]}>{equippedHand}</Tag>
+  <Tag as='span' color={handToColor[equippedHand]}>{equippedHand}</Tag>
 )
 
 const WeaponLine = ({
@@ -46,8 +47,10 @@ const WeaponLine = ({
         />
       </TD>
       <TD>
-        <WeaponName>{weaponName}</WeaponName>{' '}
-        {equipped && <EquippedTag equippedHand={equipped} />}
+        <WeaponNameLine>
+          <WeaponName>{weaponName}</WeaponName>{' '}
+          {equipped && <EquippedTag equippedHand={equipped} />}
+        </WeaponNameLine>
       </TD>
       <TD>{attackBonus}</TD>
       <TD>

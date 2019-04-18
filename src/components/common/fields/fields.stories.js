@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs'
@@ -28,7 +28,7 @@ storiesOf('Inputs/Inline Field', module)
 
 storiesOf('Inputs/Input Field', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
+  .add('default', () => (<Fragment>
     <InputField
       label="Input Field Label"
       placeholder="Type a value"
@@ -36,7 +36,35 @@ storiesOf('Inputs/Input Field', module)
       onChange={action('input-onchange')}
       size={select('Size', SIZES, SIZES.medium)}
     />
-  ))
+    <InputField
+      label="Input Field Label"
+      placeholder="Type a value"
+      value='Input X Small Value not modifiable'
+      onChange={action('input-onchange')}
+      size={SIZES.xsmall}
+    />
+    <InputField
+      label="Input Field Label"
+      placeholder="Type a value"
+      value='Input Small Value not modifiable'
+      onChange={action('input-onchange')}
+      size={SIZES.small}
+    />
+    <InputField
+      label="Input Field Label"
+      placeholder="Type a value"
+      value='Input Medium Value not modifiable'
+      onChange={action('input-onchange')}
+      size={SIZES.medium}
+    />
+    <InputField
+      label="Input Field Label"
+      placeholder="Type a value"
+      value='Input Large Value not modifiable'
+      onChange={action('input-onchange')}
+      size={SIZES.large}
+    />
+  </Fragment>))
   .add('readonly', () => (
     <InputField
       readOnly
@@ -89,12 +117,30 @@ const MOCK_TAG_OPTIONS = [
 ]
 storiesOf('Inputs/Tagfield', module)
   .addDecorator(withKnobs)
-  .add('default', () => (
+  .add('default', () => (<Fragment>
     <TagField
       label="Tag field for tags"
+      size={SIZES.xsmall}
+      value={[1, 4]}
+      options={MOCK_TAG_OPTIONS}
+      onChange={action('textarea-onchange')}
+    /><TagField
+      label="Tag field for tags"
       size={SIZES.small}
-      value={[1,4]}
+      value={[1, 4]}
+      options={MOCK_TAG_OPTIONS}
+      onChange={action('textarea-onchange')}
+    /><TagField
+      label="Tag field for tags"
+      size={SIZES.medium}
+      value={[1, 4]}
+      options={MOCK_TAG_OPTIONS}
+      onChange={action('textarea-onchange')}
+    /><TagField
+      label="Tag field for tags"
+      size={SIZES.large}
+      value={[1, 4]}
       options={MOCK_TAG_OPTIONS}
       onChange={action('textarea-onchange')}
     />
-  ))
+  </Fragment>))

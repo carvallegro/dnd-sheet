@@ -10,7 +10,7 @@ import styled from 'styled-components'
 import Tag from '@common/tag'
 
 import { Icon } from 'react-icons-kit'
-import {plus} from 'react-icons-kit/metrize/plus'
+import { plus } from 'react-icons-kit/metrize/plus'
 import { fontSizes } from '@styles'
 
 const TagWrapper = styled.div`
@@ -51,10 +51,11 @@ const TagField = ({
     <TagWrapper>
       {
         _(options)
-          .map(o => <Tag k={o.value} size={size} reverse={!value.includes(o.value)}>
-            <TagButton size={size}><Icon icon={plus} /></TagButton>
-            {o.label}
-          </Tag>)
+          .map(o =>
+            <Tag k={o.value} size={size} reverse={!value.includes(o.value)}>
+              <TagButton size={size}><Icon icon={plus}/></TagButton>
+              {o.label}
+            </Tag>)
           .value()
       }
     </TagWrapper>
