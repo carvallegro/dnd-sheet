@@ -1,11 +1,6 @@
 import styled from 'styled-components'
-import { rgba } from 'polished'
-import { colors, fonts } from '@styles'
+import { fonts } from '@styles'
 
-export const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.backgroundColor};
-  border: 1px solid ${rgba(colors['brownish-grey'], 0.4)};
-`
 export const CardTitle = styled.p`
   margin: 0;
   padding: 0.4rem;

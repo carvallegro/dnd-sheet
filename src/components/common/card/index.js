@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { CardTitle, Wrapper } from './styles'
+import { CardTitle } from './styles'
+import { Square } from '@common/shapes'
 
 const Card = ({ children, title }) => (
-  <Wrapper>
+  <Square>
     {children}
     {title && <CardTitle>{title}</CardTitle>}
-  </Wrapper>
+  </Square>
 )
 
 Card.propTypes = {
