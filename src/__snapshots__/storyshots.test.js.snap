@@ -1054,7 +1054,7 @@ exports[`Storyshots Magic Spells default 1`] = `
       >
         Spell
         <br />
-        Level
+        LevelTitle
       </p>
     </div>
     <div
@@ -1249,7 +1249,7 @@ exports[`Storyshots Magic Spells with Spells 1`] = `
       >
         Spell
         <br />
-        Level
+        LevelTitle
       </p>
     </div>
     <div
@@ -1570,7 +1570,7 @@ exports[`Storyshots Magic Spells with Spells and columns 1`] = `
       >
         Spell
         <br />
-        Level
+        LevelTitle
       </p>
     </div>
     <div
