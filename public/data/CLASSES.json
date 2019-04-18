@@ -90,6 +90,7 @@
     "index": 2,
     "name": "Bard",
     "hit_die": 8,
+    "description": "Whether scholar, skald, or scoundrel, a bard weaves magic through words and music to inspire allies, demoralize foes, manipulate minds, create illusions, and even heal wounds. The bard is a master of song, speech, and the magic they contain.",
     "proficiency_choices": [
       {
         "choose": 3,
@@ -356,6 +357,7 @@
   {
     "index": 4,
     "name": "Druid",
+    "description": "Whether calling on the elemental forces of nature or emulating the creatures of the animal world, druids are an embodiment of nature's resilience, cunning, and fury. They claim no mastery over nature, but see themselves as extensions of nature's indomitable will.",
     "hit_die": 8,
     "proficiency_choices": [
       {
@@ -488,6 +490,7 @@
   {
     "index": 5,
     "name": "Fighter",
+    "description": "Fighters share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. They are well acquainted with death, both meting it out and staring it defiantly in the face.",
     "hit_die": 10,
     "proficiency_choices": [
       {
@@ -781,6 +784,7 @@
   {
     "index": 7,
     "name": "Paladin",
+    "description": "Whether sworn before a god's altar and the witness of a priest, in a sacred glade before nature spirits and fey beings, or in a moment of desperation and grief with the dead as the only witness, a paladin's oath is a powerful bond.\n\n",
     "hit_die": 10,
     "proficiency_choices": [
       {
@@ -962,6 +966,7 @@
   {
     "index": 9,
     "name": "Rogue",
+    "description": "Rogues rely on skill, stealth, and their foes' vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.",
     "hit_die": 8,
     "proficiency_choices": [
       {
@@ -1076,6 +1081,7 @@
   {
     "index": 10,
     "name": "Sorcerer",
+    "description": "Sorcerers carry a magical birthright conferred upon them by an exotic bloodline, some otherworldly influence, or exposure to unknown cosmic forces. No one chooses sorcery; the power chooses the sorcerer.",
     "hit_die": 6,
     "proficiency_choices": [
       {
@@ -1160,6 +1166,7 @@
   {
     "index": 11,
     "name": "Warlock",
+    "description": "Warlocks are seekers of the knowledge that lies hidden in the fabric of the multiverse. Through pacts made with mysterious beings of supernatural power, warlocks unlock magical effects both subtle and spectacular.",
     "hit_die": 8,
     "proficiency_choices": [
       {
@@ -1240,6 +1247,7 @@
   {
     "index": 12,
     "name": "Wizard",
+    "description": "Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, brute-force mind control, and much more.",
     "hit_die": 6,
     "proficiency_choices": [
       {
