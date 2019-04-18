@@ -51,6 +51,7 @@ const TagField = ({
     <TagWrapper>
       {
         _(options)
+          .sortBy(o => !value.includes(o.value))
           .map(o =>
             <Tag k={o.value} size={size} reverse={!value.includes(o.value)}>
               <TagButton size={size}><Icon icon={plus}/></TagButton>

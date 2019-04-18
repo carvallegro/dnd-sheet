@@ -9,6 +9,7 @@ import Tag from '@common/tag'
 import InputField from '@common/fields/input-field'
 import { DisplayText } from '@common/typography'
 import { MAX_LEVEL } from '@redux/general/constants'
+import TagField from '@common/fields/tag-field'
 
 export const LevelWrapper = styled.div`
   text-align: center;
@@ -99,9 +100,10 @@ export const ClassDetails = ({ classDetail, classLevels, spellcasting }) => {
         ))}
       </ProficienciesWrapper>
 
-      <p>
-        Proficiency choices: {JSON.stringify(classDetail.proficiency_choices)}
-      </p>
+        {classDetail.proficiency_choices.map(p => <TagField
+          label={`Choose ${p.choose} from`}
+          options={p.from.map(c => ({value: c.id, label: c.name}))}
+        />)}
 
       <DisplayText as="h2">Leveling Up</DisplayText>
       {levels.map(level => (
