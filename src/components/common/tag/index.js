@@ -4,28 +4,33 @@ import styled from 'styled-components'
 import { math } from 'polished'
 import { colors, fonts, fontSizes, SIZES } from '@styles'
 
+const getTagTextColor = darkText => darkText ? colors.black : colors.white
+const getTagBackgroundColor = ({ reverse, color }) => reverse ? 'transparent' : color
+
+const getTagFontSize = ({ size }) => fontSizes[size]
 const Tag = styled.span`
   border-radius: 1rem;
   border: 1px solid ${({ color }) => color};
-  background-color: ${({ reverse, color }) =>
-    reverse ? 'transparent' : color};
+  background-color: ${getTagBackgroundColor};
 
   padding: ${({ size }) => math(`${fontSizes[size]}*0.05`)}
     ${({ size }) => math(`${fontSizes[size]}*0.6`)};
 
   font-family: ${fonts.input};
-  font-size: ${({ size }) => fontSizes[size]};
-  color: ${({ reverse, color }) => (reverse ? color : colors.white)};
+  font-size: ${getTagFontSize};
+  color: ${({ reverse, color, darkText }) => (reverse ? color : getTagTextColor(darkText))};
 `
 
 Tag.propTypes = {
   color: PropTypes.oneOf(Object.values(colors)),
   size: PropTypes.oneOf(Object.values(SIZES)),
-  reverse: PropTypes.bool
+  reverse: PropTypes.bool,
+  darkText: PropTypes.bool
 }
 Tag.defaultProps = {
   color: colors.black,
   size: SIZES.xsmall,
-  reverse: false
+  reverse: false,
+  darkText: false
 }
 export default Tag

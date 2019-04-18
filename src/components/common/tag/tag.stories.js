@@ -29,6 +29,7 @@ storiesOf('Tag', module)
     <Tag
       color={select('Color', colors)}
       size={select('Size', SIZES)}
+      darkText={boolean('Dark text', false)}
       reverse={boolean('Reverse', false)}
     >
       {text('Name', 'value')}
