@@ -15,11 +15,11 @@ PageTitle.propStyle = {
 
 export const DisplayText = styled.p`
   font-family: ${fonts.display};
-  font-weight: ${({weight})=> weight || 'initial'};
-  color: ${({color}) => color || 'inherit'};
-  ${({noMargin}) => noMargin && 'margin: 0;'}
+  font-weight: ${({ weight }) => weight || 'initial'};
+  color: ${({ color }) => color || 'inherit'};
+  ${({ noMargin }) => noMargin && 'margin: 0;'}
 `
-DisplayText.propTypes={
+DisplayText.propTypes = {
   weight: PropTypes.oneOf(['bold', 'normal']),
   color: PropTypes.oneOf(Object.values(colors)),
   noMargin: PropTypes.bool
