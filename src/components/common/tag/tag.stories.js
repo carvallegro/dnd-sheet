@@ -1,16 +1,15 @@
 import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import { storiesOf } from '@storybook/react'
-import { text, select, withKnobs } from '@storybook/addon-knobs'
+import { boolean, text, select, withKnobs } from '@storybook/addon-knobs'
 
 import Tag from './index'
-import { colors } from '@styles'
+import { colors, SIZES } from '@styles'
 
 const Wrapper = styled.div`
   padding: 6px;
 `
 
-// TODO: Fix Story
 storiesOf('Tag', module)
   .addDecorator(withKnobs())
   .add('default', () => (
@@ -27,5 +26,11 @@ storiesOf('Tag', module)
     </Fragment>
   ))
   .add('custom', () => (
-    <Tag color={select('Color', colors)}>{text('Name', 'value')}</Tag>
+    <Tag
+      color={select('Color', colors)}
+      size={select('Size', SIZES)}
+      reverse={boolean('Reverse', false)}
+    >
+      {text('Name', 'value')}
+    </Tag>
   ))

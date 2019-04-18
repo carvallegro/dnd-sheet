@@ -1,26 +1,31 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { colors, fonts, fontSizes } from '@styles'
+import { math } from 'polished'
+import { colors, fonts, fontSizes, SIZES } from '@styles'
 
-const TagWrapper = styled.span`
-  background-color: ${({ color }) => color};
-  font-family: ${fonts.input};
-  font-size: ${fontSizes.xsmall};
-  color: white;
+const Tag = styled.span`
   border-radius: 1rem;
-  padding: 0.1rem 0.4rem;
+  border: 1px solid ${({ color }) => color};
+  background-color: ${({ reverse, color }) =>
+    reverse ? 'transparent' : color};
+
+  padding: ${({ size }) => math(`${fontSizes[size]}*0.05`)}
+    ${({ size }) => math(`${fontSizes[size]}*0.6`)};
+
+  font-family: ${fonts.input};
+  font-size: ${({ size }) => fontSizes[size]};
+  color: ${({ reverse, color }) => (reverse ? color : colors.white)};
 `
 
-const Tag = ({ color, children }) => (
-  <TagWrapper color={color}>{children}</TagWrapper>
-)
-
 Tag.propTypes = {
-  color: PropTypes.oneOf(Object.values(colors))
+  color: PropTypes.oneOf(Object.values(colors)),
+  size: PropTypes.oneOf(Object.values(SIZES)),
+  reverse: PropTypes.bool
 }
-
 Tag.defaultProps = {
-  color: colors.black
+  color: colors.black,
+  size: SIZES.xsmall,
+  reverse: false
 }
 export default Tag
