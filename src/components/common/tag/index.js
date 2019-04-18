@@ -8,7 +8,8 @@ const getTagTextColor = darkText => darkText ? colors.black : colors.white
 const getTagBackgroundColor = ({ reverse, color }) => reverse ? 'transparent' : color
 
 const getTagFontSize = ({ size }) => fontSizes[size]
-const Tag = styled.span`
+const Tag = styled.div`
+  display: flex;
   border-radius: 1rem;
   border: 1px solid ${({ color }) => color};
   background-color: ${getTagBackgroundColor};

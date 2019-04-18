@@ -9,6 +9,7 @@ import InlineField from './inline'
 import InputField from './input-field'
 import TextEditor from './text-editor-field'
 import TextAreaField from './/textarea-field'
+import TagField from '@common/fields/tag-field'
 
 storiesOf('Inputs/checkbox', module)
   .addDecorator(withKnobs)
@@ -23,7 +24,7 @@ storiesOf('Inputs/checkbox', module)
 
 storiesOf('Inputs/Inline Field', module)
   .addDecorator(withKnobs)
-  .add('default', () => <InlineField label="Field Label" type="text" />)
+  .add('default', () => <InlineField label="Field Label" type="text"/>)
 
 storiesOf('Inputs/Input Field', module)
   .addDecorator(withKnobs)
@@ -74,6 +75,26 @@ storiesOf('Inputs/Textarea', module)
       label="Textarea"
       placeholder="Type a value"
       value={text('TextArea Value', 'I cannot do **Markdown** :(')}
+      onChange={action('textarea-onchange')}
+    />
+  ))
+
+const MOCK_TAG_OPTIONS = [
+  { value: 1, label: 'value 1' },
+  { value: 2, label: 'value 2' },
+  { value: 3, label: 'value 3' },
+  { value: 4, label: 'value 4' },
+  { value: 5, label: 'value 5' },
+  { value: 6, label: 'value 6' }
+]
+storiesOf('Inputs/Tagfield', module)
+  .addDecorator(withKnobs)
+  .add('default', () => (
+    <TagField
+      label="Tag field for tags"
+      size={SIZES.small}
+      value={[1,4]}
+      options={MOCK_TAG_OPTIONS}
       onChange={action('textarea-onchange')}
     />
   ))
