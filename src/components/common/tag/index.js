@@ -10,17 +10,20 @@ const getTagBackgroundColor = ({ reverse, color }) => reverse ? 'transparent' : 
 const getTagFontSize = ({ size }) => fontSizes[size]
 const Tag = styled.div`
   display: flex;
-  border-radius: 1rem;
   border: 1px solid ${({ color }) => color};
   background-color: ${getTagBackgroundColor};
 
   padding: ${({ size }) => math(`${fontSizes[size]}*0.05`)}
-    ${({ size }) => math(`${fontSizes[size]}*0.6`)};
+    ${({ size }) => math(`${fontSizes[size]}*0.5`)};
 
   font-family: ${fonts.input};
   font-size: ${getTagFontSize};
   text-align: center;
   color: ${({ reverse, color, darkText }) => (reverse ? color : getTagTextColor(darkText))};
+  
+  &:focus{
+    outline: none;
+  }
 `
 
 Tag.propTypes = {

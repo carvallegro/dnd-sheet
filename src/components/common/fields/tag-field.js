@@ -2,16 +2,14 @@ import _ from 'lodash'
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Label from '../typography/label'
+import Label from '@common/typography/label'
 
-import { FieldWrapper } from './styles'
+import { colors, SIZES } from '@styles'
 import InputField from '@common/fields/input-field'
 import styled from 'styled-components'
 import Tag from '@common/tag'
 
-import { Icon } from 'react-icons-kit'
-import { plus } from 'react-icons-kit/metrize/plus'
-import { fontSizes } from '@styles'
+import { FieldWrapper } from './styles'
 
 const TagWrapper = styled.div`
   display: flex;
@@ -20,20 +18,7 @@ const TagWrapper = styled.div`
   justify-content: flex-start;
   
   & > * {
-  margin-right: .4rem;
-  }
-`
-
-const TagButton = styled.button`
-  margin: 0;
-  padding: 0;
-  background: none;
-  border: none;
-  font-size: calc(1pt + ${({ size }) => fontSizes[size]});
-  cursor: pointer;
-  
-  &:active, &:focus{
-    outline: none;
+  margin-right: .2rem;
   }
 `
 
@@ -53,8 +38,7 @@ const TagField = ({
         _(options)
           .sortBy(o => !value.includes(o.value))
           .map(o =>
-            <Tag k={o.value} size={size} reverse={!value.includes(o.value)}>
-              <TagButton size={size}><Icon icon={plus}/></TagButton>
+            <Tag as='button' k={o.value} size={size} color={colors.white} reverse={!value.includes(o.value)} size={SIZES.small}>
               {o.label}
             </Tag>)
           .value()
