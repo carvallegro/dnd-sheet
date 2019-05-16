@@ -118,25 +118,7 @@ const MOCK_TAG_OPTIONS = [
 storiesOf('Inputs/Tagfield', module)
   .addDecorator(withKnobs)
   .add('default', () => (<Fragment>
-    <TagField
-      label="Tag field for tags"
-      size={SIZES.xsmall}
-      value={[1, 4]}
-      options={MOCK_TAG_OPTIONS}
-      onChange={action('textarea-onchange')}
-    /><TagField
-      label="Tag field for tags"
-      size={SIZES.small}
-      value={[1, 4]}
-      options={MOCK_TAG_OPTIONS}
-      onChange={action('textarea-onchange')}
-    /><TagField
-      label="Tag field for tags"
-      size={SIZES.medium}
-      value={[1, 4]}
-      options={MOCK_TAG_OPTIONS}
-      onChange={action('textarea-onchange')}
-    /><TagField
+   <TagField
       label="Tag field for tags"
       size={SIZES.large}
       value={[1, 4]}
