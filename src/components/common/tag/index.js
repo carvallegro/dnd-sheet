@@ -13,13 +13,18 @@ const Tag = styled.div`
   border: 1px solid ${({ color }) => color};
   background-color: ${getTagBackgroundColor};
 
-  padding: ${({ size }) => math(`${fontSizes[size]}*0.05`)}
+  padding: ${({ size }) => math(`${fontSizes[size]}*0.2`)}
     ${({ size }) => math(`${fontSizes[size]}*0.5`)};
 
   font-family: ${fonts.input};
   font-size: ${getTagFontSize};
   text-align: center;
-  color: ${({ reverse, color, darkText }) => (reverse ? color : getTagTextColor(darkText))};
+  color: ${
+  ({ reverse, color, darkText }) => (
+    reverse
+      ? color
+      : getTagTextColor(darkText)
+  )};
   
   &:focus{
     outline: none;
@@ -32,10 +37,12 @@ Tag.propTypes = {
   reverse: PropTypes.bool,
   darkText: PropTypes.bool
 }
+
 Tag.defaultProps = {
   color: colors.black,
   size: SIZES.xsmall,
   reverse: false,
   darkText: false
 }
+
 export default Tag
