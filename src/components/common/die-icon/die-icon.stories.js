@@ -16,4 +16,3 @@ storiesOf('DieIcon', module)
       size={select('Size', SIZES, SIZES.medium)}
     />
   ))
-

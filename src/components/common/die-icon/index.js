@@ -16,26 +16,27 @@ import { ReactComponent as D20 } from './images/D20.svg'
 const getImage = die => {
   switch (die) {
     case dice.D4:
-      return <D4/>
+      return <D4 />
     case dice.D6:
-      return <D6/>
+      return <D6 />
     case dice.D8:
-      return <D8/>
+      return <D8 />
     case dice.D10:
-      return <D10/>
+      return <D10 />
     case dice.D12:
-      return <D12/>
+      return <D12 />
     case dice.D20:
-      return <D20/>
+      return <D20 />
     default:
       return undefined
   }
 }
 
-const DieIcon = ({ die, size, color }) =>
+const DieIcon = ({ die, size, color }) => (
   <DieIconWrapper size={size} color={color}>
     {getImage(die)}
   </DieIconWrapper>
+)
 
 DieIcon.propTypes = {
   die: PropTypes.oneOf(Object.values(dice)).isRequired,

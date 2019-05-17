@@ -22,31 +22,31 @@ import { ReactComponent as Wizard } from './images/Wizard.svg'
 const getImage = className => {
   switch (className) {
     case classes.BARBARIAN:
-      return <Barbarian/>
+      return <Barbarian />
     case classes.BARD:
-      return <Bard/>
+      return <Bard />
     case classes.CLERIC:
-      return <Cleric/>
+      return <Cleric />
     case classes.DRUID:
-      return <Druid/>
+      return <Druid />
     case classes.FIGHTER:
-      return <Fighter/>
+      return <Fighter />
     case classes.MONK:
-      return <Monk/>
+      return <Monk />
     case classes.PALADIN:
-      return <Paladin/>
+      return <Paladin />
     case classes.RANGER:
-      return <Ranger/>
+      return <Ranger />
     case classes.ROGUE:
-      return <Rogue/>
+      return <Rogue />
     case classes.SORCERER:
-      return <Sorcerer/>
+      return <Sorcerer />
     case classes.WARLOCK:
-      return <Warlock/>
+      return <Warlock />
     case classes.WIZARD:
-      return <Wizard/>
+      return <Wizard />
     default:
-      return <Paladin/>
+      return <Paladin />
   }
 }
 

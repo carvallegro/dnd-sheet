@@ -25,10 +25,9 @@ export const WeaponName = styled.div`
 `
 
 export const WeaponNameLine = styled.div`
-   display: grid;
+  display: grid;
   grid-template-columns: auto auto;
   justify-content: flex-start;
   align-items: center;
   grid-column-gap: 0.2rem;
-  
 `

@@ -4,8 +4,9 @@ import styled from 'styled-components'
 import { math } from 'polished'
 import { colors, fonts, fontSizes, SIZES } from '@styles'
 
-const getTagTextColor = darkText => darkText ? colors.black : colors.white
-const getTagBackgroundColor = ({ reverse, color }) => reverse ? 'transparent' : color
+const getTagTextColor = darkText => (darkText ? colors.black : colors.white)
+const getTagBackgroundColor = ({ reverse, color }) =>
+  reverse ? 'transparent' : color
 
 const getTagFontSize = ({ size }) => fontSizes[size]
 const Tag = styled.div`
@@ -19,14 +20,10 @@ const Tag = styled.div`
   font-family: ${fonts.input};
   font-size: ${getTagFontSize};
   text-align: center;
-  color: ${
-  ({ reverse, color, darkText }) => (
-    reverse
-      ? color
-      : getTagTextColor(darkText)
-  )};
-  
-  &:focus{
+  color: ${({ reverse, color, darkText }) =>
+    reverse ? color : getTagTextColor(darkText)};
+
+  &:focus {
     outline: none;
   }
 `

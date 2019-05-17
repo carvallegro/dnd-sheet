@@ -25,7 +25,9 @@ const handToColor = {
   [equippedHandEnum.DUAL]: colors['brownish-grey']
 }
 const EquippedTag = ({ equippedHand }) => (
-  <Tag as='span' color={handToColor[equippedHand]}>{equippedHand}</Tag>
+  <Tag as="span" color={handToColor[equippedHand]}>
+    {equippedHand}
+  </Tag>
 )
 
 const WeaponLine = ({

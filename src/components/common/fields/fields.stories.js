@@ -24,47 +24,49 @@ storiesOf('Inputs/checkbox', module)
 
 storiesOf('Inputs/Inline Field', module)
   .addDecorator(withKnobs)
-  .add('default', () => <InlineField label="Field Label" type="text"/>)
+  .add('default', () => <InlineField label="Field Label" type="text" />)
 
 storiesOf('Inputs/Input Field', module)
   .addDecorator(withKnobs)
-  .add('default', () => (<Fragment>
-    <InputField
-      label="Input Field Label"
-      placeholder="Type a value"
-      value={text('Input Value', 'Default Value')}
-      onChange={action('input-onchange')}
-      size={select('Size', SIZES, SIZES.medium)}
-    />
-    <InputField
-      label="Input Field Label"
-      placeholder="Type a value"
-      value='Input X Small Value not modifiable'
-      onChange={action('input-onchange')}
-      size={SIZES.xsmall}
-    />
-    <InputField
-      label="Input Field Label"
-      placeholder="Type a value"
-      value='Input Small Value not modifiable'
-      onChange={action('input-onchange')}
-      size={SIZES.small}
-    />
-    <InputField
-      label="Input Field Label"
-      placeholder="Type a value"
-      value='Input Medium Value not modifiable'
-      onChange={action('input-onchange')}
-      size={SIZES.medium}
-    />
-    <InputField
-      label="Input Field Label"
-      placeholder="Type a value"
-      value='Input Large Value not modifiable'
-      onChange={action('input-onchange')}
-      size={SIZES.large}
-    />
-  </Fragment>))
+  .add('default', () => (
+    <Fragment>
+      <InputField
+        label="Input Field Label"
+        placeholder="Type a value"
+        value={text('Input Value', 'Default Value')}
+        onChange={action('input-onchange')}
+        size={select('Size', SIZES, SIZES.medium)}
+      />
+      <InputField
+        label="Input Field Label"
+        placeholder="Type a value"
+        value="Input X Small Value not modifiable"
+        onChange={action('input-onchange')}
+        size={SIZES.xsmall}
+      />
+      <InputField
+        label="Input Field Label"
+        placeholder="Type a value"
+        value="Input Small Value not modifiable"
+        onChange={action('input-onchange')}
+        size={SIZES.small}
+      />
+      <InputField
+        label="Input Field Label"
+        placeholder="Type a value"
+        value="Input Medium Value not modifiable"
+        onChange={action('input-onchange')}
+        size={SIZES.medium}
+      />
+      <InputField
+        label="Input Field Label"
+        placeholder="Type a value"
+        value="Input Large Value not modifiable"
+        onChange={action('input-onchange')}
+        size={SIZES.large}
+      />
+    </Fragment>
+  ))
   .add('readonly', () => (
     <InputField
       readOnly
@@ -117,12 +119,14 @@ const MOCK_TAG_OPTIONS = [
 ]
 storiesOf('Inputs/Tagfield', module)
   .addDecorator(withKnobs)
-  .add('default', () => (<Fragment>
-   <TagField
-      label="Tag field for tags"
-      size={SIZES.large}
-      value={[1, 4]}
-      options={MOCK_TAG_OPTIONS}
-      onChange={action('textarea-onchange')}
-    />
-  </Fragment>))
+  .add('default', () => (
+    <Fragment>
+      <TagField
+        label="Tag field for tags"
+        size={SIZES.large}
+        value={[1, 4]}
+        options={MOCK_TAG_OPTIONS}
+        onChange={action('textarea-onchange')}
+      />
+    </Fragment>
+  ))
