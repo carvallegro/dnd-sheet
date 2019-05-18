@@ -4,7 +4,7 @@ import { classColors } from '@styles'
 import { PageWrapper } from '@components/layout'
 import ClassIcon from '@components/class-icon'
 
-import { ClassListTitle, ClassListWrapper, ClassWrapper } from './/styles'
+import { ClassListTitle, ClassListWrapper, ClassWrapper } from './styles'
 
 const ClassButton = ({ c, onClick }) => (
   <ClassWrapper onClick={() => onClick(c.index)}>
