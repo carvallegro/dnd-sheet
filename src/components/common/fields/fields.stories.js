@@ -10,6 +10,7 @@ import InputField from './input-field'
 import TextEditor from './text-editor-field'
 import TextAreaField from './/textarea-field'
 import TagField from '@common/fields/tag-field'
+import DieIcon from '@common/die-icon'
 
 storiesOf('Inputs/checkbox', module)
   .addDecorator(withKnobs)
@@ -84,6 +85,17 @@ storiesOf('Inputs/Input Field', module)
       value={text('Input Value')}
       onChange={action('input-onchange')}
       size={select('Size', SIZES, SIZES.medium)}
+    />
+  ))
+  .add('with icon before', () => (
+    <InputField
+      editing
+      label="Input Field Label"
+      placeholder="Type a value"
+      value={text('Input Value')}
+      onChange={action('input-onchange')}
+      size={select('Size', SIZES, SIZES.medium)}
+      before={<DieIcon die="d20" size={select('Size', SIZES, SIZES.medium)} />}
     />
   ))
 

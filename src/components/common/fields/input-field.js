@@ -5,6 +5,7 @@ import { SIZES } from '@styles'
 import Label from '../typography/label'
 
 import { Input, FieldWrapper, FakeInput } from './styles'
+import { InputWrapper } from '@common/fields/styles'
 
 const InputField = ({
   gridArea,
@@ -15,21 +16,25 @@ const InputField = ({
   onChange,
   readOnly,
   editing,
-  placeholder
+  placeholder,
+  before
 }) => (
   <FieldWrapper gridArea={gridArea}>
-    {editing ? (
-      <Input
-        type={type}
-        size={size}
-        value={value}
-        onChange={e => onChange(e.target.value)}
-        placeholder={placeholder}
-        readOnly={readOnly}
-      />
-    ) : (
-      <FakeInput size={size}>{value || <i>&nbsp;</i>}</FakeInput>
-    )}
+    <InputWrapper editing={editing}>
+      {before}
+      {editing ? (
+        <Input
+          type={type}
+          size={size}
+          value={value}
+          onChange={e => onChange(e.target.value)}
+          placeholder={placeholder}
+          readOnly={readOnly}
+        />
+      ) : (
+        <FakeInput size={size}>{value || <i>&nbsp;</i>}</FakeInput>
+      )}
+    </InputWrapper>
     {label && <Label size={size}>{label}</Label>}
   </FieldWrapper>
 )
@@ -43,7 +48,8 @@ InputField.propStyle = {
   onChange: PropTypes.func,
   placeholder: PropTypes.func,
   readOnly: PropTypes.bool,
-  editing: PropTypes.bool
+  editing: PropTypes.bool,
+  before: PropTypes.node
 }
 
 InputField.defaultProps = {

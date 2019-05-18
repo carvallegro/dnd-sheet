@@ -5,7 +5,7 @@ import { rgba } from 'polished'
 
 import Label from '@common/typography/label'
 
-import { colors, SIZES } from '@styles'
+import { colors } from '@styles'
 import InputField from '@common/fields/input-field'
 import styled from 'styled-components'
 import Tag from '@common/tag'
@@ -13,6 +13,7 @@ import Tag from '@common/tag'
 import { FieldWrapper } from './styles'
 
 const TagWrapper = styled.div`
+  padding: 0.2rem 0;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -51,7 +52,6 @@ const TagField = ({
   editing
 }) => (
   <FieldWrapper gridArea={gridArea}>
-    {label && <Label size={size}>{label}</Label>}
     <TagWrapper>
       {_(options)
         .sortBy(o => !value.includes(o.value))
@@ -62,13 +62,14 @@ const TagField = ({
             size={size}
             color={color}
             reverse={!value.includes(o.value)}
-            size={SIZES.small}
+            size={size}
           >
             {o.label}
           </TagButton>
         ))
         .value()}
     </TagWrapper>
+    {label && <Label size={size}>{label}</Label>}
   </FieldWrapper>
 )
 

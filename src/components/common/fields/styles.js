@@ -15,28 +15,34 @@ export const DottedBorderWrapper = styled.div`
   ${DottedBorderStyle}
 `
 
-export const Input = styled.input`
+export const FakeInput = styled.p`
   width: 100%;
   border: none;
   margin: 0;
-  padding: 0.2em 0;
   background: none;
 
   font-family: ${fonts.input};
   color: ${({ theme }) => theme.textColor};
 
   font-size: calc(1pt + ${({ size }) => fontSizes[size]});
-  ${DottedBorderStyle}
+`
 
-  &:active, &:focus {
+export const Input = styled.input`
+  width: 100%;
+  border: none;
+  margin: 0;
+  background: none;
+
+  font-family: ${fonts.input};
+  color: ${({ theme }) => theme.textColor};
+
+  font-size: calc(1pt + ${({ size }) => fontSizes[size]});
+
+  &:active,
+  &:focus {
     outline: none;
   }
 `
-
-export const SelectInput = styled(Input)`
-  border: none;
-`
-
 Input.propTypes = {
   size: PropTypes.oneOf(Object.values(SIZES))
 }
@@ -44,17 +50,31 @@ Input.defaultProps = {
   size: SIZES.medium
 }
 
-export const FakeInput = styled.p`
-  width: 100%;
+export const InputWrapper = styled.div`
+  display: flex;
+  align-items: center;
+
+  ${({ editing }) =>
+    editing &&
+    `
+    padding: 0.2em 0;
+    ${DottedBorderStyle}
+  `}
+
+  & > * {
+    margin: 0 0.2rem;
+    &:only-child {
+      margin: 0;
+    }
+  }
+
+  & > ${Input} {
+    flex-grow: 1;
+  }
+`
+
+export const SelectInput = styled(Input)`
   border: none;
-  margin: 0;
-  padding: 0.2em 0;
-  background: none;
-
-  font-family: ${fonts.input};
-  color: ${({ theme }) => theme.textColor};
-
-  font-size: calc(1pt + ${({ size }) => fontSizes[size]});
 `
 
 export const TextArea = styled.textarea`
