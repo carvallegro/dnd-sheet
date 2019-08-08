@@ -30,7 +30,7 @@
     "file-loader": "3.0.1",
     "fork-ts-checker-webpack-plugin-alt": "0.4.14",
     "fs-extra": "7.0.1",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "history": "^4.7.2",
     "is-hotkey": "^0.1.4",
     "localforage": "^1.7.3",
