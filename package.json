@@ -66,7 +66,7 @@
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
     "@storybook/addon-actions": "^5.3.5",
-    "@storybook/addon-knobs": "^5.0.0",
+    "@storybook/addon-knobs": "^5.3.5",
     "@storybook/addon-storyshots": "^5.0.0",
     "@storybook/react": "^5.0.0",
     "@svgr/webpack": "4.1.0",
