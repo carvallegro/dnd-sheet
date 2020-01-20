@@ -67,7 +67,7 @@
     "@commitlint/config-conventional": "^7.5.0",
     "@storybook/addon-actions": "^5.3.7",
     "@storybook/addon-knobs": "^5.3.7",
-    "@storybook/addon-storyshots": "^5.0.0",
+    "@storybook/addon-storyshots": "^5.3.7",
     "@storybook/react": "^5.0.0",
     "@svgr/webpack": "4.1.0",
     "babel-core": "7.0.0-bridge.0",
