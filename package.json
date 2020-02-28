@@ -102,7 +102,7 @@
     "postcss-preset-env": "6.6.0",
     "postcss-safe-parser": "4.0.1",
     "prettier": "^1.15.3",
-    "react-test-renderer": "^16.8.4",
+    "react-test-renderer": "^16.13.0",
     "require-context.macro": "^1.0.4",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
