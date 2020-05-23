@@ -54,7 +54,7 @@
     "redux-thunk": "^2.3.0",
     "resolve": "1.9.0",
     "slate": "^0.44.9",
-    "slate-md-serializer": "^5.2.3-0",
+    "slate-md-serializer": "^5.5.3",
     "slate-prop-types": "^0.5.24",
     "slate-react": "^0.21.15",
     "styled-components": "^4.1.3",
